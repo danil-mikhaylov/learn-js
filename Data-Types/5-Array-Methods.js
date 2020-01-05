@@ -111,10 +111,82 @@ const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
 //   }
 // });
 
-const sortedCompanies = companies.sort( (a, b) => (a.start > b.start ? 1 : -1) );
-console.log(sortedCompanies);
+// const sortedCompanies = companies.sort( (a, b) => (a.start > b.start ? 1 : -1) );
+// console.log(sortedCompanies);
 
 // Sort ages
 
-const sortedAges = ages.sort( (a, b) => (b > a ? 1 : -1) );
-console.log(sortedAges);
+// const sortedAges = ages.sort( (a, b) => (b > a ? 1 : -1) );
+// const sortedAgesSimple = ages.sort( (a, b) => a - b );
+// console.log(sortedAgesSimple);
+
+// Reduce
+
+// let ageSum = 0;
+//
+// for (let age of ages) {
+//   ageSum += age;
+// }
+
+// const ageSum = ages.reduce(function(total, age) {
+//   return total + age;
+// }, 0);
+
+// const ageSum = ages.reduce( (total, age) => total + age, 0 );
+
+// Get total years for all companies
+
+// const totalYears = companies.reduce( function(total, company) {
+//     return total + (company.end - company.start);
+// }, 0);
+
+// const totalYears = companies.reduce( (total, company) => total + (company.end - company.start) , 0);
+//
+// console.log(totalYears);
+
+// Combine methods
+
+// const combined = ages
+//     .map( (age) => age * 2)
+//     .filter( (age) => age >= 40 )
+//     .sort( (a, b) => a - b)
+//     .reduce( (total, currentAge) => total + currentAge, 0);
+//
+// console.log(combined);
+
+// Creating random array
+
+// const randomArray = creatingRandomArray(10);
+// function creatingRandomArray(count) {
+//   let array = [];
+//   for (let i = 0; i < count; i++) {
+//     array.push(Math.round(Math.random() * 100));
+//   }
+//   return array;
+// }
+//
+// // Creating filtered sorted (perfect) random array
+//
+// const perfectRandomArray = randomArray
+//     .filter( num => num > 5 && num < 95 )
+//     .sort( (a, b) => a - b);
+//
+// // Get the sum of the elements of randomArray
+//
+// const sumRandomArray = randomArray.reduce( (total, currentNumber) => total + currentNumber);
+//
+// // Get the sum of the elements of perfectRandomArray
+//
+// const sumPerfectRandomArray = perfectRandomArray.reduce( (total, currentNumber) => total + currentNumber);
+//
+// console.log(sumRandomArray > sumPerfectRandomArray);
+
+
+const number = [1, -1, 2, 3];
+
+const items = number
+    .filter( num  => num >= 0)
+    .map(num => ({value: num}))
+    .filter(obj => obj.value > 1)
+    .map( obj => obj.value );
+console.log(items);
