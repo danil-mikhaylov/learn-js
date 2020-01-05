@@ -11,6 +11,7 @@
 
 // print(arr)
 
+// git works
 
 let arr = ["Я", "изучаю", "JavaScript", "прямо", "сейчас"];
 
