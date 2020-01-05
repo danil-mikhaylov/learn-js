@@ -17,5 +17,7 @@ let arr = ["Я", "изучаю", "JavaScript", "прямо", "сейчас"];
 
 // удалить 2 первых элемента
 let removed = arr.splice(0, 2);
-
+console.log('git works');
+console.log(123);
 print( removed ); // "Я", "изучаю" <-- массив из удалённых элементов
+
