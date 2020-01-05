@@ -1,0 +1,17 @@
+p {
+  color: whitesmoke;
+  font-size: 35px;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  border-top-color: initial;
+  border-right-color: initial;
+  border-bottom-color: initial;
+  border-left-color: initial;
+  outline-color: initial;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+body {
+  background-color: #202020;
+}
