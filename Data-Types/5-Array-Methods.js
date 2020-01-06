@@ -333,8 +333,38 @@ arr.includes(item, from) – ищет item, начиная с индекса fro
 // console.log(array); // [8, 5, 2, 1, -10]
 
 
-// let copySortedArray;
+// function copySorted(arr) {
+//   return arr.slice().sort();
+// }
 //
-// let copySorted = array => copySortedArray = array.sort();
+// let arr = ["HTML", "JavaScript", "CSS"];
 //
-// console.log(copySorted(["HTML", "JavaScript", "CSS"])); // ["CSS", "HTML", "JavaScript"]
+// let sorted = copySorted(arr);
+//
+// console.log(sorted);
+// console.log(arr);
+
+
+// function Calculator(str) {
+//   this.methods = {
+//     "+" : (a, b) => a + b,
+//     "-" : (a, b) => a - b,
+//   };
+//
+//   this.calculate = function(str) {
+//     str = str.split(' ');
+//     let a = parseInt(str[0]);
+//     let b = parseInt(str[2]);
+//     let operator = str[1];
+//     return this.methods[operator](a, b);
+//   };
+//   this.addMethod = function(name, func) {
+//     this.methods[name] = func;
+//   };
+// }
+// let powerCalc = new Calculator;
+// powerCalc.addMethod("*", (a, b) => a * b);
+// powerCalc.addMethod("/", (a, b) => a / b);
+// powerCalc.addMethod("**", (a, b) => a ** b);
+// let result = powerCalc.calculate("2 ** 3");
+// console.log(result);
