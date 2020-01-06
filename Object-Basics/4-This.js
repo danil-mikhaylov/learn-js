@@ -56,18 +56,18 @@
 // admin['f'](); // Админ (неважен способ доступа к методу - через точку или квадратные скобки)
 
 
-let user = {
-  name: "Джон",
-  hi() { alert(this.name); },
-  bye() { alert("Пока"); }
-};
-
-user.hi(); // Джон (простой вызов метода работает хорошо)
+// let user = {
+//   name: "Джон",
+//   hi() { alert(this.name); },
+//   bye() { alert("Пока"); }
+// };
+//
+// user.hi(); // Джон (простой вызов метода работает хорошо)
 
 // теперь давайте попробуем вызывать user.hi или user.bye
 // в зависимости от имени пользователя user.name
-(user.name == "Джон" ? user.hi : user.bye)(); // Ошибка!
-(user.name == "Джон" ? user.hi() : user.bye()); // Нет ошибки!
+// (user.name == "Джон" ? user.hi : user.bye)(); // Ошибка!
+// (user.name == "Джон" ? user.hi() : user.bye()); // Нет ошибки!
 
 
 /* Таким образом, значение this передаётся правильно,
@@ -150,3 +150,14 @@ user.hi(); // Джон (простой вызов метода работает 
 // };
 
 // console.log(ladder.up().up().down().showStep()); // 1
+
+
+const video = {
+  title: 'a',
+  tags: ['a', 'b', 'c'],
+  showTags() {
+    this.tags.forEach((tag) => console.log(tag));
+  },
+};
+
+video.showTags();

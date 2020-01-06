@@ -182,11 +182,158 @@ const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
 // console.log(sumRandomArray > sumPerfectRandomArray);
 
 
-const number = [1, -1, 2, 3];
+// const number = [1, -1, 2, 3];
+//
+// const items = number
+//     .filter( num  => num >= 0)
+//     .map(num => ({value: num}))
+//     .filter(obj => obj.value > 1)
+//     .map( obj => obj.value );
+// console.log(items);
 
-const items = number
-    .filter( num  => num >= 0)
-    .map(num => ({value: num}))
-    .filter(obj => obj.value > 1)
-    .map( obj => obj.value );
-console.log(items);
+
+// let arr = ["Я", "изучаю", "JavaScript"];
+//
+// arr.splice(1, 1); // начиная с позиции 1, удалить 1 элемент
+//
+// print( arr ); // осталось ["Я", "JavaScript"
+
+
+// let arr = ["Я", "изучаю", "JavaScript", "прямо", "сейчас"];
+// arr.splice(0, 3, "Давай", "танцевать");
+// print(arr); // Давай,танцевать,прямо,сейчас
+
+// let arr = ["Я", "изучаю", "JavaScript", "прямо", "сейчас"];
+// let removed = arr.splice(0, 3, "Давай", "танцевать");
+// console.log(removed); // ["Я", "изучаю", "JavaScript"]
+
+
+// let arr = ["Я", "изучаю", "JavaScript"];
+// arr.splice(2, 0, "сложный", "язык");
+// console.log(arr); // ["Я", "изучаю", "сложный", "язык", "JavaScript"]
+
+
+// let arr = [1, 2, 5];
+// // начиная с индекса -1 (перед последним элементом)
+// // удалить 0 элементов,
+// // затем вставить числа 3 и 4
+// arr.splice(-1, 0, 3, 4);
+// alert( arr ); // 1,2,3,4,5
+
+
+// let arr = ["t", "e", "s", "t"];
+// let slicedArray = arr.slice(1, 3);
+// console.log(slicedArray); // ["e", "s"]
+
+
+// let arr = [1, 2];
+// console.log( arr.concat([3, 4]) ); // [1, 2, 3, 4]
+// console.log( arr.concat(3, 4) ); // [1, 2, 3, 4]
+//
+//
+// let arr = [1, 2];
+//
+// let arrayLike = {
+//   0: "что-то",
+//   length: 1
+// };
+//
+// console.log( arr.concat(arrayLike) ); // 1,2,[object Object]
+
+
+/*
+arr.indexOf(item, from) ищет item, начиная с индекса from, и возвращает индекс, на котором был найден искомый элемент, в противном случае -1.
+arr.lastIndexOf(item, from) – то же самое, но ищет справа налево.
+arr.includes(item, from) – ищет item, начиная с индекса from, и возвращает true, если поиск успешен.
+ */
+
+// const arr = [NaN];
+// alert( arr.indexOf(NaN) ); // -1 (должен быть 0, но === проверка на равенство не работает для NaN)
+// alert( arr.includes(NaN) );// true (верно)
+
+
+// let names = 'Вася, Петя, Маша';
+//
+// let arr = names.split(', ');
+//
+// for (let name of arr) {
+//   alert( `Сообщение получат: ${name}.` ); // Сообщение получат: Вася (и другие имена)
+// }
+
+// let arr = 'Вася, Петя, Маша, Саша'.split(', ', 2);
+//
+// alert(arr); // Вася, Петя
+
+
+// function camelize(string) { // Объявление функции, её аргумент -- строка
+//   let completedArray; // Просто создаю переменную, которая в итоге будет строкой с заглавными буквами
+//                       // вторых элементов
+//   let finalArray = []; // В финал я просто закину первое слово (без "-" + completedArray)
+//   let firstArray = string // Строка, над которой мы работаем, используя методы, которые написаны ниже
+//     .split('-')
+//     .filter( (item, index) => index < 1) // Убираю все элементы массива, кроме первого
+//     .join('');
+//
+//   completedArray = string
+//     .split('-')
+//     .filter( (item, index) => index > 0 )
+//     .map( (word) => word[0].toUpperCase() + word.slice(1))
+//     .join('');
+//
+//   finalArray.push(firstArray, completedArray);
+//
+//   finalArray = finalArray.join('');
+//
+//   return finalArray;
+// }
+// console.log(camelize("background-color")); // backgroundColor
+// console.log(camelize("list-style-image")); // listStyleImage
+// console.log(camelize("-webkit-transition")); // WebkitTransition
+
+// let arr = [5, 3, 8, 1];
+// let filtered = filterRange(arr, 1, 4);
+//
+// function filterRange(array, a, b) {
+//   return array.filter((currentNumber) => (a <= currentNumber && currentNumber <= b));
+// }
+// console.log(filtered);
+// console.log(arr);
+
+
+// function filterRangeInPlace(array, a, b) {
+//   for (let i = 0; i < array.left; i++) {
+//     let val = i;
+//     if (val < a || val > b) {
+//       arr.splice(i, 1);
+//       i--;
+//     }
+//   }
+// }
+
+// function filterRangeInPlace(arr, a, b) {
+//   for (let i = 0; i < arr.length; i++) {
+//     let val = arr[i];
+//     // удалить, если за пределами интервала
+//     if (val < a || val > b) {
+//       arr.splice(i, 1);
+//       i--;
+//     }
+//   }
+// }
+//
+// let arr = [5, 3, 8, 1];
+// filterRangeInPlace(arr, 1, 4); // удалены числа вне диапазона 1..4
+// console.log( arr ); // [3, 1].
+
+
+// let array = [5, 2, 1, -10, 8];
+//
+// array.sort((a, b) => b - a);
+//
+// console.log(array); // [8, 5, 2, 1, -10]
+
+let copySortedArray;
+let copySorted = array => copySortedArray = array.sort();
+console.log(copySorted(["HTML", "JavaScript", "CSS"])); // ["CSS", "HTML", "JavaScript"]
+console.log(copySorted(["HTML", "JavaScript", "CSS"])); // ["CSS", "HTML", "JavaScript"]
+
