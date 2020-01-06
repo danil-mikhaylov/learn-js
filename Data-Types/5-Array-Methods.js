@@ -332,8 +332,8 @@ arr.includes(item, from) – ищет item, начиная с индекса fro
 //
 // console.log(array); // [8, 5, 2, 1, -10]
 
+
 let copySortedArray;
 let copySorted = array => copySortedArray = array.sort();
-console.log(copySorted(["HTML", "JavaScript", "CSS"])); // ["CSS", "HTML", "JavaScript"]
-console.log(copySorted(["HTML", "JavaScript", "CSS"])); // ["CSS", "HTML", "JavaScript"]
 
+console.log(copySorted(["HTML", "JavaScript", "CSS"])); // ["CSS", "HTML", "JavaScript"]

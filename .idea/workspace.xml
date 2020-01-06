@@ -17,6 +17,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubPullRequestsUISettings">
@@ -82,7 +88,7 @@
       <workItem from="1578245515216" duration="7448000" />
       <workItem from="1578295429525" duration="596000" />
       <workItem from="1578310015859" duration="15000" />
-      <workItem from="1578310282268" duration="11892000" />
+      <workItem from="1578310282268" duration="13588000" />
     </task>
     <servers />
   </component>
@@ -108,6 +114,10 @@
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state x="552" y="176" key="#Notifications/0.0.1920.1034@0.0.1920.1034" timestamp="1578322620196" />
+    <state x="693" y="356" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1578323517371">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state x="693" y="356" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1578323517371" />
     <state x="697" y="180" key="FileChooserDialogImpl" timestamp="1578322917709">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
@@ -116,9 +126,25 @@
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state x="540" y="276" key="IDE.errors.dialog/0.0.1920.1034@0.0.1920.1034" timestamp="1578249188198" />
-    <state x="418" y="68" key="SettingsEditor" timestamp="1578322979887">
+    <state x="418" y="68" key="SettingsEditor" timestamp="1578324336481">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
-    <state x="418" y="68" key="SettingsEditor/0.0.1920.1034@0.0.1920.1034" timestamp="1578322979887" />
+    <state x="418" y="68" key="SettingsEditor/0.0.1920.1034@0.0.1920.1034" timestamp="1578324336481" />
+    <state x="552" y="247" key="Vcs.Push.Dialog.v2" timestamp="1578324543808">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state x="552" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1034@0.0.1920.1034" timestamp="1578324543808" />
+    <state x="92" y="92" width="1736" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1578324501425">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state x="92" y="92" width="1736" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1578324501425" />
+    <state x="767" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578324512087">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state x="767" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1034@0.0.1920.1034" timestamp="1578324512087" />
+    <state x="756" y="297" key="git4idea.merge.GitMergeDialog" timestamp="1578324759119">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state x="756" y="297" key="git4idea.merge.GitMergeDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1578324759119" />
   </component>
 </project>
