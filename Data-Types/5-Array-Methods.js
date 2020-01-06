@@ -368,3 +368,47 @@ arr.includes(item, from) – ищет item, начиная с индекса fro
 // powerCalc.addMethod("**", (a, b) => a ** b);
 // let result = powerCalc.calculate("2 ** 3");
 // console.log(result);
+
+
+let vasya = { name: "Вася", surname: "Пупкин", id: 1 };
+let petya = { name: "Петя", surname: "Иванов", id: 2 };
+let masha = { name: "Маша", surname: "Петрова", id: 3 };
+
+let users = [ vasya, petya, masha ];
+
+// let usersMapped = users.map((user) => ({ /*Здесь JavaScript будет трактовать {
+// как начало тела функции, а не начало объекта.
+// Чтобы обойти это, нужно заключить их в «нормальные» скобки:
+// */
+//   fullName: `${user.name} ${user.surname}`,
+//   id: user.id,
+// }));
+// console.log(usersMapped);
+  /*
+  usersMapped = [
+    { fullName: "Вася Пупкин", id: 1 },
+    { fullName: "Петя Иванов", id: 2 },
+    { fullName: "Маша Петрова", id: 3 }
+  ]
+  */
+
+// console.log( usersMapped[0].id ) // 1
+// console.log( usersMapped[0].fullName ) // Вася Пупкин
+
+
+// function sortByAge(arr) {
+//   arr.sort((a, b) => a.age > b.age ? 1 : -1);
+// }
+//
+// let vasya = { name: "Вася", age: 25 };
+// let petya = { name: "Петя", age: 30 };
+// let masha = { name: "Маша", age: 28 };
+//
+// let arr = [ vasya, petya, masha ];
+//
+// sortByAge(arr);
+//
+// // теперь отсортировано: [vasya, masha, petya]
+// alert(arr[0].name); // Вася
+// alert(arr[1].name); // Маша
+// alert(arr[2].name); // Петя
