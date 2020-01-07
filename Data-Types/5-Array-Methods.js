@@ -347,68 +347,139 @@ arr.includes(item, from) – ищет item, начиная с индекса fro
 
 // function Calculator(str) {
 //   this.methods = {
-//     "+" : (a, b) => a + b,
-//     "-" : (a, b) => a - b,
+//     "+": (a, b) => a + b,
+//     "-": (a, b) => a - b,
 //   };
-//
 //   this.calculate = function(str) {
-//     str = str.split(' ');
-//     let a = parseInt(str[0]);
-//     let b = parseInt(str[2]);
-//     let operator = str[1];
+//     let split = str.split(' ');
+//     let a = parseInt(split[0]);
+//     let b = parseInt(split[2]);
+//     let operator = split[1];
 //     return this.methods[operator](a, b);
 //   };
-//   this.addMethod = function(name, func) {
-//     this.methods[name] = func;
-//   };
+//   this.addMethod = function(operator, func) {
+//     this.methods[operator] = func;
+//   }
 // }
+//
 // let powerCalc = new Calculator;
 // powerCalc.addMethod("*", (a, b) => a * b);
 // powerCalc.addMethod("/", (a, b) => a / b);
 // powerCalc.addMethod("**", (a, b) => a ** b);
-// let result = powerCalc.calculate("2 ** 3");
-// console.log(result);
-
-
-let vasya = { name: "Вася", surname: "Пупкин", id: 1 };
-let petya = { name: "Петя", surname: "Иванов", id: 2 };
-let masha = { name: "Маша", surname: "Петрова", id: 3 };
-
-let users = [ vasya, petya, masha ];
-
-// let usersMapped = users.map((user) => ({ /*Здесь JavaScript будет трактовать {
-// как начало тела функции, а не начало объекта.
-// Чтобы обойти это, нужно заключить их в «нормальные» скобки:
-// */
-//   fullName: `${user.name} ${user.surname}`,
-//   id: user.id,
-// }));
-// console.log(usersMapped);
-  /*
-  usersMapped = [
-    { fullName: "Вася Пупкин", id: 1 },
-    { fullName: "Петя Иванов", id: 2 },
-    { fullName: "Маша Петрова", id: 3 }
-  ]
-  */
-
-// console.log( usersMapped[0].id ) // 1
-// console.log( usersMapped[0].fullName ) // Вася Пупкин
-
-
-// function sortByAge(arr) {
-//   arr.sort((a, b) => a.age > b.age ? 1 : -1);
-// }
 //
+// let result = powerCalc.calculate("2 ** 3");
+// console.log( result ); // 8
+
+
+// let vasya = { name: "Вася", age: 25 };
+// let petya = { name: "Петя", age: 30 };
+// let masha = { name: "Маша", age: 28 };
+//
+// let users = [ vasya, petya, masha ];
+//
+// let names = users.map(item => item.name);
+// console.log(names); // ["Вася", "Петя", "Маша"]
+
+
+// let vasya = { name: "Вася", surname: "Пупкин", id: 1 };
+// let petya = { name: "Петя", surname: "Иванов", id: 2 };
+// let masha = { name: "Маша", surname: "Петрова", id: 3 };
+//
+// let users = [ vasya, petya, masha ];
+//
+// let usersMapped = users.map(item => ({
+//   fullName: item.name + ' ' + item.surname,
+//   id: item.id,
+// }));
+//
+// /*
+//   let usersMapped = users.map(item => ({
+//   fullName: `${item.name} ${item.surname}`,
+//   id: item.id,
+//   }));
+// */
+//
+// console.log( usersMapped[0].id ); // 1
+
+
+
+
+// console.log( usersMapped[0].fullName ); // Вася Пупкин
+
+
+
+
+
 // let vasya = { name: "Вася", age: 25 };
 // let petya = { name: "Петя", age: 30 };
 // let masha = { name: "Маша", age: 28 };
 //
 // let arr = [ vasya, petya, masha ];
 //
+// function sortByAge(users) {
+//   users.sort((a, b) => a.age > b.age ? 1 : -1);
+// }
+//
+//
 // sortByAge(arr);
 //
-// // теперь отсортировано: [vasya, masha, petya]
-// alert(arr[0].name); // Вася
-// alert(arr[1].name); // Маша
-// alert(arr[2].name); // Петя
+// // теперь: [vasya, masha, petya]
+// console.log(arr[0].name); // Вася
+// console.log(arr[1].name); // Маша
+// console.log(arr[2].name); // Петя
+
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// function shuffle(array) {
+//   for (let i = array.length - 1; i > 0; i--) {
+//     let j = Math.floor(Math.random() * (i + 1));
+//     let t = array[i];
+//     array[i] = array[j];
+//     array[j] = t
+//   }
+
+// }
+//
+// shuffle(arr);
+// // arr = [3, 2, 1]
+//
+// // shuffle(arr);
+// // // arr = [2, 1, 3]
+// //
+// // shuffle(arr);
+// // // arr = [3, 1, 2]
+// // // ...
+
+
+// let vasya = { name: "Вася", age: 25 };
+// let petya = { name: "Петя", age: 30 };
+// let masha = { name: "Маша", age: 29 };
+//
+// let arr = [ vasya, petya, masha ];
+//
+// function getAverageAge(arr) {
+//   return arr.reduce((accumulator, currentUser) => accumulator + currentUser.age, 0) / arr.length;
+// }
+//
+// console.log( getAverageAge(arr) );
+
+
+// unction unique(arr) {
+//   /* ваш код */
+// }
+
+let strings = ["кришна", "кришна", "харе", "харе",
+  "харе", "харе", "кришна", "кришна", ":-O"
+];
+
+function unique(strings) {
+  let result = [];
+  for (let string of strings) {
+    if (!result.includes(string)) {
+      result.push(string);
+    }
+  }
+  return result;
+}
+
+console.log( unique(strings) ); // кришна, харе, :-O
