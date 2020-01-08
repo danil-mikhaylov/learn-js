@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7dd70e85-7f3a-44f0-845b-732c3c2af3a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data-Types/6-Map-Set.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Learn-JS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Learn-JS.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+    <list default="true" id="7dd70e85-7f3a-44f0-845b-732c3c2af3a5" name="Default Changelist" comment="array-methods-finished">
+      <change afterPath="$PROJECT_DIR$/Data-Types/7-Weakmap-Weakset.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data-Types/1-Primitives-Methods.js" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Types/1-Primitives-Methods.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data-Types/2-Numbers.js" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Types/2-Numbers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data-Types/4-Arrays.js" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Types/4-Arrays.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data-Types/5-Array-Methods.js" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Types/5-Array-Methods.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data-Types/9-Keys-Values-Entries.js" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Types/9-Keys-Values-Entries.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-Files/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project-Files/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-Files/js/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/Project-Files/js/javascript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data-Types/6-Map-Set.js" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Types/6-Map-Set.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +72,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="C:/Program Files/nodejs/node" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\danil\AppData\Roaming\npm\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RunManager">
     <configuration name="5-Array-Methods.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Data-Types/5-Array-Methods.js" working-dir="$PROJECT_DIR$/Data-Types">
@@ -120,7 +110,8 @@
       <workItem from="1578295429525" duration="596000" />
       <workItem from="1578310015859" duration="15000" />
       <workItem from="1578310282268" duration="24160000" />
-      <workItem from="1578391894713" duration="18999000" />
+      <workItem from="1578391894713" duration="25024000" />
+      <workItem from="1578458898079" duration="4298000" />
     </task>
     <task id="LOCAL-00001" summary="12345">
       <created>1578324863547</created>
@@ -150,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578337635285</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="array-methods-finished">
+      <created>1578412052584</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578412052584</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,7 +167,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="12345" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="array-methods-finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="array-methods-finished" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="176" key="#ESLint" timestamp="1578398217336">
@@ -192,10 +191,10 @@
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state x="717" y="326" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1578401073775" />
-    <state x="583" y="13" key="CommitChangelistDialog2" timestamp="1578337634226">
+    <state x="583" y="13" key="CommitChangelistDialog2" timestamp="1578464246337">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
-    <state x="583" y="13" key="CommitChangelistDialog2/0.0.1920.1034@0.0.1920.1034" timestamp="1578337634226" />
+    <state x="583" y="13" key="CommitChangelistDialog2/0.0.1920.1034@0.0.1920.1034" timestamp="1578464246337" />
     <state x="92" y="92" width="1736" height="850" key="DiffContextDialog" timestamp="1578402958057">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
@@ -208,14 +207,14 @@
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state x="540" y="276" key="IDE.errors.dialog/0.0.1920.1034@0.0.1920.1034" timestamp="1578249188198" />
-    <state x="447" y="140" key="SettingsEditor" timestamp="1578411386798">
+    <state x="447" y="140" key="SettingsEditor" timestamp="1578463499976">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
-    <state x="447" y="140" key="SettingsEditor/0.0.1920.1034@0.0.1920.1034" timestamp="1578411386798" />
-    <state x="552" y="247" key="Vcs.Push.Dialog.v2" timestamp="1578337638958">
+    <state x="447" y="140" key="SettingsEditor/0.0.1920.1034@0.0.1920.1034" timestamp="1578463499976" />
+    <state x="552" y="247" key="Vcs.Push.Dialog.v2" timestamp="1578412067258">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
-    <state x="552" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1034@0.0.1920.1034" timestamp="1578337638958" />
+    <state x="552" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1034@0.0.1920.1034" timestamp="1578412067258" />
     <state x="92" y="92" width="1736" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1578324501425">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>

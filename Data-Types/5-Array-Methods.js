@@ -4,7 +4,6 @@
 
 // print( arr ); // осталось ["Я", "JavaScript"]
 
-
 // let arr = ["Я", "изучаю", "JavaScript", "прямо", "сейчас"];
 
 // arr.splice(0, 3, "Давай", "танцевать");
@@ -19,21 +18,19 @@
 // let removed = arr.splice(0, 2);
 // print( removed ); // "Я", "изучаю" <-- массив из удалённых элементов
 
-
 const companies = [
-  {name: "Company One", category: "Finance", start: 1981, end: 2004},
-  {name: "Company Two", category: "Retail", start: 1992, end: 2008},
-  {name: "Company Three", category: "Auto", start: 1999, end: 2007},
-  {name: "Company Four", category: "Retail", start: 1989, end: 2010},
-  {name: "Company Five", category: "Technology", start: 2009, end: 2014},
-  {name: "Company Six", category: "Finance", start: 1987, end: 2010},
-  {name: "Company Seven", category: "Auto", start: 1986, end: 1996},
-  {name: "Company Eight", category: "Technology", start: 2011, end: 2016},
-  {name: "Company Nine", category: "Retail", start: 1981, end: 1989}
+  { name: "Company One", category: "Finance", start: 1981, end: 2004 },
+  { name: "Company Two", category: "Retail", start: 1992, end: 2008 },
+  { name: "Company Three", category: "Auto", start: 1999, end: 2007 },
+  { name: "Company Four", category: "Retail", start: 1989, end: 2010 },
+  { name: "Company Five", category: "Technology", start: 2009, end: 2014 },
+  { name: "Company Six", category: "Finance", start: 1987, end: 2010 },
+  { name: "Company Seven", category: "Auto", start: 1986, end: 1996 },
+  { name: "Company Eight", category: "Technology", start: 2011, end: 2016 },
+  { name: "Company Nine", category: "Retail", start: 1981, end: 1989 }
 ];
 
 const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
-
 
 // forEach
 
@@ -181,7 +178,6 @@ const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
 //
 // console.log(sumRandomArray > sumPerfectRandomArray);
 
-
 // const number = [1, -1, 2, 3];
 //
 // const items = number
@@ -191,13 +187,11 @@ const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
 //     .map( obj => obj.value );
 // console.log(items);
 
-
 // let arr = ["Я", "изучаю", "JavaScript"];
 //
 // arr.splice(1, 1); // начиная с позиции 1, удалить 1 элемент
 //
 // print( arr ); // осталось ["Я", "JavaScript"
-
 
 // let arr = ["Я", "изучаю", "JavaScript", "прямо", "сейчас"];
 // arr.splice(0, 3, "Давай", "танцевать");
@@ -207,11 +201,9 @@ const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
 // let removed = arr.splice(0, 3, "Давай", "танцевать");
 // console.log(removed); // ["Я", "изучаю", "JavaScript"]
 
-
 // let arr = ["Я", "изучаю", "JavaScript"];
 // arr.splice(2, 0, "сложный", "язык");
 // console.log(arr); // ["Я", "изучаю", "сложный", "язык", "JavaScript"]
-
 
 // let arr = [1, 2, 5];
 // // начиная с индекса -1 (перед последним элементом)
@@ -220,11 +212,9 @@ const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
 // arr.splice(-1, 0, 3, 4);
 // alert( arr ); // 1,2,3,4,5
 
-
 // let arr = ["t", "e", "s", "t"];
 // let slicedArray = arr.slice(1, 3);
 // console.log(slicedArray); // ["e", "s"]
-
 
 // let arr = [1, 2];
 // console.log( arr.concat([3, 4]) ); // [1, 2, 3, 4]
@@ -240,7 +230,6 @@ const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
 //
 // console.log( arr.concat(arrayLike) ); // 1,2,[object Object]
 
-
 /*
 arr.indexOf(item, from) ищет item, начиная с индекса from, и возвращает индекс, на котором был найден искомый элемент, в противном случае -1.
 arr.lastIndexOf(item, from) – то же самое, но ищет справа налево.
@@ -250,7 +239,6 @@ arr.includes(item, from) – ищет item, начиная с индекса fro
 // const arr = [NaN];
 // alert( arr.indexOf(NaN) ); // -1 (должен быть 0, но === проверка на равенство не работает для NaN)
 // alert( arr.includes(NaN) );// true (верно)
-
 
 // let names = 'Вася, Петя, Маша';
 //
@@ -263,7 +251,6 @@ arr.includes(item, from) – ищет item, начиная с индекса fro
 // let arr = 'Вася, Петя, Маша, Саша'.split(', ', 2);
 //
 // alert(arr); // Вася, Петя
-
 
 // function camelize(string) { // Объявление функции, её аргумент -- строка
 //   let completedArray; // Просто создаю переменную, которая в итоге будет строкой с заглавными буквами
@@ -299,7 +286,6 @@ arr.includes(item, from) – ищет item, начиная с индекса fro
 // console.log(filtered);
 // console.log(arr);
 
-
 // function filterRangeInPlace(array, a, b) {
 //   for (let i = 0; i < array.left; i++) {
 //     let val = i;
@@ -325,13 +311,11 @@ arr.includes(item, from) – ищет item, начиная с индекса fro
 // filterRangeInPlace(arr, 1, 4); // удалены числа вне диапазона 1..4
 // console.log( arr ); // [3, 1].
 
-
 // let array = [5, 2, 1, -10, 8];
 //
 // array.sort((a, b) => b - a);
 //
 // console.log(array); // [8, 5, 2, 1, -10]
-
 
 // function copySorted(arr) {
 //   return arr.slice().sort();
@@ -343,7 +327,6 @@ arr.includes(item, from) – ищет item, начиная с индекса fro
 //
 // console.log(sorted);
 // console.log(arr);
-
 
 // function Calculator(str) {
 //   this.methods = {
@@ -370,7 +353,6 @@ arr.includes(item, from) – ищет item, начиная с индекса fro
 // let result = powerCalc.calculate("2 ** 3");
 // console.log( result ); // 8
 
-
 // let vasya = { name: "Вася", age: 25 };
 // let petya = { name: "Петя", age: 30 };
 // let masha = { name: "Маша", age: 28 };
@@ -379,7 +361,6 @@ arr.includes(item, from) – ищет item, начиная с индекса fro
 //
 // let names = users.map(item => item.name);
 // console.log(names); // ["Вася", "Петя", "Маша"]
-
 
 // let vasya = { name: "Вася", surname: "Пупкин", id: 1 };
 // let petya = { name: "Петя", surname: "Иванов", id: 2 };
@@ -401,14 +382,7 @@ arr.includes(item, from) – ищет item, начиная с индекса fro
 //
 // console.log( usersMapped[0].id ); // 1
 
-
-
-
 // console.log( usersMapped[0].fullName ); // Вася Пупкин
-
-
-
-
 
 // let vasya = { name: "Вася", age: 25 };
 // let petya = { name: "Петя", age: 30 };
@@ -428,16 +402,15 @@ arr.includes(item, from) – ищет item, начиная с индекса fro
 // console.log(arr[1].name); // Маша
 // console.log(arr[2].name); // Петя
 
-
 // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // function shuffle(array) {
 //   for (let i = array.length - 1; i > 0; i--) {
 //     let j = Math.floor(Math.random() * (i + 1));
 //     let t = array[i];
 //     array[i] = array[j];
-//     array[j] = t
+//     array[j] = t;
 //   }
-
+// }
 // }
 //
 // shuffle(arr);
@@ -449,7 +422,6 @@ arr.includes(item, from) – ищет item, начиная с индекса fro
 // // shuffle(arr);
 // // // arr = [3, 1, 2]
 // // // ...
-
 
 // let vasya = { name: "Вася", age: 25 };
 // let petya = { name: "Петя", age: 30 };
@@ -463,23 +435,22 @@ arr.includes(item, from) – ищет item, начиная с индекса fro
 //
 // console.log( getAverageAge(arr) );
 
-
 // unction unique(arr) {
 //   /* ваш код */
 // }
 
-let strings = ["кришна", "кришна", "харе", "харе",
-  "харе", "харе", "кришна", "кришна", ":-O"
-];
-
-function unique(strings) {
-  let result = [];
-  for (let string of strings) {
-    if (!result.includes(string)) {
-      result.push(string);
-    }
-  }
-  return result;
-}
-
-console.log( unique(strings) ); // кришна, харе, :-O
+// let strings = ["кришна", "кришна", "харе", "харе",
+//   "харе", "харе", "кришна", "кришна", ":-O"
+// ];
+//
+// function unique(strings) {
+//   let result = [];
+//   for (let string of strings) {
+//     if (!result.includes(string)) {
+//       result.push(string);
+//     }
+//   }
+//   return result;
+// }
+//
+// console.log( unique(strings) ); // кришна, харе, :-O
