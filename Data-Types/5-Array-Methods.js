@@ -1,41 +1,39 @@
 // let arr = ["Я", "изучаю", "JavaScript"];
-
+//
 // arr.splice(1, 1); // начиная с позиции 1, удалить 1 элемент
-
-// print( arr ); // осталось ["Я", "JavaScript"]
-
+//
+// print(arr); // осталось ["Я", "JavaScript"]
+//
 // let arr = ["Я", "изучаю", "JavaScript", "прямо", "сейчас"];
-
+//
 // arr.splice(0, 3, "Давай", "танцевать");
-
-// print(arr)
-
-// git works
-
+//
+// print(arr);
+//
 // let arr = ["Я", "изучаю", "JavaScript", "прямо", "сейчас"];
-
+//
 // // удалить 2 первых элемента
 // let removed = arr.splice(0, 2);
-// print( removed ); // "Я", "изучаю" <-- массив из удалённых элементов
+// print(removed); // "Я", "изучаю" <-- массив из удалённых элементов
 
-const companies = [
-  { name: "Company One", category: "Finance", start: 1981, end: 2004 },
-  { name: "Company Two", category: "Retail", start: 1992, end: 2008 },
-  { name: "Company Three", category: "Auto", start: 1999, end: 2007 },
-  { name: "Company Four", category: "Retail", start: 1989, end: 2010 },
-  { name: "Company Five", category: "Technology", start: 2009, end: 2014 },
-  { name: "Company Six", category: "Finance", start: 1987, end: 2010 },
-  { name: "Company Seven", category: "Auto", start: 1986, end: 1996 },
-  { name: "Company Eight", category: "Technology", start: 2011, end: 2016 },
-  { name: "Company Nine", category: "Retail", start: 1981, end: 1989 }
-];
+// const companies = [
+//   { name: "Company One", category: "Finance", start: 1981, end: 2004 },
+//   { name: "Company Two", category: "Retail", start: 1992, end: 2008 },
+//   { name: "Company Three", category: "Auto", start: 1999, end: 2007 },
+//   { name: "Company Four", category: "Retail", start: 1989, end: 2010 },
+//   { name: "Company Five", category: "Technology", start: 2009, end: 2014 },
+//   { name: "Company Six", category: "Finance", start: 1987, end: 2010 },
+//   { name: "Company Seven", category: "Auto", start: 1986, end: 1996 },
+//   { name: "Company Eight", category: "Technology", start: 2011, end: 2016 },
+//   { name: "Company Nine", category: "Retail", start: 1981, end: 1989 }
+// ];
 
-const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
-
-// forEach
-
+// const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
+//
+// // forEach
+//
 // for (let i = 0; i < companies.length; i++) {
-//   console.log( companies[i] );
+//   console.log(companies[i]);
 // }
 
 // companies.forEach( (company) => {
@@ -237,18 +235,18 @@ arr.includes(item, from) – ищет item, начиная с индекса fro
  */
 
 // const arr = [NaN];
-// alert( arr.indexOf(NaN) ); // -1 (должен быть 0, но === проверка на равенство не работает для NaN)
-// alert( arr.includes(NaN) );// true (верно)
-
-// let names = 'Вася, Петя, Маша';
+// alert(arr.indexOf(NaN)); // -1 (должен быть 0, но === проверка на равенство не работает для NaN)
+// alert(arr.includes(NaN)); // true (верно)
 //
-// let arr = names.split(', ');
+// let names = "Вася, Петя, Маша";
+//
+// let arr = names.split(", ");
 //
 // for (let name of arr) {
-//   alert( `Сообщение получат: ${name}.` ); // Сообщение получат: Вася (и другие имена)
+//   alert(`Сообщение получат: ${name}.`); // Сообщение получат: Вася (и другие имена)
 // }
-
-// let arr = 'Вася, Петя, Маша, Саша'.split(', ', 2);
+//
+// let arr = "Вася, Петя, Маша, Саша".split(", ", 2);
 //
 // alert(arr); // Вася, Петя
 
@@ -306,11 +304,11 @@ arr.includes(item, from) – ищет item, начиная с индекса fro
 //     }
 //   }
 // }
-//
+
 // let arr = [5, 3, 8, 1];
 // filterRangeInPlace(arr, 1, 4); // удалены числа вне диапазона 1..4
 // console.log( arr ); // [3, 1].
-
+//
 // let array = [5, 2, 1, -10, 8];
 //
 // array.sort((a, b) => b - a);
@@ -369,8 +367,8 @@ arr.includes(item, from) – ищет item, начиная с индекса fro
 // let users = [ vasya, petya, masha ];
 //
 // let usersMapped = users.map(item => ({
-//   fullName: item.name + ' ' + item.surname,
-//   id: item.id,
+//   fullName: item.name + " " + item.surname,
+//   id: item.id
 // }));
 //
 // /*
@@ -380,20 +378,19 @@ arr.includes(item, from) – ищет item, начиная с индекса fro
 //   }));
 // */
 //
-// console.log( usersMapped[0].id ); // 1
-
-// console.log( usersMapped[0].fullName ); // Вася Пупкин
+// console.log(usersMapped[0].id); // 1
+//
+// console.log(usersMapped[0].fullName); // Вася Пупкин
 
 // let vasya = { name: "Вася", age: 25 };
 // let petya = { name: "Петя", age: 30 };
 // let masha = { name: "Маша", age: 28 };
 //
-// let arr = [ vasya, petya, masha ];
+// let arr = [vasya, petya, masha];
 //
 // function sortByAge(users) {
-//   users.sort((a, b) => a.age > b.age ? 1 : -1);
+//   users.sort((a, b) => (a.age > b.age ? 1 : -1));
 // }
-//
 //
 // sortByAge(arr);
 //
@@ -411,38 +408,32 @@ arr.includes(item, from) – ищет item, начиная с индекса fro
 //     array[j] = t;
 //   }
 // }
-// }
+
+shuffle(arr);
+// arr = [3, 2, 1]
+
+// shuffle(arr);
+// // arr = [2, 1, 3]
 //
 // shuffle(arr);
-// // arr = [3, 2, 1]
-//
-// // shuffle(arr);
-// // // arr = [2, 1, 3]
-// //
-// // shuffle(arr);
-// // // arr = [3, 1, 2]
-// // // ...
+// // arr = [3, 1, 2]
+// // ...
 
 // let vasya = { name: "Вася", age: 25 };
 // let petya = { name: "Петя", age: 30 };
 // let masha = { name: "Маша", age: 29 };
 //
-// let arr = [ vasya, petya, masha ];
+// let arr = [vasya, petya, masha];
 //
 // function getAverageAge(arr) {
-//   return arr.reduce((accumulator, currentUser) => accumulator + currentUser.age, 0) / arr.length;
+//   return (
+//     arr.reduce((accumulator, currentUser) => accumulator + currentUser.age, 0) /
+//     arr.length
+//   );
 // }
-//
+
 // console.log( getAverageAge(arr) );
 
-// unction unique(arr) {
-//   /* ваш код */
-// }
-
-// let strings = ["кришна", "кришна", "харе", "харе",
-//   "харе", "харе", "кришна", "кришна", ":-O"
-// ];
-//
 // function unique(strings) {
 //   let result = [];
 //   for (let string of strings) {
@@ -453,4 +444,8 @@ arr.includes(item, from) – ищет item, начиная с индекса fro
 //   return result;
 // }
 //
-// console.log( unique(strings) ); // кришна, харе, :-O
+// console.log(unique(strings)); // кришна, харе, :-O
+
+
+
+

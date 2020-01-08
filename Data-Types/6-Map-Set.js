@@ -6,7 +6,7 @@
 // console.log(map.get(1)); // num1
 // console.log(map.get("1")); // str1
 // console.log(map.size); // 3
-//
+
 // let John = { name: "John" };
 //
 // let visitsCountMap = new Map();
@@ -22,12 +22,12 @@
 // visitsCountObj[John] = 123;
 //
 // console.log(visitsCountObj["[object Object]"]); // 123
-//
+
 // map
 //   .set("1", "str1")
 //   .set(1, "num1")
 //   .set(true, "bool1");
-
+//
 // let recipeMap = new Map([
 //   ["огурец", 500],
 //   ["помидор", 350],
@@ -50,14 +50,13 @@
 //   console.log(`${map} : ${key} : ${value}`); // [object Map] : огурец : 500...
 // });
 //
-//
 // let map = new Map([
-//   ['1', 'str1'],
-//   [1, 'str1'],
-//   [true, 'str1'],
+//   ["1", "str1"],
+//   [1, "str1"],
+//   [true, "str1"]
 // ]);
-// console.log( map.get('1') ); // str1
-
+// console.log(map.get("1")); // str1
+//
 // let user = {
 //   name: "John",
 //   age: 18
@@ -67,7 +66,7 @@
 // let obj = Object.fromEntries(map);
 // console.log(obj);
 // console.log(Object.entries(user)); // ["name", "John"] , ["age", 18]
-
+//
 // let map = new Map();
 // map.set("banana", 1);
 // map.set("orange", 2);
@@ -75,7 +74,7 @@
 //
 // let obj = Object.fromEntries(map.entries());
 // console.log(obj); // 1
-
+//
 // let set = new Set();
 //
 // let john = { name: "John" };
@@ -93,14 +92,14 @@
 // for (let user of set) {
 //   console.log(user.name); // John, Pete, Mary
 // }
-
+//
 // let set = new Set(["апельсин", "яблоко", "банан"]);
 // for (let value of set) {
 //   console.log(value);
 // }
 //
 // set.forEach((value, valueAgain, set) => console.log(value));
-
+//
 // function unique(arr) {
 //   return Array.from(new Set(arr));
 // }
@@ -118,7 +117,7 @@
 // ];
 //
 // console.log(unique(values)); // Hare, Krishna, :-O
-
+//
 // let arr = ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"];
 //
 // function aClean(arr) {
@@ -133,21 +132,21 @@
 //   }
 //   return Array.from(map.values());
 // }
-//
-// // function aClean(arr) {
-// //   let obj = {};
-// //   for (let i = 0; i < arr.length; i++) {
-// //     let sorted = arr[i]
-// //       .toLowerCase()
-// //       .split("")
-// //       .sort()
-// //       .join("");
-// //     obj[sorted] = arr[i];
-// //   }
-// //   return obj;
-// // }
-//
-// console.log(aClean(arr)); // ["PAN", "hectares", "era"]
+
+// function aClean(arr) {
+//   let obj = {};
+//   for (let i = 0; i < arr.length; i++) {
+//     let sorted = arr[i]
+//       .toLowerCase()
+//       .split("")
+//       .sort()
+//       .join("");
+//     obj[sorted] = arr[i];
+//   }
+//   return obj;
+// }
+
+console.log(aClean(arr)); // ["PAN", "hectares", "era"]
 
 let map = new Map();
 
