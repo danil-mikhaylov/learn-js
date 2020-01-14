@@ -409,7 +409,7 @@ arr.includes(item, from) – ищет item, начиная с индекса fro
 //   }
 // }
 
-shuffle(arr);
+// shuffle(arr);
 // arr = [3, 2, 1]
 
 // shuffle(arr);
@@ -445,7 +445,3 @@ shuffle(arr);
 // }
 //
 // console.log(unique(strings)); // кришна, харе, :-O
-
-
-
-
