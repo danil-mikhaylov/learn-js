@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7dd70e85-7f3a-44f0-845b-732c3c2af3a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data-Types/12-json.js" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Types/12-json.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-Files/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project-Files/html/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +70,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="C:/Program Files/nodejs/node" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\danil\AppData\Roaming\npm\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -143,6 +141,8 @@
       <workItem from="1579009880816" duration="9402000" />
       <workItem from="1579105326068" duration="8538000" />
       <workItem from="1579362729130" duration="4495000" />
+      <workItem from="1579458958773" duration="53000" />
+      <workItem from="1579459019618" duration="50000" />
     </task>
     <task id="LOCAL-00001" summary="12345">
       <created>1578324863547</created>
@@ -257,10 +257,15 @@
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state x="414" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1578505891979" />
-    <state x="693" y="356" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1578473758960">
-      <screen x="0" y="0" width="1920" height="1034" />
+    <state x="771" y="400" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1579459009074">
+      <screen x="0" y="0" width="2137" height="1162" />
     </state>
     <state x="693" y="356" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1578473758960" />
+    <state x="771" y="400" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.2137.1162@0.0.2137.1162" timestamp="1579459009074" />
+    <state x="681" y="303" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1579459062514">
+      <screen x="0" y="0" width="2137" height="1162" />
+    </state>
+    <state x="681" y="303" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2137.1162@0.0.2137.1162" timestamp="1579459062514" />
     <state x="717" y="326" key="#com.intellij.tools.ToolEditorDialog" timestamp="1578401073775">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
@@ -273,10 +278,11 @@
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state x="92" y="92" width="1736" height="850" key="DiffContextDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1578402958057" />
-    <state x="697" y="180" key="FileChooserDialogImpl" timestamp="1578400801139">
-      <screen x="0" y="0" width="1920" height="1034" />
+    <state x="776" y="202" key="FileChooserDialogImpl" timestamp="1579459004482">
+      <screen x="0" y="0" width="2137" height="1162" />
     </state>
     <state x="697" y="180" key="FileChooserDialogImpl/0.0.1920.1034@0.0.1920.1034" timestamp="1578400801139" />
+    <state x="776" y="202" key="FileChooserDialogImpl/0.0.2137.1162@0.0.2137.1162" timestamp="1579459004482" />
     <state width="1899" height="206" key="GridCell.Tab.0.bottom" timestamp="1579378044517">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
@@ -345,10 +351,11 @@
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state x="540" y="276" key="IDE.errors.dialog/0.0.1920.1034@0.0.1920.1034" timestamp="1578249188198" />
-    <state x="447" y="140" key="SettingsEditor" timestamp="1579105980774">
-      <screen x="0" y="0" width="1920" height="1034" />
+    <state x="498" y="157" key="SettingsEditor" timestamp="1579458968362">
+      <screen x="0" y="0" width="2137" height="1162" />
     </state>
     <state x="447" y="140" key="SettingsEditor/0.0.1920.1034@0.0.1920.1034" timestamp="1579105980774" />
+    <state x="498" y="157" key="SettingsEditor/0.0.2137.1162@0.0.2137.1162" timestamp="1579458968362" />
     <state x="552" y="247" key="Vcs.Push.Dialog.v2" timestamp="1579016876013">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
