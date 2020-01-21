@@ -38,7 +38,7 @@
 //   name: "John",
 //   age: 30,
 // }
-// let key = prompt("What do you want to know about user?","name")
+// let key = prompt("What do you want to know about the user?","name")
 // alert("The user name is " + user[key])
 
 // let fruit = prompt("What kind of fruit do you want to buy?", "apple");
@@ -81,7 +81,7 @@
 //   name: "John",
 //   age: 30,
 // }
-// if (user.getSuchProperty === undefined) console.log('meowww');
+// if (user.getSuchProperty === undefined) console.log('meow');
 
 // if ("getSuchProperty" in user) {
 

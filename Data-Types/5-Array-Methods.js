@@ -434,14 +434,14 @@ arr.includes(item, from) – ищет item, начиная с индекса fro
 
 // console.log( getAverageAge(arr) );
 
-function unique(strings) {
-let result = [];
-for (let string of strings) {
-  if (!result.includes(string)) {
-    result.push(string);
-  }
-}
-return result;
-}
-
-console.log(unique(strings)); // кришна, харе, :-O
+// function unique(strings) {
+//   let result = [];
+//   for (let string of strings) {
+//     if (!result.includes(string)) {
+//       result.push(string);
+//     }
+//   }
+//   return result;
+// }
+//
+// console.log(unique(strings)); // кришна, харе, :-O
