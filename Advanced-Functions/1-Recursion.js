@@ -88,7 +88,7 @@ function sumToRecursive(number) {
 }
 
 function sumTo(number) {
-  return number * (number + 1) / 2
+  return (number * (number + 1)) / 2;
 }
 
 console.log(sumToCycle(5)); // 15
@@ -96,7 +96,7 @@ console.log(sumToRecursive(100000)); // 15
 console.log(sumTo(5)); // 15
 
 function factorial(number) {
-  let res =  number;
+  let res = number;
   for (let i = number - 1; i > 0; i--) {
     res = res * i;
   }
@@ -104,8 +104,8 @@ function factorial(number) {
 }
 
 function factorial(number) {
-return number ? number * factorial(number - 1) : 1;
-return (number === 1) ? number : number * factorial(number - 1);
+  return number ? number * factorial(number - 1) : 1;
+  return number === 1 ? number : number * factorial(number - 1);
 }
 
 console.log(factorial(5)); // 120
@@ -172,7 +172,7 @@ let arr = [];
 function printReverseList(list) {
   arr.push(list.value);
   if (list.next) {
-    return printReverseList(list.next)
+    return printReverseList(list.next);
   }
   arr.reverse();
   for (let number of arr) {
