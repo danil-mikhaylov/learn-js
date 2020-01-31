@@ -27,7 +27,7 @@ function f(arg1, ...rest, arg2) { // arg2 после ...rest ?!
 */
 
 function showName() {
-  console.log(arguments.length);
+  console.log(arguments.length); // 2
   console.log(arguments[0]);
   console.log(arguments[1]);
 

@@ -113,15 +113,17 @@ console.log(factorial(5)); // 120
 function fib(number) {
   let a = 1;
   let b = 2;
+  let counter = 0;
   for (let i = 3; i <= number; i++) {
     let c = a + b;
     a = b;
     b = c;
+    counter += 1;
   }
   return a;
 }
-console.log(fib(3)); // 2
-console.log(fib(193372)); // 13
+console.log(fib(3)); // 2, counter = 1
+console.log(fib(7)); // 13, counter = 5
 
 let list = {
   value: 1,

@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7dd70e85-7f3a-44f0-845b-732c3c2af3a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced-Functions/1-Recursion.js" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced-Functions/1-Recursion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced-Functions/2-Rest-Parameters-Spread-Operator.js" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced-Functions/2-Rest-Parameters-Spread-Operator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Advanced-Functions/3-Closure.js" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced-Functions/3-Closure.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +75,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="C:/Program Files/nodejs/node" />
-    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\user\AppData\Roaming\npm\node_modules\prettier" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\danil\AppData\Roaming\npm\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
   </component>
   <component name="RecentsManager">
@@ -100,9 +102,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.3-Closure.js" />
+        <item itemvalue="Node.js.1-Recursion.js" />
         <item itemvalue="Node.js.2-Rest-Parameters-Spread-Operator.js" />
         <item itemvalue="Node.js.javascript.js" />
-        <item itemvalue="Node.js.1-Recursion.js" />
         <item itemvalue="Node.js.2-Numbers.js" />
       </list>
     </recent_temporary>
@@ -155,6 +157,7 @@
       <workItem from="1579632869362" duration="38000" />
       <workItem from="1579701272759" duration="4269000" />
       <workItem from="1579706371740" duration="2490000" />
+      <workItem from="1580484368458" duration="7946000" />
     </task>
     <task id="LOCAL-00001" summary="12345">
       <created>1578324863547</created>
@@ -357,24 +360,28 @@
       <screen x="0" y="0" width="2137" height="1162" />
     </state>
     <state x="929" y="511" key="Github.Dialog.Accounts.Choose/0.0.2137.1162@0.0.2137.1162" timestamp="1579459210406" />
-    <state width="2115" height="304" key="GridCell.Tab.0.bottom" timestamp="1579708205214">
-      <screen x="0" y="0" width="2137" height="1162" />
+    <state width="1345" height="142" key="GridCell.Tab.0.bottom" timestamp="1580502063900">
+      <screen x="0" y="0" width="1366" height="722" />
     </state>
+    <state width="1345" height="142" key="GridCell.Tab.0.bottom/0.0.1366.722@0.0.1366.722" timestamp="1580502063900" />
     <state width="1899" height="206" key="GridCell.Tab.0.bottom/0.0.1920.1034@0.0.1920.1034" timestamp="1579378044517" />
     <state width="2115" height="304" key="GridCell.Tab.0.bottom/0.0.2137.1162@0.0.2137.1162" timestamp="1579708205214" />
-    <state width="2115" height="304" key="GridCell.Tab.0.center" timestamp="1579708205214">
-      <screen x="0" y="0" width="2137" height="1162" />
+    <state width="1345" height="142" key="GridCell.Tab.0.center" timestamp="1580502063900">
+      <screen x="0" y="0" width="1366" height="722" />
     </state>
+    <state width="1345" height="142" key="GridCell.Tab.0.center/0.0.1366.722@0.0.1366.722" timestamp="1580502063900" />
     <state width="1899" height="206" key="GridCell.Tab.0.center/0.0.1920.1034@0.0.1920.1034" timestamp="1579378044517" />
     <state width="2115" height="304" key="GridCell.Tab.0.center/0.0.2137.1162@0.0.2137.1162" timestamp="1579708205214" />
-    <state width="2115" height="304" key="GridCell.Tab.0.left" timestamp="1579708205214">
-      <screen x="0" y="0" width="2137" height="1162" />
+    <state width="1345" height="142" key="GridCell.Tab.0.left" timestamp="1580502063900">
+      <screen x="0" y="0" width="1366" height="722" />
     </state>
+    <state width="1345" height="142" key="GridCell.Tab.0.left/0.0.1366.722@0.0.1366.722" timestamp="1580502063900" />
     <state width="1899" height="206" key="GridCell.Tab.0.left/0.0.1920.1034@0.0.1920.1034" timestamp="1579378044516" />
     <state width="2115" height="304" key="GridCell.Tab.0.left/0.0.2137.1162@0.0.2137.1162" timestamp="1579708205214" />
-    <state width="2115" height="304" key="GridCell.Tab.0.right" timestamp="1579708205214">
-      <screen x="0" y="0" width="2137" height="1162" />
+    <state width="1345" height="142" key="GridCell.Tab.0.right" timestamp="1580502063900">
+      <screen x="0" y="0" width="1366" height="722" />
     </state>
+    <state width="1345" height="142" key="GridCell.Tab.0.right/0.0.1366.722@0.0.1366.722" timestamp="1580502063900" />
     <state width="1899" height="206" key="GridCell.Tab.0.right/0.0.1920.1034@0.0.1920.1034" timestamp="1579378044517" />
     <state width="2115" height="304" key="GridCell.Tab.0.right/0.0.2137.1162@0.0.2137.1162" timestamp="1579708205214" />
     <state width="2115" height="374" key="GridCell.Tab.1.bottom" timestamp="1579708134798">
@@ -441,9 +448,10 @@
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state x="540" y="276" key="IDE.errors.dialog/0.0.1920.1034@0.0.1920.1034" timestamp="1578249188198" />
-    <state x="659" y="270" key="SettingsEditor" timestamp="1579529837116">
-      <screen x="0" y="0" width="2137" height="1162" />
+    <state x="143" y="9" key="SettingsEditor" timestamp="1580493992288">
+      <screen x="0" y="0" width="1366" height="722" />
     </state>
+    <state x="143" y="9" key="SettingsEditor/0.0.1366.722@0.0.1366.722" timestamp="1580493992288" />
     <state x="447" y="140" key="SettingsEditor/0.0.1920.1034@0.0.1920.1034" timestamp="1579105980774" />
     <state x="659" y="270" key="SettingsEditor/0.0.2137.1162@0.0.2137.1162" timestamp="1579529837116" />
     <state x="614" y="278" key="Vcs.Push.Dialog.v2" timestamp="1579707644214">
@@ -463,6 +471,10 @@
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state x="756" y="297" key="git4idea.merge.GitMergeDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1578324759119" />
+    <state x="339" y="161" key="run.anything.popup" timestamp="1580500695338">
+      <screen x="0" y="0" width="1366" height="722" />
+    </state>
+    <state x="339" y="161" key="run.anything.popup/0.0.1366.722@0.0.1366.722" timestamp="1580500695338" />
     <state x="693" y="251" width="748" height="762" key="search.everywhere.popup" timestamp="1579532363142">
       <screen x="0" y="0" width="2137" height="1162" />
     </state>
