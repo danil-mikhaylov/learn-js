@@ -16,6 +16,13 @@
 // }
 // console.log(pow(2, 3)); // 8
 
+/*
+  1. pow(2, 4) = 2 * pow(2, 3)
+  2. pow(2, 3) = 2 * pow(2, 2)
+  3. pow(2, 2) = 2 * pow(2, 1)
+  4. pow(2, 1) = 2
+*/
+
 // function pow(x, n) {
 //   return n === 1 ? x : x * pow(x, n - 1);
 // }
