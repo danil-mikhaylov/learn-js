@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7dd70e85-7f3a-44f0-845b-732c3c2af3a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-Functions/6-Function-Object.js" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced-Functions/6-Function-Object.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced-Functions/7-New-Function.js" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced-Functions/7-New-Function.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,17 +75,17 @@
       <recent name="C:\Users\danil\Desktop\Learn-JS\Data-Types" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.6-Function-Object.js">
+  <component name="RunManager" selected="Node.js.7-New-Function.js">
     <configuration name="1-Recursion.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Advanced-Functions/1-Recursion.js" working-dir="$PROJECT_DIR$/Advanced-Functions">
       <method v="2" />
     </configuration>
     <configuration name="3-Closure.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Advanced-Functions/3-Closure.js" working-dir="$PROJECT_DIR$/Advanced-Functions">
       <method v="2" />
     </configuration>
-    <configuration name="4-Var.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Advanced-Functions/4-Var.js" working-dir="$PROJECT_DIR$/Advanced-Functions">
+    <configuration name="6-Function-Object.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Advanced-Functions/6-Function-Object.js" working-dir="$PROJECT_DIR$/Advanced-Functions">
       <method v="2" />
     </configuration>
-    <configuration name="6-Function-Object.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Advanced-Functions/6-Function-Object.js" working-dir="$PROJECT_DIR$/Advanced-Functions">
+    <configuration name="7-New-Function.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Advanced-Functions/7-New-Function.js" working-dir="$PROJECT_DIR$/Advanced-Functions">
       <method v="2" />
     </configuration>
     <configuration name="first.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Project-Files/html/first.js" working-dir="$PROJECT_DIR$/Project-Files/html">
@@ -93,11 +93,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.7-New-Function.js" />
         <item itemvalue="Node.js.6-Function-Object.js" />
         <item itemvalue="Node.js.first.js" />
         <item itemvalue="Node.js.1-Recursion.js" />
         <item itemvalue="Node.js.3-Closure.js" />
-        <item itemvalue="Node.js.4-Var.js" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +154,7 @@
       <workItem from="1580888524688" duration="4223000" />
       <workItem from="1580932782361" duration="91000" />
       <workItem from="1580971220566" duration="7762000" />
-      <workItem from="1580987019881" duration="5817000" />
+      <workItem from="1580987019881" duration="7301000" />
     </task>
     <task id="LOCAL-00001" summary="12345">
       <created>1578324863547</created>
@@ -310,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580986465198</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="I finished a chapter &quot;Function Object&quot;">
+      <created>1580994612771</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1580994612771</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,7 +352,8 @@
     <MESSAGE value="321" />
     <MESSAGE value="closure-finished" />
     <MESSAGE value="global-object-finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="global-object-finished" />
+    <MESSAGE value="I finished a chapter &quot;Function Object&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="I finished a chapter &quot;Function Object&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="176" key="#ESLint" timestamp="1578398217336">
@@ -378,11 +386,11 @@
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state x="717" y="326" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1578401073775" />
-    <state x="447" y="15" key="CommitChangelistDialog2" timestamp="1580994545829">
+    <state x="447" y="15" key="CommitChangelistDialog2" timestamp="1580994612170">
       <screen x="0" y="0" width="2137" height="1162" />
     </state>
     <state x="583" y="13" key="CommitChangelistDialog2/0.0.1920.1034@0.0.1920.1034" timestamp="1579016871340" />
-    <state x="447" y="15" key="CommitChangelistDialog2/0.0.2137.1162@0.0.2137.1162" timestamp="1580994545829" />
+    <state x="447" y="15" key="CommitChangelistDialog2/0.0.2137.1162@0.0.2137.1162" timestamp="1580994612170" />
     <state x="92" y="92" width="1736" height="850" key="DiffContextDialog" timestamp="1578402958057">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
@@ -396,26 +404,26 @@
       <screen x="0" y="0" width="2137" height="1162" />
     </state>
     <state x="929" y="511" key="Github.Dialog.Accounts.Choose/0.0.2137.1162@0.0.2137.1162" timestamp="1579459210406" />
-    <state width="2115" height="374" key="GridCell.Tab.0.bottom" timestamp="1580994214528">
+    <state width="2115" height="240" key="GridCell.Tab.0.bottom" timestamp="1580995447477">
       <screen x="0" y="0" width="2137" height="1162" />
     </state>
     <state width="1899" height="206" key="GridCell.Tab.0.bottom/0.0.1920.1034@0.0.1920.1034" timestamp="1579378044517" />
-    <state width="2115" height="374" key="GridCell.Tab.0.bottom/0.0.2137.1162@0.0.2137.1162" timestamp="1580994214528" />
-    <state width="2115" height="374" key="GridCell.Tab.0.center" timestamp="1580994214528">
+    <state width="2115" height="240" key="GridCell.Tab.0.bottom/0.0.2137.1162@0.0.2137.1162" timestamp="1580995447477" />
+    <state width="2115" height="240" key="GridCell.Tab.0.center" timestamp="1580995447477">
       <screen x="0" y="0" width="2137" height="1162" />
     </state>
     <state width="1899" height="206" key="GridCell.Tab.0.center/0.0.1920.1034@0.0.1920.1034" timestamp="1579378044517" />
-    <state width="2115" height="374" key="GridCell.Tab.0.center/0.0.2137.1162@0.0.2137.1162" timestamp="1580994214528" />
-    <state width="2115" height="374" key="GridCell.Tab.0.left" timestamp="1580994214528">
+    <state width="2115" height="240" key="GridCell.Tab.0.center/0.0.2137.1162@0.0.2137.1162" timestamp="1580995447477" />
+    <state width="2115" height="240" key="GridCell.Tab.0.left" timestamp="1580995447477">
       <screen x="0" y="0" width="2137" height="1162" />
     </state>
     <state width="1899" height="206" key="GridCell.Tab.0.left/0.0.1920.1034@0.0.1920.1034" timestamp="1579378044516" />
-    <state width="2115" height="374" key="GridCell.Tab.0.left/0.0.2137.1162@0.0.2137.1162" timestamp="1580994214528" />
-    <state width="2115" height="374" key="GridCell.Tab.0.right" timestamp="1580994214528">
+    <state width="2115" height="240" key="GridCell.Tab.0.left/0.0.2137.1162@0.0.2137.1162" timestamp="1580995447477" />
+    <state width="2115" height="240" key="GridCell.Tab.0.right" timestamp="1580995447477">
       <screen x="0" y="0" width="2137" height="1162" />
     </state>
     <state width="1899" height="206" key="GridCell.Tab.0.right/0.0.1920.1034@0.0.1920.1034" timestamp="1579378044517" />
-    <state width="2115" height="374" key="GridCell.Tab.0.right/0.0.2137.1162@0.0.2137.1162" timestamp="1580994214528" />
+    <state width="2115" height="240" key="GridCell.Tab.0.right/0.0.2137.1162@0.0.2137.1162" timestamp="1580995447477" />
     <state width="2115" height="374" key="GridCell.Tab.1.bottom" timestamp="1580994214528">
       <screen x="0" y="0" width="2137" height="1162" />
     </state>
@@ -485,11 +493,11 @@
     </state>
     <state x="447" y="140" key="SettingsEditor/0.0.1920.1034@0.0.1920.1034" timestamp="1579105980774" />
     <state x="659" y="270" key="SettingsEditor/0.0.2137.1162@0.0.2137.1162" timestamp="1579529837116" />
-    <state x="614" y="278" key="Vcs.Push.Dialog.v2" timestamp="1580986577764">
+    <state x="614" y="278" key="Vcs.Push.Dialog.v2" timestamp="1580994631236">
       <screen x="0" y="0" width="2137" height="1162" />
     </state>
     <state x="552" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1034@0.0.1920.1034" timestamp="1579016876013" />
-    <state x="614" y="278" key="Vcs.Push.Dialog.v2/0.0.2137.1162@0.0.2137.1162" timestamp="1580986577764" />
+    <state x="614" y="278" key="Vcs.Push.Dialog.v2/0.0.2137.1162@0.0.2137.1162" timestamp="1580994631236" />
     <state x="92" y="92" width="1736" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1578324501425">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
@@ -502,10 +510,10 @@
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state x="756" y="297" key="git4idea.merge.GitMergeDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1578324759119" />
-    <state x="693" y="251" width="748" height="762" key="search.everywhere.popup" timestamp="1579532363142">
+    <state x="693" y="251" width="748" height="762" key="search.everywhere.popup" timestamp="1580995366275">
       <screen x="0" y="0" width="2137" height="1162" />
     </state>
     <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1034@0.0.1920.1034" timestamp="1578575459830" />
-    <state x="693" y="251" width="748" height="762" key="search.everywhere.popup/0.0.2137.1162@0.0.2137.1162" timestamp="1579532363142" />
+    <state x="693" y="251" width="748" height="762" key="search.everywhere.popup/0.0.2137.1162@0.0.2137.1162" timestamp="1580995366275" />
   </component>
 </project>
