@@ -1,50 +1,50 @@
-// let name = "John";
-// function sayHi(name) {
-//   console.log("Hi, " + name); // Hi, Pete
-// }
-//
-// name = "Pete";
-//
-// sayHi(name);
+let name = "John";
+function sayHi(name) {
+  console.log("Hi, " + name); // Hi, Pete
+}
 
-// function makeWorker() {
-//   let name = "Pete";
-//
-//   return function() {
-//     console.log(name);
-//   };
-// }
-//
-// let name = "John";
-//
-// // create a function
-// let work = makeWorker();
-//
-// // call it
-// work(); // что будет показано? "Pete" (из места создания) или "John" (из места выполнения)
+name = "Pete";
 
-// Nested functions
+sayHi(name);
 
-// function sayHiBye(firstName, lastName) {
-//   function getFullName() {
-//     return firstName + " " + lastName;
-//   }
-//   console.log("Hello, " + getFullName());
-//   console.log("Bye, " + getFullName());
-// }
-// sayHiBye("SOME", "ONE");
+function makeWorker() {
+  let name = "Pete";
 
-// function makeCounter() {
-//   let count = 0;
-//   return function() {
-//     return count++;
-//   }
-// }
+  return function() {
+    console.log(name);
+  };
+}
 
-// let counter = makeCounter();
-// console.log(counter()); // 0
-// console.log(counter()); // 1
-// console.log(counter()); // 2
+let name = "John";
+
+// create a function
+let work = makeWorker();
+
+// call it
+work(); // что будет показано? "Pete" (из места создания) или "John" (из места выполнения)
+
+Nested functions
+
+function sayHiBye(firstName, lastName) {
+  function getFullName() {
+    return firstName + " " + lastName;
+  }
+  console.log("Hello, " + getFullName());
+  console.log("Bye, " + getFullName());
+}
+sayHiBye("SOME", "ONE");
+
+function makeCounter() {
+  let count = 0;
+  return function() {
+    return count++;
+  }
+}
+
+let counter = makeCounter();
+console.log(counter()); // 0
+console.log(counter()); // 1
+console.log(counter()); // 2
 
 /*
   Замыкание – функция, которая запоминает свои внешние переменные
@@ -97,20 +97,22 @@ users.forEach(user => {console.log(user.name)}); // Pete, Ann, John
 function makeArmy() {
   let shooters = [];
 
-  // let i = 0;
-  // while (i < 10) {
-  //   let shooter = function() { // функция shooter
-  //     alert( i ); // должна выводить порядковый номер
-  //   };
-  //   shooters.push(shooter);
-  //   i++;
-  // }
-  for (let i = 0; i < 10; i++) {
+  let i = 0;
+  while (i < 10) {
+    let j = i;
     let shooter = function() {
-      console.log(i);
+      // функция shooter
+      console.log(j); // должна выводить порядковый номер
     };
     shooters.push(shooter);
+    i++;
   }
+  // for (let i = 0; i < 10; i++) {
+  //   let shooter = function() {
+  //     console.log(i);
+  //   };
+  //   shooters.push(shooter);
+  // }
   return shooters;
 }
 
