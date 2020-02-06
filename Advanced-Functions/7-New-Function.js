@@ -1,44 +1,44 @@
-// // General syntax:
-// // let func = new Function([arg1, arg2, ...argN], functionBody);
-//
-// let sum = new Function('a', 'b', 'return a + b');
-//
-// console.log(sum(1, 2)); // 3
-//
-// // Here's an only body function:
-// let sayHi = new Function('console.log("Hello")');
-//
-// sayHi(); // Hello
-//
-// // new Function() allows you to turn any string into a function:
-// let str = ...the code recieved from the server dynamically...
-//
-// let func = new Function(str);
-// func();
+// General syntax:
+// let func = new Function([arg1, arg2, ...argN], functionBody);
 
-// // The function receives the global lexical environment, therefore such a function has access only to global variables.
-// function getFunc() {
-//   let value = "test";
-//
-//   let func = new Function("console.log(value)");
-//
-//   return func;
-// }
-//
-// getFunc()(); // Error: value is not defined
+let sum = new Function('a', 'b', 'return a + b');
 
-// // Here's the usual function declaration:
-// function getFunc() {
-//   let value = "test";
-//
-//   let func = function() {
-//     console.log(value);
-//   };
-//
-//   return func;
-// }
-//
-// getFunc()(); // "test", from the lexical environment of the getFunc() function
+console.log(sum(1, 2)); // 3
+
+// Here's an only body function:
+let sayHi = new Function('console.log("Hello")');
+
+sayHi(); // Hello
+
+// new Function() allows you to turn any string into a function:
+let str = ...the code recieved from the server dynamically...
+
+let func = new Function(str);
+func();
+
+// The function receives the global lexical environment, therefore such a function has access only to global variables.
+function getFunc() {
+  let value = "test";
+
+  let func = new Function("console.log(value)");
+
+  return func;
+}
+
+getFunc()(); // Error: value is not defined
+
+// Here's the usual function declaration:
+function getFunc() {
+  let value = "test";
+
+  let func = function() {
+    console.log(value);
+  };
+
+  return func;
+}
+
+getFunc()(); // "test", from the lexical environment of the getFunc() function
 
 // Total:
 

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7dd70e85-7f3a-44f0-845b-732c3c2af3a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Advanced-Functions/7-New-Function.js" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced-Functions/7-New-Function.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -154,7 +153,7 @@
       <workItem from="1580888524688" duration="4223000" />
       <workItem from="1580932782361" duration="91000" />
       <workItem from="1580971220566" duration="7762000" />
-      <workItem from="1580987019881" duration="7301000" />
+      <workItem from="1580987019881" duration="7616000" />
     </task>
     <task id="LOCAL-00001" summary="12345">
       <created>1578324863547</created>
@@ -317,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580994612771</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="I finished a chapter &quot;new Function(...)&quot;">
+      <created>1580996153978</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1580996153978</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +359,8 @@
     <MESSAGE value="closure-finished" />
     <MESSAGE value="global-object-finished" />
     <MESSAGE value="I finished a chapter &quot;Function Object&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="I finished a chapter &quot;Function Object&quot;" />
+    <MESSAGE value="I finished a chapter &quot;new Function(...)&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="I finished a chapter &quot;new Function(...)&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="176" key="#ESLint" timestamp="1578398217336">
@@ -386,11 +393,11 @@
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state x="717" y="326" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1578401073775" />
-    <state x="447" y="15" key="CommitChangelistDialog2" timestamp="1580994612170">
+    <state x="447" y="15" key="CommitChangelistDialog2" timestamp="1580996153517">
       <screen x="0" y="0" width="2137" height="1162" />
     </state>
     <state x="583" y="13" key="CommitChangelistDialog2/0.0.1920.1034@0.0.1920.1034" timestamp="1579016871340" />
-    <state x="447" y="15" key="CommitChangelistDialog2/0.0.2137.1162@0.0.2137.1162" timestamp="1580994612170" />
+    <state x="447" y="15" key="CommitChangelistDialog2/0.0.2137.1162@0.0.2137.1162" timestamp="1580996153517" />
     <state x="92" y="92" width="1736" height="850" key="DiffContextDialog" timestamp="1578402958057">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
