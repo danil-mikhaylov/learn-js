@@ -1,25 +1,23 @@
-// ИСПОЛЬЗОВАНИЕ НОВОГО js
-"use strict";
+// while
 
-//Цикл while
-
+// syntax of 'while':
 while (condition) {
   // do stuff
 }
 
 let i = 3;
 while (i) {
-  // когда i будет равно 0, условие станет ложным, и цикл остановится
-  alert(i);
+  // cycle will stop when i = 0:
+  console.log(i);
   i--;
 }
 
 let i = 3;
-while (i) alert(i--); // Для однострочных циклов тело {} не нужно
+while (i) console.log(i--); // Для однострочных циклов тело {} не нужно
 
 let i = 0; // Если хотим, чтобы тело цикла хотя бы один раз исполнилось, лучше использовать while(...) {...}
 do {
-  alert(i);
+  console.log(i);
   i++;
 } while (i < 3);
 
@@ -31,7 +29,7 @@ for (начало; условие; шаг) {
 
 for (let i = 0; i < 3; i++) {
   // выведет 0, затем 1, затем 2
-  alert(i);
+  console.log(i);
 }
 
 // for (let i = 0; i < 3; i++) alert(i)
@@ -40,17 +38,17 @@ for (let i = 0; i < 3; i++) {
 let i = 0;
 // Если условие == true → Выполнить тело, Выполнить шаг
 if (i < 3) {
-  alert(i);
+  console.log(i);
   i++;
 }
 // Если условие == true → Выполнить тело, Выполнить шаг
 if (i < 3) {
-  alert(i);
+  console.log(i);
   i++;
 }
 // Если условие == true → Выполнить тело, Выполнить шаг
 if (i < 3) {
-  alert(i);
+  console.log(i);
   i++;
 }
 // ...конец, потому что теперь i == 3
@@ -58,12 +56,12 @@ if (i < 3) {
 let i = 0; // мы уже имеем объявленную i с присвоенным значением
 for (; i < 3; i++) {
   // нет необходимости в "начале"
-  alert(i); // 0, 1, 2
+  console.log(i); // 0, 1, 2
 }
 
 let i = 0;
 for (; i < 3; ) {
-  alert(i);
+  console.log(i);
 }
 
 for (;;) {
@@ -82,7 +80,7 @@ while (True) {
   }
   sum += value;
 }
-alert(sum);
+console.log(sum);
 
 //continue
 for (let i = 0; i < 10; i++) {
@@ -91,7 +89,7 @@ for (let i = 0; i < 10; i++) {
     // Если число чётное...
     continue; // ...просто пропускаем эту стадию
   }
-  alert(i);
+  console.log(i);
 }
 
 for (let i = 0; i < 10; i++) {
@@ -106,7 +104,7 @@ for (let i = 0; i < 10; i++) {
   // Тот же самый вариант
   if (i % 2) {
     // Если число нечётное, то...
-    alert(i); // ...вывод
+    console.log(i); // ...вывод
   }
 }
 
@@ -116,7 +114,7 @@ for (let i = 0; i < 3; i++) {
     // Что если мы захотим перейти к Готово (ниже) прямо отсюда?
   }
 }
-alert("Готово!");
+console.log("Готово!");
 
 labelName: for (;;) {
   // Вид метки цикла
@@ -140,12 +138,12 @@ for (let i = 0; i < 10; i++) {
 }
 
 for (let i = 0; i < 3; i++) {
-  alert(`number ${i}!`);
+  console.log(`number ${i}!`);
 }
 // || Одно равно другому
 let i = 0;
 while (i < 3) {
-  alert(`number ${i}!`);
+  console.log(`number ${i}!`);
   i++;
 }
 
@@ -161,7 +159,7 @@ for (let i = 2; i <= n; i++) {
     // Проверить, делится ли число
     if (i % j == 0) continue;
   }
-  alert(i);
+  console.log(i);
 }
 
 let n = 10;
@@ -173,21 +171,21 @@ nextPrime: for (let i = 2; i <= n; i++) {
     if (i % j == 0) continue nextPrime; // не подходит, берём следующее
   }
 
-  alert(i); // простое число
+  console.log(i); // простое число
 }
 let a = Number(prompt("Enter the numbr between 3 and 5"));
 switch (a) {
   case 3:
-    alert("Маловато");
+    console.log("Маловато");
     break;
   case 4:
-    alert("В точку!");
+    console.log("В точку!");
     break;
   case 5:
-    alert("Перебор");
+    console.log("Перебор");
     break;
   default:
-    alert("Нет таких значений");
+    console.log("Нет таких значений");
 }
 
 // Лучше всегда использовать break, т.к. без него просто пойдут все проверки дальше
@@ -195,51 +193,51 @@ switch (a) {
 let a = 2 + 2;
 switch (a) {
   case 4:
-    alert("Правильно!");
+    console.log("Правильно!");
     break;
   case 3: // (*) группируем оба case
   case 5:
-    alert("Неправильно!");
-    alert("Может вам посетить урок математики?");
+    console.log("Неправильно!");
+    console.log("Может вам посетить урок математики?");
     break;
   default:
-    alert("Результат выглядит странновато. Честно.");
+    console.log("Результат выглядит странновато. Честно.");
 }
 
 switch (browser) {
   case "Edge":
-    alert("You've got the Edge!");
+    console.log("You've got the Edge!");
     break;
   case "Chrome":
   case "Firefox":
   case "Safari":
   case "Opera":
-    alert("Okay we support these browsers too");
+    console.log("Okay we support these browsers too");
     break;
   default:
-    alert("We hope that this page looks ok!");
+    console.log("We hope that this page looks ok!");
 }
 
 let browser;
 if (browser === "edge") {
-  alert("You've got the Edge!");
+  console.log("You've got the Edge!");
 } else if (browser === "Chrome" || "Firefox" || "Safari" || "Opera") {
-  alert("Okay we support these browsers too");
+  console.log("Okay we support these browsers too");
 } else {
-  alert("We hope that this page looks ok!");
+  console.log("We hope that this page looks ok!");
 }
 
 const number = parseInt(prompt("Введите число между 0 и 3"));
 switch (number) {
   case 0:
-    alert("Вы ввели число 0");
+    console.log("Вы ввели число 0");
     break;
   case 1:
-    alert("Вы ввели число 1");
+    console.log("Вы ввели число 1");
     break;
   case 2:
   case 3:
-    alert("Вы ввели число 2, а может и 3");
+    console.log("Вы ввели число 2, а может и 3");
     break;
 }
 
