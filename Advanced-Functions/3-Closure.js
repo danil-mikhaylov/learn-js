@@ -23,7 +23,7 @@ let work = makeWorker();
 // call it
 work(); // что будет показано? "Pete" (из места создания) или "John" (из места выполнения)
 
-Nested functions
+// Nested functions
 
 function sayHiBye(firstName, lastName) {
   function getFullName() {
@@ -38,7 +38,7 @@ function makeCounter() {
   let count = 0;
   return function() {
     return count++;
-  }
+  };
 }
 
 let counter = makeCounter();
@@ -54,9 +54,9 @@ console.log(counter()); // 2
 // Homework
 
 function sum(a) {
-  return function (b) {
+  return function(b) {
     return a + b; // берёт "a" из внешнего лексического окружения
-  }
+  };
 }
 
 console.log(sum(1)(2)); // 3
@@ -89,10 +89,14 @@ function byField(field) {
 }
 
 users.sort(byField("name"));
-users.forEach(user => {console.log(user.name)}); // Ann, John, Pete
+users.forEach(user => {
+  console.log(user.name);
+}); // Ann, John, Pete
 
 users.sort(byField("age"));
-users.forEach(user => {console.log(user.name)}); // Pete, Ann, John
+users.forEach(user => {
+  console.log(user.name);
+}); // Pete, Ann, John
 
 function makeArmy() {
   let shooters = [];

@@ -1,4 +1,4 @@
-// Interaction: alert, prompt, confirm
+// Interaction: console.log, prompt, confirm
 
 console.log("Hello"); // stops scripts
 

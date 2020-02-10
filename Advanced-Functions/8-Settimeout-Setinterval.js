@@ -12,16 +12,16 @@ setTimeout(sayHi, 1000);
 
 // With arguments:
 function sayHi(phrase, who) {
-  console.log(phrase + ', ' + who);
+  console.log(phrase + ", " + who);
 }
 
-setTimeout(sayHi, 1000, 'Hello', 'John');
+setTimeout(sayHi, 1000, "Hello", "John");
 
 // If the first argument is a string, then JS will create a function from it:
 setTimeout("console.log('Hi')", 1000); // This should work, but this does not
 
 // But using strings is not recommended. Use functions instead. For example, like this:
-setTimeout(() => console.log('Hi'), 1000); // Hi
+setTimeout(() => console.log("Hi"), 1000); // Hi
 
 // Be attentive:
 // WRONG:
@@ -44,10 +44,12 @@ console.log(timerId); // the same identifier (not null after cancellation)
 // setInterval
 
 // retry every 2 seconds
-let timerId = setInterval(() => console.log('tick'), 1000);
+let timerId = setInterval(() => console.log("tick"), 1000);
 
 // stop after 5 seconds
-setTimeout(() => {clearInterval(timerId)}, 5000);
+setTimeout(() => {
+  clearInterval(timerId);
+}, 5000);
 
 // Recursive setTimeout
 
@@ -56,7 +58,7 @@ setTimeout(() => {clearInterval(timerId)}, 5000);
 */
 
 let timerId = setTimeout(function tick() {
-  console.log('tick');
+  console.log("tick");
   timerId = setTimeout(tick, 2000);
 }, 2000);
 
@@ -67,7 +69,7 @@ let timerId = setTimeout(function tick() {
 let delay = 5000;
 
 let timerId = setTimeout(function request() {
-...отправить запрос...
+// ...отправить запрос...
 
   if (ошибка запроса из-за перегрузки сервера) {
     // увеличить интервал для следующего запроса
@@ -102,7 +104,8 @@ let times = [];
 setTimeout(function run() {
   times.push(Date.now() - start); // запоминаем задержку от предыдущего вызова
 
-  if (start + 100 < Date.now()) console.log(times); // показываем задержку через 100 мс
+  if (start + 100 < Date.now()) console.log(times);
+  // показываем задержку через 100 мс
   else setTimeout(run); // если нужно ещё запланировать
 });
 
@@ -120,7 +123,7 @@ function printNumbers(from, to) {
     } else {
       result++;
     }
-  }, 1000)
+  }, 1000);
 }
 
 function printNumbers(from, to) {
@@ -131,7 +134,7 @@ function printNumbers(from, to) {
       setTimeout(run, 1000);
     }
     result++;
-  }, 1000)
+  }, 1000);
 }
 
 printNumbers(1, 10);

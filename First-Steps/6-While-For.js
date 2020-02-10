@@ -32,7 +32,7 @@ for (let i = 0; i < 3; i++) {
   console.log(i);
 }
 
-// for (let i = 0; i < 3; i++) alert(i)
+// for (let i = 0; i < 3; i++) console.log(i)
 
 // Выполнить начало
 let i = 0;

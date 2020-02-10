@@ -32,7 +32,7 @@ function showName() {
   console.log(arguments[1]);
 
   // Объект arguments можно перебирать
-  // for (let arg of arguments) alert(arg);
+  // for (let arg of arguments) console.log(arg);
 }
 
 // Вывод: 2, Юлий, Цезарь
@@ -61,7 +61,7 @@ let merged = [...arr1, ...arr2];
 
 console.log(merged); // [1, -2, 3, 4, 8, 3, -8, 1]
 
-let str = 'Привет';
+let str = "Привет";
 console.log(...str); // П р и в е т
 console.log([...str]); // [ 'П', 'р', 'и', 'в', 'е', 'т' ]
 console.log(Array.from(str)); // [ 'П', 'р', 'и', 'в', 'е', 'т' ]

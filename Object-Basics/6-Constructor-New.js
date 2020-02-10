@@ -6,8 +6,8 @@ function CreateUser(name) {
 }
 
 let user = new CreateUser("Вася");
-alert(user.name); // Вася
-alert(this.isAdmin); // false
+console.log(user.name); // Вася
+console.log(this.isAdmin); // false
 
 let user = {
   name: "Вася",
@@ -15,7 +15,7 @@ let user = {
 };
 
 function User() {
-  alert(new.target);
+  console.log(new.target);
 }
 
 // без "new":
@@ -31,7 +31,7 @@ function User(name) {
   this.name = name;
 }
 let vasya = User("Вася"); // переадресовывает вызовы на new User
-alert(vasya.name); // Вася
+console.log(vasya.name); // Вася
 
 function BigUser() {
   this.name = "Вася";
@@ -39,7 +39,7 @@ function BigUser() {
   return { name: "Godzilla" }; // <-- возвращает этот объект
 }
 
-alert(new BigUser().name); // Godzilla, получили этот объект
+console.log(new BigUser().name); // Godzilla, получили этот объект
 
 function SmallUser() {
   this.name = "Вася";
@@ -47,7 +47,7 @@ function SmallUser() {
   return; // <-- возвращает this
 }
 
-alert(new SmallUser().name); // Вася
+console.log(new SmallUser().name); // Вася
 
 function SmallUser() {
   this.name = "Вася";
@@ -55,7 +55,7 @@ function SmallUser() {
   return; // <-- возвращает this
 }
 
-alert(new SmallUser().name); // Вася
+console.log(new SmallUser().name); // Вася
 
 let user = new User();
 // то же, что и
@@ -64,7 +64,7 @@ let user = new User();
 function User(name) {
   this.name = name;
   this.sayHi = function() {
-    alert("My name is " + this.name);
+    console.log("My name is " + this.name);
   };
 }
 

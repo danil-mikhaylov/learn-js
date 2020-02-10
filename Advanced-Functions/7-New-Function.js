@@ -1,7 +1,7 @@
 // General syntax:
 // let func = new Function([arg1, arg2, ...argN], functionBody);
 
-let sum = new Function('a', 'b', 'return a + b');
+let sum = new Function("a", "b", "return a + b");
 
 console.log(sum(1, 2)); // 3
 
@@ -11,7 +11,7 @@ let sayHi = new Function('console.log("Hello")');
 sayHi(); // Hello
 
 // new Function() allows you to turn any string into a function:
-let str = ...the code recieved from the server dynamically...
+// let str = ...the code recieved from the server dynamically...
 
 let func = new Function(str);
 func();
@@ -43,9 +43,9 @@ getFunc()(); // "test", from the lexical environment of the getFunc() function
 // Total:
 
 // These three declarations are equivalent:
-new Function('a', 'b', 'return a + b'); // standard syntax
-new Function('a,b', 'return a + b'); // через запятую на одной строке
-new Function('a , b', 'return a + b'); // через запятую с пробелами в одной строке
+new Function("a", "b", "return a + b"); // standard syntax
+new Function("a,b", "return a + b"); // через запятую на одной строке
+new Function("a , b", "return a + b"); // через запятую с пробелами в одной строке
 
 /*
   Function declared through new Function() have [[Environment]] referring to the global lexical environment,

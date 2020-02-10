@@ -68,28 +68,27 @@ let list = {
     }
   }
 };
-let second_list = {value: 1};
-second_list.next = {value: 2};
-second_list.next.next = {value: 3};
-second_list.next.next.next = {value: 4};
-
+let second_list = { value: 1 };
+second_list.next = { value: 2 };
+second_list.next.next = { value: 3 };
+second_list.next.next.next = { value: 4 };
 
 console.log(list); // { value: 1, next: { value: 2, next: { value: 3, next: [Object] } } }
 console.log(second_list); // { value: 1, next: { value: 2, next: { value: 3, next: [Object] } } }
 
-list = {value: 0, next: list};
+list = { value: 0, next: list };
 console.log(list); // { value: 1, next: { value: 2, next: { value: 3, next: [Object] } } }
 
 // Homework
 
-console.time('form');
+console.time("form");
 function sumTo(number) {
   return (number * (number + 1)) / 2;
 }
 console.log(sumTo(10000)); // 50005000
-console.timeEnd('form'); // form: 4.141ms
+console.timeEnd("form"); // form: 4.141ms
 
-console.time('cycle');
+console.time("cycle");
 function sumToCycle(number) {
   let sum = 0;
   for (let i = number; i > 0; i--) {
@@ -98,14 +97,14 @@ function sumToCycle(number) {
   return sum;
 }
 console.log(sumToCycle(10000)); // 50005000
-console.timeEnd('cycle'); // cycle: 0.225ms
+console.timeEnd("cycle"); // cycle: 0.225ms
 
-console.time('recursive');
+console.time("recursive");
 function sumToRecursive(number) {
   return number === 1 ? number : number + sumToRecursive(number - 1);
 }
 console.log(sumToRecursive(10000)); // 50005000
-console.timeEnd('recursive'); // recursive: 0.913m
+console.timeEnd("recursive"); // recursive: 0.913m
 
 function factorial(number) {
   let res = number;

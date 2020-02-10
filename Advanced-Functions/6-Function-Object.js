@@ -30,7 +30,6 @@ let user = {
 console.log(user.sayHi.name); // sayHi
 console.log(user.sayBye.name); // sayBye
 
-
 // If it's impossible to get the name, the name is an empty string:
 let arr = [function() {}];
 
@@ -60,7 +59,11 @@ function ask(question, ...handlers) {
 
 // for positive responses, both types of handlers are called
 // for negative - only the second type
-ask("Вопрос?", () => alert('Вы ответили да'), result => alert(result));
+ask(
+  "Вопрос?",
+  () => console.log("Вы ответили да"),
+  result => console.log(result)
+);
 
 // User properties
 
@@ -133,18 +136,18 @@ console.log(counter.count); // 10
 
 // For example, lets declare Function Expression:
 let sayHi = function(who) {
-  console.log(`Hello, ${who}`)
+  console.log(`Hello, ${who}`);
 };
 
 // And give him a name:
 let sayHi = function func(who) {
-  console.log(`Hello, ${who}`)
+  console.log(`Hello, ${who}`);
 };
 
 // First, function is still Function Expression
 // The function is still available as sayHi():
 let sayHi = function func(who) {
-  alert(`Hello, ${who}`);
+  console.log(`Hello, ${who}`);
 };
 
 sayHi("John"); // Hello, John

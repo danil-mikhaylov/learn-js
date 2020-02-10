@@ -3,10 +3,11 @@
 result(a || b); // a OR b
 
 console.log(null || 2 || undefined); // 2
-console.log(console.log(1) || 2 || console.log(3)); // alert(...) = undefined
+console.log(console.log(1) || 2 || console.log(3)); // console.log(...) = undefined
 
 let hour = 9;
-if (hour < 10 || hour > 18) { // if: hour < 10 OR hour > 18:
+if (hour < 10 || hour > 18) {
+  // if: hour < 10 OR hour > 18:
   console.log("Офис закрыт.");
 }
 
@@ -32,7 +33,7 @@ console.log(x); // 1
 result(a && b); // a AND b
 
 console.log(1 && null && 2); // null
-console.log(console.log(1) && console.log(2)); // 1, undefined, because alert returns undefined
+console.log(console.log(1) && console.log(2)); // 1, undefined, because console.log returns undefined
 
 console.log(true && true); // true
 console.log(false && true); // false
@@ -61,7 +62,7 @@ console.log(null && 5); // null
 console.log(0 && "no matter what"); // 0
 
 let x = 1;
-x > 0 && console.log("Greater than zero!"); // alert() works only if x > 1 (Replacement for 'if')
+x > 0 && console.log("Greater than zero!"); // console.log() works only if x > 1 (Replacement for 'if')
 
 let x = 1;
 if (x > 0) {
@@ -76,12 +77,12 @@ console.log(null || (2 && 3) || 4); // 3, 1 - ничего, считается �
 
 age = console.log("enter your age");
 if (!(age >= 14 && age <= 90)) {
-  print("Вы входите в диапозог");
+  console.log("Вы входите в диапозог");
 }
 
 age = console.log("enter your age");
 if (age >= 14 && age <= 90) {
-  print("Вы входите в диапозог");
+  console.log("Вы входите в диапозог");
 }
 
 if (-1 || 0) console.log("first"); // first, т.к. (-1) != false

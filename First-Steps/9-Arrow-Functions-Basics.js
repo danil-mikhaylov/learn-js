@@ -1,6 +1,3 @@
-// // ИСПОЛЬЗОВАНИЕ НОВОГО js
-"use strict";
-
 // СТРЕЛОЧНЫЕ ФУНКЦИИ
 
 let func = function(arg1, arg2) {
@@ -20,13 +17,13 @@ let sum = function(a, b) {
 // то же что и
 // let double = function(n) { return n * 2 }
 let double = n => n * 2;
-alert(double(3)); // 6
+console.log(double(3)); // 6
 
 // Если нет аргументов, указываются пустые круглые скобки:
-let SayHi = () => alert("Hello!");
+let SayHi = () => console.log("Hello!");
 
 let age = prompt("Сколько вам лет?");
-let welcome = age < 18 ? () => alert("Привет!") : () => alert("Здравствуйте!");
+let welcome = age < 18 ? () => console.log("Привет!") : () => console.log("Здравствуйте!");
 welcome();
 
 // Заключение более сложного выражения требует {...}:
@@ -34,7 +31,7 @@ let sum = (a, b) => {
   // фигурная скобка, открывающая тело многострочной функции
   return a + b; // при фигурных скобках для возврата значения нужно явно вызвать return
 };
-alert(sum(1, 2)); // 3
+console.log(sum(1, 2)); // 3
 
 function ask(question, yes, no) {
   if (confirm(question)) yes();
@@ -42,6 +39,6 @@ function ask(question, yes, no) {
 }
 ask(
   "Вы согласны?",
-  () => alert("Вы согласились."),
-  () => alert("Вы отменили выполнение.")
+  () => console.log("Вы согласились."),
+  () => console.log("Вы отменили выполнение.")
 );

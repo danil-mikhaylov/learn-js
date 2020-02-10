@@ -4,7 +4,6 @@ if (true) {
 
 console.log(test); // true, переменная существует вне блока if
 
-
 if (true) {
   let test = true; // используем let
 }
