@@ -1,12 +1,13 @@
-// ИСПОЛЬЗОВАНИЕ НОВОГО js
-'use strict';
+// Interaction: alert, prompt, confirm
 
-// ВЗАИМОДЕЙСТВИЕ: alert, prompt, confirm
+console.log("Hello"); // stops scripts
 
-alert('Hello'); // Останавливает работу скриптов
+let isBoss = confirm("Ты здесь главный?"); // isBoss = true if "OK" is pressed and equals to false if "cancel" pr.
+console.log(isBoss); // true, because "OK" is pressed
 
-let isBoss = confirm("Ты здесь главный?"); // isBoss становится true, если нажата "ОК" и становится false, если нажата кнопка "Отмена"
-alert( isBoss ); // true, так как нажата OK
-
-let age = prompt('Сколько тебе лет?', 100); 
-alert(`Тебе ${age} лет!`); // Тебе 100 лет!; Вернёт 100, если введено 100. Также вернёт null, если нажата отмена.
+let age = prompt("Сколько тебе лет?", 100);
+console.log(`Тебе ${age} лет!`); // Тебе 100 лет!
+/*
+  If 100 is entered, then 100 will be returned.
+  If nothing is entered, then 'null' will be returned.
+ */
