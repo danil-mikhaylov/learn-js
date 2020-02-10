@@ -1,95 +1,92 @@
-// ИСПОЛЬЗОВАНИЕ НОВОГО js
-"use strict";
+// Logical operators
 
-// ЛОГИЧЕСКИЕ ОПЕРАТОРЫ
+result(a || b); // a OR b
 
-result(a || b); // a ИЛИ b
-
-alert(null || 2 || undefined); //2
-alert(alert(1) || 2 || alert(3)); // Вызов alert не возвращает значения, или, иначе говоря, возвращает undefined.
+console.log(null || 2 || undefined); // 2
+console.log(console.log(1) || 2 || console.log(3)); // alert(...) = undefined
 
 let hour = 9;
-if (hour < 10 || hour > 18) {
-  alert("Офис закрыт.");
+if (hour < 10 || hour > 18) { // if: hour < 10 OR hour > 18:
+  console.log("Офис закрыт.");
 }
 
-alert(1 || 0); // 1
-alert(true || "no matter what"); // true
-alert(null || 1); // 1 (первое истинное значение)
-alert(null || 0 || 1); // 1 (первое истинное значение)
-alert(undefined || null || 0); // 0 (поскольку все ложно, возвращается последнее значение)
+console.log(1 || 0); // 1
+console.log(true || "no matter what"); // true
+console.log(null || 1); // 1 (first 'true' value)
+console.log(null || 0 || 1); // 1 (first 'true' value)
+console.log(undefined || null || 0); // 0 (everything is false, so returns the last value)
 
 let currentUser = null;
 let defaultUser = "John";
 let name = currentUser || defaultUser || "unnamed";
-alert(name); // выбирается "John" – первое истинное значение
+console.log(name); // "John" – first 'true' value
 
 let x;
-true || (x = 1); // '||' проверяет: а первый - true? -да, значит x != 1;
-alert(x); // undefined, потому что (x = 1) не вычисляется
+true || (x = 1); // '||' Checking: first value is true? Yes, so x != 1
+console.log(x); // undefined
 
 let x;
-false || (x = 1); // Здесть 1-й аргумент - false, => будет исполняться второй
-alert(x); // 1
+false || (x = 1); // Here's the opposite: false, so do 'x = 1'
+console.log(x); // 1
 
-result(a && b); // a И b
+result(a && b); // a AND b
 
-alert(1 && null && 2); // null
-alert(alert(1) && alert(2)); // 1, а затем undefined, так как alert возвращает undefined
+console.log(1 && null && 2); // null
+console.log(console.log(1) && console.log(2)); // 1, undefined, because alert returns undefined
 
-alert(true && true); // true
-alert(false && true); // false
-alert(true && false); // false
-alert(false && false); // false
+console.log(true && true); // true
+console.log(false && true); // false
+console.log(true && false); // false
+console.log(false && false); // false
 
 let hour = 12;
 let minute = 30;
 if (hour == 12 && minute == 30) {
-  alert("The time is 12:30");
+  console.log("The time is 12:30");
 }
 
 if (1 && 0) {
-  // вычисляется как true && false
-  alert("не сработает, так как результат ложный");
+  // true and false, this does not work
+  console.log("не сработает, так как результат ложный");
 }
 
-// Если первый операнд истинный,
-// И возвращает второй:
-alert(1 && 0); // 0
-alert(1 && 5); // 5
+// If first operand is truthy:
+// 'AND' returns the second one
+console.log(1 && 0); // 0
+console.log(1 && 5); // 5
 
-// Если первый операнд ложный,
-// И возвращает его. Второй операнд игнорируется
-alert(null && 5); // null
-alert(0 && "no matter what"); // 0
+// If first operand is falsy:
+// 'AND' returns it.
+console.log(null && 5); // null
+console.log(0 && "no matter what"); // 0
 
 let x = 1;
-x > 0 && alert("Greater than zero!"); // alert() сработает, только если x > 1, замена if'a
+x > 0 && console.log("Greater than zero!"); // alert() works only if x > 1 (Replacement for 'if')
 
 let x = 1;
 if (x > 0) {
-  alert("Greater than zero!");
+  console.log("Greater than zero!");
 }
 
 result = !value; // НЕ
-alert(!true); // false
-alert(!0); // true
+console.log(!true); // false
+console.log(!0); // true
 
-alert(null || (2 && 3) || 4); // 3, 1 - ничего, считается второй аргумент. Если &&, то выводится последний результат.
+console.log(null || (2 && 3) || 4); // 3, 1 - ничего, считается второй аргумент. Если &&, то выводится последний результат.
 
-age = alert("enter your age");
+age = console.log("enter your age");
 if (!(age >= 14 && age <= 90)) {
   print("Вы входите в диапозог");
 }
 
-age = alert("enter your age");
+age = console.log("enter your age");
 if (age >= 14 && age <= 90) {
   print("Вы входите в диапозог");
 }
 
-if (-1 || 0) alert("first"); // first, т.к. (-1) != false
-if (-1 && 0) alert("second"); // nothing
-if (null || (-1 && 1)) alert("third"); // Там считается второй аргумент в И, а если один из аргументов И равен 1, значит пишем его.
+if (-1 || 0) console.log("first"); // first, т.к. (-1) != false
+if (-1 && 0) console.log("second"); // nothing
+if (null || (-1 && 1)) console.log("third"); // Там считается второй аргумент в И, а если один из аргументов И равен 1, значит пишем его.
 
 let login;
 let password;
@@ -97,19 +94,19 @@ login = prompt("enter login");
 if (login === "Админ") {
   password = prompt("enter password");
   if (password == "Я главный") {
-    alert("Здравствуйте");
+    console.log("Здравствуйте");
   }
   if (password != "Я главный" && password != null) {
-    alert("Неверный пароль");
+    console.log("Неверный пароль");
   }
   if (password === "" || password === null) {
-    alert("Отменено");
+    console.log("Отменено");
   }
 } else if (login != "Админ") {
   if (login === "" || login == null) {
-    alert("Отменено");
+    console.log("Отменено");
   } else {
-    alert("Я вас не знаю");
+    console.log("Я вас не знаю");
   }
 }
 
