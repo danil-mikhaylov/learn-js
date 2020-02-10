@@ -1,22 +1,22 @@
-// ИСПОЛЬЗОВАНИЕ НОВОГО js
-'use strict';
+// Using new JS
+"use strict";
 
-// ПРЕОБРАЗОВАНИЯ ТИПОВ
+// Type conversions
 
+// Boolean
 let value = true;
-console.log('value =', value, 'type =',typeof(value)); // value = true type = boolean
+console.log("value =", value, "type =", typeof value); // value = true type = boolean
 
-value = +value // Числовое преоборазовние
-console.log('value =', value, 'type =',typeof(value)); // value = 1 type = number
+// Numerical conversions
+value = +value;
+console.log("value =", value, "type =", typeof value); // value = 1 type = number
 
-value = String(value) // Строковое преоброзование
-console.log('value =', value, 'type =',typeof(value)); // value = 1 type = string
+// String conversions
+value = String(value);
+console.log("value =", value, "type =", typeof value); // value = 1 type = string
 
-Number('123') // 123    
-Number('123z') // NaN
-Number(true) // 1
-Number(false) // 0
-
-
-
-
+// Some examples of Number(...) conversion:
+Number("123"); // 123
+Number("123z"); // NaN
+Number(true); // 1
+Number(false); // 0

@@ -189,8 +189,8 @@
 // hash(1,2);
 
 // Nonetheless, there is the simplest way to use an array connection:
-function hash() {
-  console.log([].join.call(arguments)) // 1,2
-}
-
-hash(1, 2);
+// function hash() {
+//   console.log([].join.call(arguments)) // 1,2
+// }
+//
+// hash(1, 2);
