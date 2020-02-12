@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7dd70e85-7f3a-44f0-845b-732c3c2af3a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Advanced-Functions/9.1-Youtube-version.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Functions/JavaScript prototype.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/face-api.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youtube-features/1.Protoype.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youtube-features/2.call-apply.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youtube-features/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Advanced-Functions/9-Call-Apply-Decorators.js" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced-Functions/9-Call-Apply-Decorators.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepik.org/css.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepik.org/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepik.org/javascript.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +76,7 @@
       <recent name="C:\Users\danil\Desktop\Learn-JS\Data-Types" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.1.Protoype.js">
+  <component name="RunManager" selected="Node.js.9-Call-Apply-Decorators.js">
     <configuration name="1.Protoype.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/youtube-features/1.Protoype.js" working-dir="$PROJECT_DIR$/youtube-features">
       <method v="2" />
     </configuration>
@@ -105,10 +94,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.9-Call-Apply-Decorators.js" />
         <item itemvalue="Node.js.1.Protoype.js" />
         <item itemvalue="Node.js.2.call-apply.js" />
         <item itemvalue="Node.js.JavaScript prototype.js" />
-        <item itemvalue="Node.js.9-Call-Apply-Decorators.js" />
         <item itemvalue="Node.js.first.js" />
       </list>
     </recent_temporary>
@@ -171,7 +160,8 @@
       <workItem from="1581323376273" duration="16972000" />
       <workItem from="1581349649570" duration="117000" />
       <workItem from="1581431289560" duration="2354000" />
-      <workItem from="1581437234454" duration="2928000" />
+      <workItem from="1581437234454" duration="3066000" />
+      <workItem from="1581519715679" duration="1898000" />
     </task>
     <task id="LOCAL-00001" summary="12345">
       <created>1578324863547</created>
@@ -425,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581349715340</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="11-02-2020">
+      <created>1581440293297</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1581440293297</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +440,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="desctructuring-assigments-ended" />
     <MESSAGE value="data-finished" />
     <MESSAGE value="test-commit" />
     <MESSAGE value="new-chapter" />
@@ -468,7 +464,8 @@
     <MESSAGE value="meow" />
     <MESSAGE value="meow-2" />
     <MESSAGE value="is" />
-    <option name="LAST_COMMIT_MESSAGE" value="is" />
+    <MESSAGE value="11-02-2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="11-02-2020" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="176" key="#ESLint" timestamp="1578398217336">
@@ -501,11 +498,11 @@
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state x="717" y="326" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1578401073775" />
-    <state x="447" y="15" key="CommitChangelistDialog2" timestamp="1581349714605">
+    <state x="447" y="15" key="CommitChangelistDialog2" timestamp="1581440292752">
       <screen x="0" y="0" width="2137" height="1162" />
     </state>
     <state x="583" y="13" key="CommitChangelistDialog2/0.0.1920.1034@0.0.1920.1034" timestamp="1579016871340" />
-    <state x="447" y="15" key="CommitChangelistDialog2/0.0.2137.1162@0.0.2137.1162" timestamp="1581349714605" />
+    <state x="447" y="15" key="CommitChangelistDialog2/0.0.2137.1162@0.0.2137.1162" timestamp="1581440292752" />
     <state x="92" y="92" width="1736" height="850" key="DiffContextDialog" timestamp="1578402958057">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
@@ -519,26 +516,26 @@
       <screen x="0" y="0" width="2137" height="1162" />
     </state>
     <state x="929" y="511" key="Github.Dialog.Accounts.Choose/0.0.2137.1162@0.0.2137.1162" timestamp="1579459210406" />
-    <state width="2115" height="236" key="GridCell.Tab.0.bottom" timestamp="1581439962637">
+    <state width="2115" height="236" key="GridCell.Tab.0.bottom" timestamp="1581521419252">
       <screen x="0" y="0" width="2137" height="1162" />
     </state>
     <state width="1899" height="206" key="GridCell.Tab.0.bottom/0.0.1920.1034@0.0.1920.1034" timestamp="1579378044517" />
-    <state width="2115" height="236" key="GridCell.Tab.0.bottom/0.0.2137.1162@0.0.2137.1162" timestamp="1581439962637" />
-    <state width="2115" height="236" key="GridCell.Tab.0.center" timestamp="1581439962637">
+    <state width="2115" height="236" key="GridCell.Tab.0.bottom/0.0.2137.1162@0.0.2137.1162" timestamp="1581521419252" />
+    <state width="2115" height="236" key="GridCell.Tab.0.center" timestamp="1581521419252">
       <screen x="0" y="0" width="2137" height="1162" />
     </state>
     <state width="1899" height="206" key="GridCell.Tab.0.center/0.0.1920.1034@0.0.1920.1034" timestamp="1579378044517" />
-    <state width="2115" height="236" key="GridCell.Tab.0.center/0.0.2137.1162@0.0.2137.1162" timestamp="1581439962637" />
-    <state width="2115" height="236" key="GridCell.Tab.0.left" timestamp="1581439962637">
+    <state width="2115" height="236" key="GridCell.Tab.0.center/0.0.2137.1162@0.0.2137.1162" timestamp="1581521419252" />
+    <state width="2115" height="236" key="GridCell.Tab.0.left" timestamp="1581521419252">
       <screen x="0" y="0" width="2137" height="1162" />
     </state>
     <state width="1899" height="206" key="GridCell.Tab.0.left/0.0.1920.1034@0.0.1920.1034" timestamp="1579378044516" />
-    <state width="2115" height="236" key="GridCell.Tab.0.left/0.0.2137.1162@0.0.2137.1162" timestamp="1581439962637" />
-    <state width="2115" height="236" key="GridCell.Tab.0.right" timestamp="1581439962637">
+    <state width="2115" height="236" key="GridCell.Tab.0.left/0.0.2137.1162@0.0.2137.1162" timestamp="1581521419252" />
+    <state width="2115" height="236" key="GridCell.Tab.0.right" timestamp="1581521419252">
       <screen x="0" y="0" width="2137" height="1162" />
     </state>
     <state width="1899" height="206" key="GridCell.Tab.0.right/0.0.1920.1034@0.0.1920.1034" timestamp="1579378044517" />
-    <state width="2115" height="236" key="GridCell.Tab.0.right/0.0.2137.1162@0.0.2137.1162" timestamp="1581439962637" />
+    <state width="2115" height="236" key="GridCell.Tab.0.right/0.0.2137.1162@0.0.2137.1162" timestamp="1581521419252" />
     <state width="2115" height="374" key="GridCell.Tab.1.bottom" timestamp="1581349628564">
       <screen x="0" y="0" width="2137" height="1162" />
     </state>
@@ -608,11 +605,11 @@
     </state>
     <state x="447" y="140" key="SettingsEditor/0.0.1920.1034@0.0.1920.1034" timestamp="1579105980774" />
     <state x="659" y="270" key="SettingsEditor/0.0.2137.1162@0.0.2137.1162" timestamp="1579529837116" />
-    <state x="614" y="278" key="Vcs.Push.Dialog.v2" timestamp="1581349717643">
+    <state x="614" y="278" key="Vcs.Push.Dialog.v2" timestamp="1581440296125">
       <screen x="0" y="0" width="2137" height="1162" />
     </state>
     <state x="552" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1034@0.0.1920.1034" timestamp="1579016876013" />
-    <state x="614" y="278" key="Vcs.Push.Dialog.v2/0.0.2137.1162@0.0.2137.1162" timestamp="1581349717643" />
+    <state x="614" y="278" key="Vcs.Push.Dialog.v2/0.0.2137.1162@0.0.2137.1162" timestamp="1581440296125" />
     <state x="92" y="92" width="1736" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1578324501425">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
