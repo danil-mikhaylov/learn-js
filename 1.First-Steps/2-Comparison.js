@@ -1,4 +1,4 @@
-// Comparison operators
+// Операторы сравнения
 
 console.log(1 > 2); // true
 console.log(2 == 1); // false
@@ -16,8 +16,8 @@ console.log(a == b); // true!
 console.log(0 == false); // true
 console.log("" == false); //true
 
-// "===" - Comparison without type conversions
+// "===" - Сравнение без преобразования типов
 
-console.log(0 === false); // false, as different types are compared
+console.log(0 === false); // false, потому что разные типы сравниваются
 console.log(null == undefined); // true
 console.log(null === undefined); // false

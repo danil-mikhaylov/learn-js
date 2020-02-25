@@ -1,21 +1,21 @@
 // Using new JS
 "use strict";
 
-// Type conversions
+// Типы преобразований
 
 // Boolean
 let value = true;
 console.log("value =", value, "type =", typeof value); // value = true type = boolean
 
-// Numerical conversions
+// Числовые преобразования
 value = +value;
 console.log("value =", value, "type =", typeof value); // value = 1 type = number
 
-// String conversions
+// Строковые преобразования
 value = String(value);
 console.log("value =", value, "type =", typeof value); // value = 1 type = string
 
-// Some examples of Number(...) conversion:
+// Примеры Number(...) преобразований:
 Number("123"); // 123
 Number("123z"); // NaN
 Number(true); // 1
