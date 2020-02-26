@@ -70,4 +70,3 @@ let user = {
   name: "John",
   prototype: "Bla-Bla" // никакой магии нет - обычное свойство
 };
-
