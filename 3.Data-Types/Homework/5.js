@@ -172,7 +172,8 @@ console.log(arr[2].name); // Петя
 // Перемешать массив
 let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]; // Есть массив
 function shuffle(array) {
-  for (let i = array.length - 1; i > 0; i--) { // А...
+  for (let i = array.length - 1; i > 0; i--) {
+    // А...
     let j = Math.floor(Math.random() * (i + 1));
     let t = array[i];
     array[i] = array[j];

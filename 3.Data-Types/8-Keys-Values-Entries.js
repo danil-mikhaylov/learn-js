@@ -20,30 +20,3 @@ let prices = {
 let doublePrices = Object.fromEntries(
   Object.entries(prices).map(([key, value]) => [key, value * 2])
 );
-
-let salaries = {
-  John: 100,
-  Pete: 300,
-  Mary: 250
-};
-
-function sumSalaries(obj) {
-  let sum = 0;
-  for (let value of Object.values(obj)) {
-    sum += value;
-  }
-  return sum;
-
-  // return Object.values(obj).reduce((total, currentValue) => total + currentValue);
-}
-console.log(sumSalaries(salaries));
-let user = {
-  name: "John",
-  age: 30
-};
-
-function count(obj) {
-  return Object.values(obj).length;
-}
-
-console.log(count(user)); // 2

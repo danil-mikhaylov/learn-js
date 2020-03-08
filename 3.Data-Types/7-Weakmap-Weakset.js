@@ -69,32 +69,3 @@ console.log(visitedSet.has(mary)); // false
 john = null;
 
 // структура данных visitedSet будет очищена автоматически
-
-let messages = [
-  { text: "Hello", from: "John" },
-  { text: "How goes?", from: "John" },
-  { text: "See you soon", from: "Alice" }
-];
-
-let readMessages = new WeakSet();
-
-readMessages.add(messages[0]);
-readMessages.add(messages[1]);
-readMessages.add(messages[0]);
-console.log("Read message 0: " + readMessages.has(messages[0]));
-console.log("Read message 1: " + readMessages.has(messages[1]));
-console.log("Read message 2: " + readMessages.has(messages[2]));
-
-let messages = [
-  { text: "Hello", from: "John" }, // 0
-  { text: "How goes?", from: "John" }, // 1
-  { text: "See you soon", from: "Alice" } // 2
-];
-
-let readMap = new Map();
-readMap.set(messages[0], new Date(2019, 8, 1, 19));
-readMap.set(messages[1], new Date(2019, 8, 1, 19));
-
-console.log(readMap.has(messages[0])); // true
-console.log(readMap.has(messages[1])); // true
-console.log(readMap.has(messages[2])); // false
