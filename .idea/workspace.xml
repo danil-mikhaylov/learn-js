@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7dd70e85-7f3a-44f0-845b-732c3c2af3a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/4.Advanced-Functions/Homework/3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.Advanced-Functions/Homework/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/4.Advanced-Functions/Homework/1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youtube-features/console/async-await.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/youtube-features/console/console-log.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/youtube-features/console/destructuring.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/youtube-features/console/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/youtube-features/console/loops.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/youtube-features/console/rest-params.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/youtube-features/console/spread-syntax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/youtube-features/console/template-literals.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +65,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="js.last.introduce.type" value="LET" />
-    <property name="last_opened_file_path" value="$USER_HOME$/node_modules/prettier" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/youtube-features" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.jscs" value="true" />
@@ -89,7 +82,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="project" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$USER_HOME$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.44744456" />
   </component>
   <component name="RecentsManager">
@@ -98,7 +91,7 @@
       <recent name="C:\Users\danil\Desktop\Learn-JS\Data-Types" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.1.js">
+  <component name="RunManager" selected="Node.js.3.js (1)">
     <configuration name="10-Date.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/3.Data-Types/10-Date.js" working-dir="$PROJECT_DIR$/3.Data-Types">
       <method v="2" />
     </configuration>
@@ -108,19 +101,19 @@
     <configuration name="1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/4.Advanced-Functions/Homework/1.js" working-dir="$PROJECT_DIR$/4.Advanced-Functions/Homework">
       <method v="2" />
     </configuration>
-    <configuration name="3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/3.Data-Types/Homework/3.js" working-dir="$PROJECT_DIR$/3.Data-Types/Homework">
+    <configuration name="3.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/4.Advanced-Functions/Homework/3.js" working-dir="$PROJECT_DIR$/4.Advanced-Functions/Homework">
       <method v="2" />
     </configuration>
-    <configuration name="7.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/3.Data-Types/Homework/7.js" working-dir="$PROJECT_DIR$/3.Data-Types/Homework">
+    <configuration name="3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/3.Data-Types/Homework/3.js" working-dir="$PROJECT_DIR$/3.Data-Types/Homework">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.3.js (1)" />
         <item itemvalue="Node.js.1.js" />
         <item itemvalue="Node.js.10.js" />
         <item itemvalue="Node.js.10-Date.js" />
         <item itemvalue="Node.js.3.js" />
-        <item itemvalue="Node.js.7.js" />
       </list>
     </recent_temporary>
   </component>
@@ -214,14 +207,9 @@
       <workItem from="1583738535905" duration="2363000" />
       <workItem from="1583740935048" duration="388000" />
       <workItem from="1583741369416" duration="104000" />
-      <workItem from="1583741505016" duration="744000" />
-    </task>
-    <task id="LOCAL-00001" summary="12345">
-      <created>1578324863547</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1578324863548</updated>
+      <workItem from="1583741505016" duration="4323000" />
+      <workItem from="1583746392779" duration="313000" />
+      <workItem from="1583746735703" duration="1783000" />
     </task>
     <task id="LOCAL-00002" summary="12345">
       <created>1578324962441</created>
@@ -559,7 +547,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583694656305</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="1">
+      <created>1583742308373</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1583742308374</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -577,7 +572,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="I finished a chapter &quot;Function Object&quot;" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/youtube-features/console/code-this-not-that-js" />
+    </ignored-roots>
     <MESSAGE value="I finished a chapter &quot;new Function(...)&quot;" />
     <MESSAGE value="I finished a chapter &quot;setTimeout-setInterval&quot;" />
     <MESSAGE value="last-change-commit" />
@@ -602,9 +599,14 @@
     <MESSAGE value="BIG COMMIT!" />
     <MESSAGE value="ANOTHER ONE BIG COMMIT!" />
     <MESSAGE value="console" />
-    <option name="LAST_COMMIT_MESSAGE" value="console" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="379" y="176" key="#Custom_Plugin_Repositories" timestamp="1583742656897">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="379" y="176" key="#Custom_Plugin_Repositories/0.0.1920.1080@0.0.1920.1080" timestamp="1583742656897" />
     <state x="552" y="176" key="#ESLint" timestamp="1578398217336">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
@@ -617,11 +619,11 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="560" y="214" width="800" height="674" key="#JSHint/0.27.1920.1053@0.27.1920.1053" timestamp="1582128847523" />
-    <state x="552" y="184" width="800" height="682" key="#Notifications" timestamp="1583740991783">
+    <state x="552" y="184" width="800" height="682" key="#Notifications" timestamp="1583746784633">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="176" key="#Notifications/0.0.1920.1034@0.0.1920.1034" timestamp="1578322620196" />
-    <state x="552" y="184" width="800" height="682" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1583740991783" />
+    <state x="552" y="184" width="800" height="682" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1583746784633" />
     <state x="614" y="198" key="#Notifications/0.0.2137.1162@0.0.2137.1162" timestamp="1579619963977" />
     <state x="457" y="129" key="#Prettier" timestamp="1582047073292">
       <screen x="0" y="27" width="1920" height="1053" />
@@ -645,22 +647,22 @@
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state x="717" y="326" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1578401073775" />
-    <state x="402" y="14" width="1055" height="1013" key="CommitChangelistDialog2" timestamp="1583694656061">
+    <state x="402" y="14" width="1055" height="1013" key="CommitChangelistDialog2" timestamp="1583742307806">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="583" y="13" key="CommitChangelistDialog2/0.0.1920.1034@0.0.1920.1034" timestamp="1579016871340" />
-    <state x="402" y="14" width="1055" height="1013" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1583694656061" />
+    <state x="402" y="14" width="1055" height="1013" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1583742307806" />
     <state x="447" y="15" key="CommitChangelistDialog2/0.0.2137.1162@0.0.2137.1162" timestamp="1582733330622" />
     <state x="402" y="41" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1582542356583" />
     <state x="92" y="92" width="1736" height="850" key="DiffContextDialog" timestamp="1578402958057">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state x="92" y="92" width="1736" height="850" key="DiffContextDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1578402958057" />
-    <state x="697" y="188" width="536" height="608" key="FileChooserDialogImpl" timestamp="1583688131323">
+    <state x="697" y="188" width="536" height="608" key="FileChooserDialogImpl" timestamp="1583746810685">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="697" y="180" key="FileChooserDialogImpl/0.0.1920.1034@0.0.1920.1034" timestamp="1578400801139" />
-    <state x="697" y="188" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1583688131323" />
+    <state x="697" y="188" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1583746810685" />
     <state x="776" y="202" key="FileChooserDialogImpl/0.0.2137.1162@0.0.2137.1162" timestamp="1581435282088" />
     <state x="697" y="210" width="536" height="608" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1582047070749" />
     <state x="835" y="475" width="332" height="154" key="Github.Dialog.Accounts.Choose" timestamp="1583694672513">
@@ -668,32 +670,32 @@
     </state>
     <state x="835" y="475" width="332" height="154" key="Github.Dialog.Accounts.Choose/0.0.1920.1080@0.0.1920.1080" timestamp="1583694672513" />
     <state x="929" y="511" key="Github.Dialog.Accounts.Choose/0.0.2137.1162@0.0.2137.1162" timestamp="1579459210406" />
-    <state width="1895" height="261" key="GridCell.Tab.0.bottom" timestamp="1583740847326">
+    <state width="1895" height="261" key="GridCell.Tab.0.bottom" timestamp="1583748399965">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1899" height="206" key="GridCell.Tab.0.bottom/0.0.1920.1034@0.0.1920.1034" timestamp="1579378044517" />
-    <state width="1895" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1583740847326" />
+    <state width="1895" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1583748399965" />
     <state width="2115" height="287" key="GridCell.Tab.0.bottom/0.0.2137.1162@0.0.2137.1162" timestamp="1582733375404" />
     <state width="1895" height="263" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1582547185543" />
-    <state width="1895" height="261" key="GridCell.Tab.0.center" timestamp="1583740847325">
+    <state width="1895" height="261" key="GridCell.Tab.0.center" timestamp="1583748399964">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1899" height="206" key="GridCell.Tab.0.center/0.0.1920.1034@0.0.1920.1034" timestamp="1579378044517" />
-    <state width="1895" height="261" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1583740847325" />
+    <state width="1895" height="261" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1583748399964" />
     <state width="2115" height="287" key="GridCell.Tab.0.center/0.0.2137.1162@0.0.2137.1162" timestamp="1582733375404" />
     <state width="1895" height="263" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1582547185542" />
-    <state width="1895" height="261" key="GridCell.Tab.0.left" timestamp="1583740847324">
+    <state width="1895" height="261" key="GridCell.Tab.0.left" timestamp="1583748399964">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1899" height="206" key="GridCell.Tab.0.left/0.0.1920.1034@0.0.1920.1034" timestamp="1579378044516" />
-    <state width="1895" height="261" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1583740847324" />
+    <state width="1895" height="261" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1583748399964" />
     <state width="2115" height="287" key="GridCell.Tab.0.left/0.0.2137.1162@0.0.2137.1162" timestamp="1582733375404" />
     <state width="1895" height="263" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1582547185540" />
-    <state width="1895" height="261" key="GridCell.Tab.0.right" timestamp="1583740847326">
+    <state width="1895" height="261" key="GridCell.Tab.0.right" timestamp="1583748399965">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1899" height="206" key="GridCell.Tab.0.right/0.0.1920.1034@0.0.1920.1034" timestamp="1579378044517" />
-    <state width="1895" height="261" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1583740847326" />
+    <state width="1895" height="261" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1583748399965" />
     <state width="2115" height="287" key="GridCell.Tab.0.right/0.0.2137.1162@0.0.2137.1162" timestamp="1582733375404" />
     <state width="1895" height="263" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1582547185543" />
     <state width="1895" height="329" key="GridCell.Tab.1.bottom" timestamp="1582554764966">
@@ -784,7 +786,7 @@
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state x="540" y="276" key="IDE.errors.dialog/0.0.1920.1034@0.0.1920.1034" timestamp="1578249188198" />
-    <state x="298" y="170" width="1368" height="735" key="SettingsEditor" timestamp="1583742253110">
+    <state x="402" y="116" width="1368" height="735" key="SettingsEditor" timestamp="1583746834863">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="184" y="0" key="SettingsEditor.inPresentationMode" timestamp="1583684225346">
@@ -792,14 +794,18 @@
     </state>
     <state x="184" y="0" key="SettingsEditor.inPresentationMode/0.0.1920.1080@0.0.1920.1080" timestamp="1583684225346" />
     <state x="447" y="140" key="SettingsEditor/0.0.1920.1034@0.0.1920.1034" timestamp="1579105980774" />
-    <state x="298" y="170" width="1368" height="735" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1583742253110" />
+    <state x="402" y="116" width="1368" height="735" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1583746834863" />
     <state x="659" y="270" key="SettingsEditor/0.0.2137.1162@0.0.2137.1162" timestamp="1582641924654" />
     <state x="575" y="200" width="1007" height="735" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1582543508140" />
-    <state x="552" y="258" width="800" height="537" key="Vcs.Push.Dialog.v2" timestamp="1583694661438">
+    <state width="507" height="448" key="SwitcherDM" timestamp="1583748656164">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="507" height="448" key="SwitcherDM/0.0.1920.1080@0.0.1920.1080" timestamp="1583748656164" />
+    <state x="552" y="258" width="800" height="537" key="Vcs.Push.Dialog.v2" timestamp="1583742319216">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1034@0.0.1920.1034" timestamp="1579016876013" />
-    <state x="552" y="258" width="800" height="537" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1583694661438" />
+    <state x="552" y="258" width="800" height="537" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1583742319216" />
     <state x="614" y="278" key="Vcs.Push.Dialog.v2/0.0.2137.1162@0.0.2137.1162" timestamp="1583425936411" />
     <state x="92" y="92" width="1736" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1578324501425">
       <screen x="0" y="0" width="1920" height="1034" />
@@ -813,11 +819,11 @@
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state x="756" y="297" key="git4idea.merge.GitMergeDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1578324759119" />
-    <state x="623" y="233" width="673" height="709" key="search.everywhere.popup" timestamp="1583689229348">
+    <state x="623" y="233" width="673" height="709" key="search.everywhere.popup" timestamp="1583747958678">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1034@0.0.1920.1034" timestamp="1578575459830" />
-    <state x="623" y="233" width="673" height="709" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1583689229348" />
+    <state x="623" y="233" width="673" height="709" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1583747958678" />
     <state x="693" y="251" width="748" height="762" key="search.everywhere.popup/0.0.2137.1162@0.0.2137.1162" timestamp="1582729553678" />
   </component>
 </project>
