@@ -1,4 +1,4 @@
-function slow(x) {
+Ffunction slow(x) {
   // Here are hard computations
   console.log(`Called with ${x}`);
   return x;

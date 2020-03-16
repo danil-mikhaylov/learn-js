@@ -30,7 +30,12 @@ Rabbit.prototype = {
 
 let rabbit = new Rabbit();
 
-Rabbit.prototype.eats = false; (*) Ну, мы конкретнь меняем, а штучка снизу зависит от того, что мы меняем
+Rabbit.prototype.eats = false; // (*)
+/*
+Объекты присваиваются по ссылке.
+Не создаётся копия Rabbit.prototype, это всегда один объект,
+на который ссылается и Rabbit.prototype, и [[Prototype]] объекта rabbit.
+ */
 
 console.log(rabbit.eats); // ? (false)
 
