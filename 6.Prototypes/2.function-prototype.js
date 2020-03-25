@@ -1,5 +1,5 @@
 let animal = {
-  eats: true
+  eats: true,
 };
 
 function Rabbit(name) {
@@ -43,7 +43,7 @@ let rabbit2 = new rabbit1.constructor("Black Rabbit");
 
 function Rabbit() {}
 Rabbit.prototype = {
-  jumps: true
+  jumps: true,
 };
 
 let rabbit = new Rabbit();
@@ -60,7 +60,7 @@ Rabbit.prototype.jumps = true;
 
 Rabbit.prototype = {
   jumps: true,
-  constructor: Rabbit
+  constructor: Rabbit,
 };
 
 // теперь свойство constructor снова корректное, так как мы добавили его
@@ -68,5 +68,5 @@ Rabbit.prototype = {
 // В обычных объектах prototype не является чем-то особенным:
 let user = {
   name: "John",
-  prototype: "Bla-Bla" // никакой магии нет - обычное свойство
+  prototype: "Bla-Bla", // никакой магии нет - обычное свойство
 };

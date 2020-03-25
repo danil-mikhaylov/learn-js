@@ -3,7 +3,7 @@
 // Сначала у нас есть такой код:
 function Rabbit() {}
 Rabbit.prototype = {
-  eats: true
+  eats: true,
 };
 
 let rabbit = new Rabbit();
@@ -13,7 +13,7 @@ console.log(rabbit.eats); // true
 // Добавим одну строчку. Что вызов console.log покажет нам сейчас?
 function Rabbit() {}
 Rabbit.prototype = {
-  eats: true
+  eats: true,
 };
 
 let rabbit = new Rabbit();
@@ -25,7 +25,7 @@ console.log(rabbit.eats); // ? (true)
 // …А если код такой (заменили одну строчку)?
 function Rabbit() {}
 Rabbit.prototype = {
-  eats: true
+  eats: true,
 };
 
 let rabbit = new Rabbit();
@@ -42,7 +42,7 @@ console.log(rabbit.eats); // ? (false)
 // Или такой (заменили одну строчку)?
 function Rabbit() {}
 Rabbit.prototype = {
-  eats: true
+  eats: true,
 };
 
 let rabbit = new Rabbit();
@@ -54,7 +54,7 @@ console.log(rabbit.eats); // ? (true)
 // Или, наконец, такой:
 function Rabbit() {}
 Rabbit.prototype = {
-  eats: true
+  eats: true,
 };
 
 let rabbit = new Rabbit();

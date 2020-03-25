@@ -1,9 +1,9 @@
 let animal = {
-  eats: true
+  eats: true,
 };
 
 let rabbit = {
-  jumps: true
+  jumps: true,
 };
 
 rabbit.__proto__ = animal;
@@ -15,12 +15,12 @@ let animal = {
   eats: true,
   walk() {
     console.log("Animal walks");
-  }
+  },
 };
 
 let rabbit = {
   jumps: true,
-  __proto__: animal
+  __proto__: animal,
 };
 
 rabbit.walk(); // Animal walks
@@ -29,17 +29,17 @@ let animal = {
   eats: true,
   walk() {
     console.log("Animal walks");
-  }
+  },
 };
 
 let rabbit = {
   jumps: true,
-  __proto__: animal
+  __proto__: animal,
 };
 
 let longEar = {
   earLength: 10,
-  __proto__: rabbit
+  __proto__: rabbit,
 };
 
 longEar.walk(); // Animal walks
@@ -49,14 +49,14 @@ let animal = {
   eats: true,
   walk() {
     /* этот метод не будет использоваться в rabbit */
-  }
+  },
 };
 
 let rabbit = {
-  __proto__: animal
+  __proto__: animal,
 };
 
-rabbit.walk = function() {
+rabbit.walk = function () {
   console.log("Rabbit! Bounce-bounce");
 };
 
@@ -68,7 +68,7 @@ let user = {
 
   set fullName(value) {
     [this.name, this.surname] = value.split(" ");
-  }
+  },
 };
 
 let user = {
@@ -81,12 +81,12 @@ let user = {
 
   get fullName() {
     return `${this.name} ${this.surname}`;
-  }
+  },
 };
 
 let admin = {
   __proto__: user,
-  isAdmin: true
+  isAdmin: true,
 };
 // this – объект перед точкой, просто у admin не было name и surname
 console.log(admin.fullName); // John Smith (*)
@@ -107,12 +107,12 @@ let animal = {
   },
   sleep() {
     this.isSleeping = true;
-  }
+  },
 };
 
 let rabbit = {
   name: "White Rabbit",
-  __proto__: animal
+  __proto__: animal,
 };
 
 // модифицирует rabbit.isSleeping
@@ -129,12 +129,12 @@ console.log(animal.isSleeping); // undefined (нет такого свойств
 // Цикл for…in
 
 let animal = {
-  eats: true
+  eats: true,
 };
 
 let rabbit = {
   jumps: true,
-  __proto__: animal
+  __proto__: animal,
 };
 
 // Object.keys возвращает только собственные ключи
@@ -147,12 +147,12 @@ for (let prop in rabbit) {
 
 // Если унаследованные свойства нам не нужны, то мы можем отфильтровать их:
 let animal = {
-  eats: true
+  eats: true,
 };
 
 let rabbit = {
   jumps: true,
-  __proto__: animal
+  __proto__: animal,
 };
 
 for (let prop in rabbit) {
@@ -167,7 +167,7 @@ for (let prop in rabbit) {
 
 // Вариант с бенчмаркингом
 let head = {
-  glasses: 1
+  glasses: 1,
 };
 
 let table = {
@@ -189,7 +189,7 @@ let pockets = {
 // как быстрее получить значение glasses
 let start = new Date();
 
-for (let i = 0; i <= 100000000; i++){
+for (let i = 0; i <= 100000000; i++) {
   let temp = pockets.glasses;
 }
 
@@ -198,7 +198,7 @@ let pockets_glasses = stop - start;
 //---
 start = new Date();
 
-for (let i2 = 0; i2 <= 100000000; i2++){
+for (let i2 = 0; i2 <= 100000000; i2++) {
   let temp = head.glasses;
 }
 
