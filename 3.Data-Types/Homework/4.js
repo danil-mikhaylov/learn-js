@@ -1,4 +1,4 @@
-// Что выведет следующий код?
+// // Что выведет следующий код?
 let fruits = ["Яблоки", "Груша", "Апельсин"];
 
 // добавляем новое значение в "копию"
@@ -64,6 +64,9 @@ function getMaxSubSum(arr) {
   // Аргмуент функции -- массив, то есть он подаётся на вход
   let maxSum = 0; // Создаём перменную максимальной суммы, которую в конце и будем выводить
   let partialSum = 0; // Сумма "сейчас"
+  if (Math.max(...arr) < 0) {
+    return Math.max(...arr);
+  }
   for (let item of arr) {
     // Для каждого элемента в массиве (item -- замена "i")
     partialSum += item; // К сумме "сейчас" прибавляем текущий элемент
@@ -82,6 +85,7 @@ function getMaxSubSum(arr) {
 }
 
 console.log(getMaxSubSum([-7, 7, 7, -7, 8])); // 15
+console.log(getMaxSubSum([-7, -7, -7, -7, -8])); // -7
 
 console.log(getMaxSubSum([-1, 2, 3, -9, 11])); // 11
 console.log(getMaxSubSum([-2, -1, 1, 2])); // 3
