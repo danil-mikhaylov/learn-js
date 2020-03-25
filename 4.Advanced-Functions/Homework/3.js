@@ -1,49 +1,49 @@
-// // Независимы ли счётчики?
-// function makeCounter() {
-//   let count = 0;
-//
-//   return function() {
-//     return count++;
-//   };
-// }
-//
-// let counter = makeCounter(); // Два разных вызова makeCounter()
-// let counter2 = makeCounter(); // =>, разные лексические окружения
-//
-// console.log(counter()); // 0
-// console.log(counter()); // 1
-//
-// console.log(counter2()); // 0, у каждой из них свой собственный count
-// console.log(counter2()); // 1
-//
-// // Будет ли работать объект счётчика, созданный при помощи конструктора?
-// function Counter() {
-//   let count = 0;
-//
-//   this.up = function() {
-//     // Обе функции созданы с одним и тем же лексическим окружением
-//     return ++count;
-//   };
-//   this.down = function() {
-//     // => они обе имеют доступ к одному count
-//     return --count;
-//   };
-// }
-//
-// let counter = new Counter();
-//
-// console.log(counter.up()); // 1, работает!
-// console.log(counter.up()); // 2, работает!
-// console.log(counter.down()); // 1, работает!
-//
-// // Делаем функцию, которая работает таким образом: sum(a)(b) = a + b
-// function sum(a) {
-//   return function(b) {
-//     return a + b;
-//   };
-// }
-//
-// console.log(sum(2)(3));
+// Независимы ли счётчики?
+function makeCounter() {
+  let count = 0;
+
+  return function() {
+    return count++;
+  };
+}
+
+let counter = makeCounter(); // Два разных вызова makeCounter()
+let counter2 = makeCounter(); // =>, разные лексические окружения
+
+console.log(counter()); // 0
+console.log(counter()); // 1
+
+console.log(counter2()); // 0, у каждой из них свой собственный count
+console.log(counter2()); // 1
+
+// Будет ли работать объект счётчика, созданный при помощи конструктора?
+function Counter() {
+  let count = 0;
+
+  this.up = function() {
+    // Обе функции созданы с одним и тем же лексическим окружением
+    return ++count;
+  };
+  this.down = function() {
+    // => они обе имеют доступ к одному count
+    return --count;
+  };
+}
+
+let counter = new Counter();
+
+console.log(counter.up()); // 1, работает!
+console.log(counter.up()); // 2, работает!
+console.log(counter.down()); // 1, работает!
+
+// Делаем функцию, которая работает таким образом: sum(a)(b) = a + b
+function sum(a) {
+  return function(b) {
+    return a + b;
+  };
+}
+
+console.log(sum(2)(3));
 
 // Дополняем arr.filter() функциями inBetween и inArray
 function inBetween(a, b) {

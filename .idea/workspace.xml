@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7dd70e85-7f3a-44f0-845b-732c3c2af3a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/4.Advanced-Functions/Homework/6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.Advanced-Functions/Homework/8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.Advanced-Functions/Homework/9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.Prototypes/4.prototype-methods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.Prototypes/Homework/3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.Prototypes/Homework/4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youtube-features/2.this.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youtube-features/3.clousure.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.Advanced-Functions/9-Call-Apply-Decorators.js" beforeDir="false" afterPath="$PROJECT_DIR$/4.Advanced-Functions/9-Call-Apply-Decorators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.Advanced-Functions/Homework/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/4.Advanced-Functions/Homework/3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.Prototypes/3.native-prototypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/6.Prototypes/3.native-prototypes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/6.Prototypes/Homework/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/6.Prototypes/Homework/1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.Prototypes/Homework/2.js" beforeDir="false" afterPath="$PROJECT_DIR$/6.Prototypes/Homework/2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youtube-features/1.Protoype.js" beforeDir="false" afterPath="$PROJECT_DIR$/youtube-features/1.Protoype.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youtube-features/2.call-apply.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +73,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="js.last.introduce.type" value="LET" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/youtube-features" />
+    <property name="last_opened_file_path" value="/usr/lib/node_modules" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.jscs" value="true" />
@@ -85,39 +89,42 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="project" />
-    <property name="prettierjs.PrettierConfiguration.Package" value="$USER_HOME$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="/usr/lib/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.44744456" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/6.Prototypes" />
+      <recent name="$PROJECT_DIR$/youtube-features" />
+      <recent name="$PROJECT_DIR$/6.Prototypes/Homework" />
       <recent name="C:\Users\user\WebstormProjects\learn-js\Project-Files\html" />
       <recent name="C:\Users\danil\Desktop\Learn-JS\Data-Types" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.3.js (1)">
-    <configuration name="10-Date.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/3.Data-Types/10-Date.js" working-dir="$PROJECT_DIR$/3.Data-Types">
+  <component name="RunManager" selected="Node.js.4.js">
+    <configuration name="3.clousure.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/youtube-features/3.clousure.js" working-dir="$PROJECT_DIR$/youtube-features">
       <method v="2" />
     </configuration>
-    <configuration name="10.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/3.Data-Types/Homework/10.js" working-dir="$PROJECT_DIR$/3.Data-Types/Homework">
+    <configuration name="3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/6.Prototypes/Homework/3.js" working-dir="$PROJECT_DIR$/6.Prototypes/Homework">
       <method v="2" />
     </configuration>
-    <configuration name="1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/4.Advanced-Functions/Homework/1.js" working-dir="$PROJECT_DIR$/4.Advanced-Functions/Homework">
+    <configuration name="3.native-prototypes.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/6.Prototypes/3.native-prototypes.js" working-dir="$PROJECT_DIR$/6.Prototypes">
       <method v="2" />
     </configuration>
-    <configuration name="3.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/4.Advanced-Functions/Homework/3.js" working-dir="$PROJECT_DIR$/4.Advanced-Functions/Homework">
+    <configuration name="4.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/6.Prototypes/Homework/4.js" working-dir="$PROJECT_DIR$/6.Prototypes">
       <method v="2" />
     </configuration>
-    <configuration name="3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/3.Data-Types/Homework/3.js" working-dir="$PROJECT_DIR$/3.Data-Types/Homework">
+    <configuration name="4.prototype-methods.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/6.Prototypes/4.prototype-methods.js" working-dir="$PROJECT_DIR$/6.Prototypes">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.3.js (1)" />
-        <item itemvalue="Node.js.1.js" />
-        <item itemvalue="Node.js.10.js" />
-        <item itemvalue="Node.js.10-Date.js" />
+        <item itemvalue="Node.js.4.js" />
+        <item itemvalue="Node.js.4.prototype-methods.js" />
         <item itemvalue="Node.js.3.js" />
+        <item itemvalue="Node.js.3.native-prototypes.js" />
+        <item itemvalue="Node.js.3.clousure.js" />
       </list>
     </recent_temporary>
   </component>
@@ -216,6 +223,18 @@
       <workItem from="1583746735703" duration="6792000" />
       <workItem from="1584275639748" duration="1420000" />
       <workItem from="1584380431793" duration="1969000" />
+      <workItem from="1584904432845" duration="70000" />
+      <workItem from="1584904535877" duration="83000" />
+      <workItem from="1584904713215" duration="209000" />
+      <workItem from="1584904977558" duration="1921000" />
+      <workItem from="1584907199358" duration="1428000" />
+      <workItem from="1584908670179" duration="416000" />
+      <workItem from="1584989269462" duration="236000" />
+      <workItem from="1584989720195" duration="5090000" />
+      <workItem from="1585052335043" duration="832000" />
+      <workItem from="1585055289037" duration="9606000" />
+      <workItem from="1585066170918" duration="6858000" />
+      <workItem from="1585075515310" duration="4042000" />
     </task>
     <task id="LOCAL-00003" summary="12345">
       <created>1578331341577</created>
@@ -664,46 +683,46 @@
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state x="92" y="92" width="1736" height="850" key="DiffContextDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1578402958057" />
-    <state x="697" y="188" width="536" height="608" key="FileChooserDialogImpl" timestamp="1583746810685">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="665" y="241" width="536" height="571" key="FileChooserDialogImpl" timestamp="1584906352239">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="697" y="180" key="FileChooserDialogImpl/0.0.1920.1034@0.0.1920.1034" timestamp="1578400801139" />
     <state x="697" y="188" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1583746810685" />
     <state x="776" y="202" key="FileChooserDialogImpl/0.0.2137.1162@0.0.2137.1162" timestamp="1581435282088" />
-    <state x="697" y="210" width="536" height="608" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1582047070749" />
+    <state x="665" y="241" width="536" height="571" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1584906352239" />
     <state x="835" y="475" width="332" height="154" key="Github.Dialog.Accounts.Choose" timestamp="1583748741360">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="835" y="475" width="332" height="154" key="Github.Dialog.Accounts.Choose/0.0.1920.1080@0.0.1920.1080" timestamp="1583748741360" />
     <state x="929" y="511" key="Github.Dialog.Accounts.Choose/0.0.2137.1162@0.0.2137.1162" timestamp="1579459210406" />
-    <state width="1895" height="261" key="GridCell.Tab.0.bottom" timestamp="1583770061202">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1892" height="197" key="GridCell.Tab.0.bottom" timestamp="1585079626389">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1899" height="206" key="GridCell.Tab.0.bottom/0.0.1920.1034@0.0.1920.1034" timestamp="1579378044517" />
     <state width="1895" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1583770061202" />
     <state width="2115" height="287" key="GridCell.Tab.0.bottom/0.0.2137.1162@0.0.2137.1162" timestamp="1582733375404" />
-    <state width="1895" height="263" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1582547185543" />
-    <state width="1895" height="261" key="GridCell.Tab.0.center" timestamp="1583770061201">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1892" height="197" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1585079626389" />
+    <state width="1892" height="197" key="GridCell.Tab.0.center" timestamp="1585079626389">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1899" height="206" key="GridCell.Tab.0.center/0.0.1920.1034@0.0.1920.1034" timestamp="1579378044517" />
     <state width="1895" height="261" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1583770061201" />
     <state width="2115" height="287" key="GridCell.Tab.0.center/0.0.2137.1162@0.0.2137.1162" timestamp="1582733375404" />
-    <state width="1895" height="263" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1582547185542" />
-    <state width="1895" height="261" key="GridCell.Tab.0.left" timestamp="1583770061200">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1892" height="197" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1585079626389" />
+    <state width="1892" height="197" key="GridCell.Tab.0.left" timestamp="1585079626388">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1899" height="206" key="GridCell.Tab.0.left/0.0.1920.1034@0.0.1920.1034" timestamp="1579378044516" />
     <state width="1895" height="261" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1583770061200" />
     <state width="2115" height="287" key="GridCell.Tab.0.left/0.0.2137.1162@0.0.2137.1162" timestamp="1582733375404" />
-    <state width="1895" height="263" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1582547185540" />
-    <state width="1895" height="261" key="GridCell.Tab.0.right" timestamp="1583770061201">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1892" height="197" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1585079626388" />
+    <state width="1892" height="197" key="GridCell.Tab.0.right" timestamp="1585079626389">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1899" height="206" key="GridCell.Tab.0.right/0.0.1920.1034@0.0.1920.1034" timestamp="1579378044517" />
     <state width="1895" height="261" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1583770061201" />
     <state width="2115" height="287" key="GridCell.Tab.0.right/0.0.2137.1162@0.0.2137.1162" timestamp="1582733375404" />
-    <state width="1895" height="263" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1582547185543" />
+    <state width="1892" height="197" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1585079626389" />
     <state width="1895" height="329" key="GridCell.Tab.1.bottom" timestamp="1582554764966">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -792,8 +811,8 @@
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state x="540" y="276" key="IDE.errors.dialog/0.0.1920.1034@0.0.1920.1034" timestamp="1578249188198" />
-    <state x="402" y="116" width="1368" height="735" key="SettingsEditor" timestamp="1583753591330">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="0" y="27" width="1920" height="1053" key="SettingsEditor" timestamp="1585063649273">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="184" y="0" key="SettingsEditor.inPresentationMode" timestamp="1583684225346">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -802,7 +821,7 @@
     <state x="447" y="140" key="SettingsEditor/0.0.1920.1034@0.0.1920.1034" timestamp="1579105980774" />
     <state x="402" y="116" width="1368" height="735" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1583753591330" />
     <state x="659" y="270" key="SettingsEditor/0.0.2137.1162@0.0.2137.1162" timestamp="1582641924654" />
-    <state x="575" y="200" width="1007" height="735" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1582543508140" />
+    <state x="0" y="27" width="1920" height="1053" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1585063649273" />
     <state width="507" height="448" key="SwitcherDM" timestamp="1583748656164">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -825,6 +844,10 @@
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state x="756" y="297" key="git4idea.merge.GitMergeDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1578324759119" />
+    <state x="599" y="317" width="896" height="590" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1584906429912">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="599" y="317" width="896" height="590" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1584906429912" />
     <state x="623" y="233" width="673" height="709" key="search.everywhere.popup" timestamp="1583747958678">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

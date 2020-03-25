@@ -1,11 +1,11 @@
 // Какие значения показываются в процессе выполнения кода?
 let animal = {
-  jumps: null
+  jumps: null,
 };
 
 let rabbit = {
   __proto__: animal,
-  jumps: true
+  jumps: true,
 };
 
 console.log(rabbit.jumps); // true, берётся из rabbit.
@@ -20,23 +20,23 @@ console.log(rabbit.jumps); // undefined, такого свойства боль�
 
 // Составляем дерево, смотрим, что быстрее найдётся: head.glasses / pockets.glasses
 let head = {
-  glasses: 1
+  glasses: 1,
 };
 
 let table = {
   pen: 3,
-  __proto__: head
+  __proto__: head,
 };
 
 let bed = {
   sheet: 1,
   pillow: 2,
-  __proto__: table
+  __proto__: table,
 };
 
 let pockets = {
   money: 2000,
-  __proto__: bed
+  __proto__: bed,
 };
 
 console.log(pockets.pen); // 3
@@ -47,11 +47,11 @@ console.log(table.money); // undefined
 let animal = {
   eat() {
     this.full = true;
-  }
+  },
 };
 
 let rabbit = {
-  __proto__: animal
+  __proto__: animal,
 };
 
 rabbit.eat(); // this = rabbit, =>, rabbit.full = true
@@ -63,19 +63,21 @@ let hamster = {
 
   eat(food) {
     this.stomach = [food];
-}
+  },
 };
 
 let speedy = {
-  __proto__: hamster
+  __proto__: hamster,
 };
 
 let lazy = {
-  __proto__: hamster
+  __proto__: hamster,
 };
 
 // Этот хомяк нашёл еду
-speedy.eat("apple"); /*
+speedy.eat(
+  "apple"
+); /*
   Сначала в прототипе (=hamster) находится метод speedy.eat, а затем он выполняется с this=speedy (объект перед точкой).
   Затем в this.stomach.push() нужно найти свойство stomach и вызвать для него push. Движок ищет stomach в this (=speedy), но ничего не находит.
   Он идёт по цепочке прототипов и находит stomach в hamster.
