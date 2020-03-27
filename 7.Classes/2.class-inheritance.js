@@ -28,8 +28,10 @@ class Rabbit extends Animal {
 // Пример вызова функции, которая генерирует родительский класс:
 function f(phrase) {
   return class {
-    sayHi() {console.log(phrase)}
-  }
+    sayHi() {
+      console.log(phrase);
+    }
+  };
 }
 
 class User extends f("Привет") {}
