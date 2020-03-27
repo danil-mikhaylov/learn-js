@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7dd70e85-7f3a-44f0-845b-732c3c2af3a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/7.Classes/4.private-protected-properties-methods.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.Classes/4.private-protected-properties-methods.js" beforeDir="false" afterPath="$PROJECT_DIR$/7.Classes/4.private-protected-properties-methods.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,14 +233,7 @@
       <workItem from="1585213166693" duration="198000" />
       <workItem from="1585222267323" duration="8991000" />
       <workItem from="1585236841375" duration="634000" />
-      <workItem from="1585302434665" duration="7562000" />
-    </task>
-    <task id="LOCAL-00007" summary="keys-values-entries-finished">
-      <created>1578511882519</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1578511882519</updated>
+      <workItem from="1585302434665" duration="7810000" />
     </task>
     <task id="LOCAL-00008" summary="keys-values-entries-finished">
       <created>1578511917898</created>
@@ -578,7 +571,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585311841251</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="9.4 finished. There's no homework.">
+      <created>1585313439378</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1585313439378</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -599,7 +599,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/youtube-features/console/code-this-not-that-js" />
     </ignored-roots>
-    <MESSAGE value="Type-conversions finished" />
     <MESSAGE value="Comprasion finished" />
     <MESSAGE value="Interaction-finished" />
     <MESSAGE value="If-else-finished" />
@@ -624,7 +623,8 @@
     <MESSAGE value="8-finished" />
     <MESSAGE value="312" />
     <MESSAGE value="9.3 finished. There's no homework." />
-    <option name="LAST_COMMIT_MESSAGE" value="9.3 finished. There's no homework." />
+    <MESSAGE value="9.4 finished. There's no homework." />
+    <option name="LAST_COMMIT_MESSAGE" value="9.4 finished. There's no homework." />
   </component>
   <component name="WindowStateProjectService">
     <state x="379" y="176" key="#Custom_Plugin_Repositories" timestamp="1583742656897">
@@ -671,13 +671,13 @@
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state x="717" y="326" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1578401073775" />
-    <state x="525" y="27" width="1022" height="1053" key="CommitChangelistDialog2" timestamp="1585311840905">
+    <state x="525" y="27" width="1022" height="1053" key="CommitChangelistDialog2" timestamp="1585313439195">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="583" y="13" key="CommitChangelistDialog2/0.0.1920.1034@0.0.1920.1034" timestamp="1579016871340" />
     <state x="402" y="14" width="1055" height="1013" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1583748723883" />
     <state x="447" y="15" key="CommitChangelistDialog2/0.0.2137.1162@0.0.2137.1162" timestamp="1582733330622" />
-    <state x="525" y="27" width="1022" height="1053" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1585311840905" />
+    <state x="525" y="27" width="1022" height="1053" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1585313439195" />
     <state x="92" y="92" width="1736" height="850" key="DiffContextDialog" timestamp="1578402958057">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
@@ -825,13 +825,13 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="507" height="448" key="SwitcherDM/0.0.1920.1080@0.0.1920.1080" timestamp="1583748656164" />
-    <state x="552" y="279" width="804" height="537" key="Vcs.Push.Dialog.v2" timestamp="1585311845334">
+    <state x="552" y="279" width="804" height="537" key="Vcs.Push.Dialog.v2" timestamp="1585313443634">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="552" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1034@0.0.1920.1034" timestamp="1579016876013" />
     <state x="552" y="258" width="800" height="537" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1583748732487" />
     <state x="614" y="278" key="Vcs.Push.Dialog.v2/0.0.2137.1162@0.0.2137.1162" timestamp="1583425936411" />
-    <state x="552" y="279" width="804" height="537" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1585311845334" />
+    <state x="552" y="279" width="804" height="537" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1585313443634" />
     <state x="92" y="92" width="1736" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1578324501425">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>

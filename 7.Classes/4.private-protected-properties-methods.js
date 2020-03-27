@@ -121,7 +121,7 @@
 
 // Обычно мы можем получить доступ к полям объекта с помощью this[name]:
 class User {
-...
+// ...
   sayHi() {
     let fieldName = "name";
     console.log(`Hello, ${this[fieldName]}`);
