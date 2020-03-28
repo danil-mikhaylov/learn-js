@@ -4,6 +4,9 @@
     <list default="true" id="7dd70e85-7f3a-44f0-845b-732c3c2af3a5" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/8.Error-Handling/1.try-catch.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.First-Steps/10-Function_description.js" beforeDir="false" afterPath="$PROJECT_DIR$/1.First-Steps/10-Function_description.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.First-Steps/11-Javascript-Specials.js" beforeDir="false" afterPath="$PROJECT_DIR$/1.First-Steps/11-Javascript-Specials.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.First-Steps/5-Logical-Operators.js" beforeDir="false" afterPath="$PROJECT_DIR$/1.First-Steps/5-Logical-Operators.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2.Object-Basics/3-Symbols.js" beforeDir="false" afterPath="$PROJECT_DIR$/2.Object-Basics/3-Symbols.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2.Object-Basics/4-This.js" beforeDir="false" afterPath="$PROJECT_DIR$/2.Object-Basics/4-This.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2.Object-Basics/5-Object-Toprimitive.js" beforeDir="false" afterPath="$PROJECT_DIR$/2.Object-Basics/5-Object-Toprimitive.js" afterDir="false" />
@@ -13,19 +16,26 @@
       <change beforePath="$PROJECT_DIR$/3.Data-Types/3-Strings.js" beforeDir="false" afterPath="$PROJECT_DIR$/3.Data-Types/3-Strings.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3.Data-Types/4-Arrays.js" beforeDir="false" afterPath="$PROJECT_DIR$/3.Data-Types/4-Arrays.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3.Data-Types/5-Array-Methods.js" beforeDir="false" afterPath="$PROJECT_DIR$/3.Data-Types/5-Array-Methods.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Data-Types/Homework/10.js" beforeDir="false" afterPath="$PROJECT_DIR$/3.Data-Types/Homework/10.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3.Data-Types/Homework/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/3.Data-Types/Homework/3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3.Data-Types/Homework/4.js" beforeDir="false" afterPath="$PROJECT_DIR$/3.Data-Types/Homework/4.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3.Data-Types/Homework/5.js" beforeDir="false" afterPath="$PROJECT_DIR$/3.Data-Types/Homework/5.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3.Data-Types/Homework/8.js" beforeDir="false" afterPath="$PROJECT_DIR$/3.Data-Types/Homework/8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.Advanced-Functions/11-Arrow-Functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/4.Advanced-Functions/11-Arrow-Functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.Advanced-Functions/2-Rest-Parameters-Spread-Operator.js" beforeDir="false" afterPath="$PROJECT_DIR$/4.Advanced-Functions/2-Rest-Parameters-Spread-Operator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.Advanced-Functions/3-Closure.js" beforeDir="false" afterPath="$PROJECT_DIR$/4.Advanced-Functions/3-Closure.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.Advanced-Functions/9-Call-Apply-Decorators.js" beforeDir="false" afterPath="$PROJECT_DIR$/4.Advanced-Functions/9-Call-Apply-Decorators.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.Advanced-Functions/Homework/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/4.Advanced-Functions/Homework/1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.Advanced-Functions/Homework/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/4.Advanced-Functions/Homework/3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.Advanced-Functions/Homework/9.js" beforeDir="false" afterPath="$PROJECT_DIR$/4.Advanced-Functions/Homework/9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.Prototypes/1.prototype-inheritance.js" beforeDir="false" afterPath="$PROJECT_DIR$/6.Prototypes/1.prototype-inheritance.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/6.Prototypes/3.native-prototypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/6.Prototypes/3.native-prototypes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/6.Prototypes/4.prototype-methods.js" beforeDir="false" afterPath="$PROJECT_DIR$/6.Prototypes/4.prototype-methods.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.Prototypes/Homework/2.js" beforeDir="false" afterPath="$PROJECT_DIR$/6.Prototypes/Homework/2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/6.Prototypes/Homework/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/6.Prototypes/Homework/3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/6.Prototypes/Homework/4.js" beforeDir="false" afterPath="$PROJECT_DIR$/6.Prototypes/Homework/4.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/7.Classes/3.static-properties-methods.js" beforeDir="false" afterPath="$PROJECT_DIR$/7.Classes/3.static-properties-methods.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.Classes/5.extend-natives.js" beforeDir="false" afterPath="$PROJECT_DIR$/7.Classes/5.extend-natives.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/7.Classes/7.mixins.js" beforeDir="false" afterPath="$PROJECT_DIR$/7.Classes/7.mixins.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/7.Classes/Homework/2.js" beforeDir="false" afterPath="$PROJECT_DIR$/7.Classes/Homework/2.js" afterDir="false" />
     </list>
@@ -260,14 +270,7 @@
       <workItem from="1585302434665" duration="14009000" />
       <workItem from="1585392510140" duration="4206000" />
       <workItem from="1585397438715" duration="500000" />
-      <workItem from="1585398214328" duration="5894000" />
-    </task>
-    <task id="LOCAL-00014" summary="recursion-finished">
-      <created>1579632789682</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1579632789682</updated>
+      <workItem from="1585398214328" duration="6157000" />
     </task>
     <task id="LOCAL-00015" summary="recursion-finished 2.0">
       <created>1579632891330</created>
@@ -605,7 +608,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585395933662</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="10.1 is finished.">
+      <created>1585405478533</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1585405478534</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -626,7 +636,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/youtube-features/console/code-this-not-that-js" />
     </ignored-roots>
-    <MESSAGE value="meow" />
     <MESSAGE value="meow-2" />
     <MESSAGE value="is" />
     <MESSAGE value="11-02-2020" />
@@ -651,7 +660,8 @@
     <MESSAGE value="9.6 finished." />
     <MESSAGE value="9.6 homework is finished." />
     <MESSAGE value="9.7 is finished. There's no homework." />
-    <option name="LAST_COMMIT_MESSAGE" value="9.7 is finished. There's no homework." />
+    <MESSAGE value="10.1 is finished." />
+    <option name="LAST_COMMIT_MESSAGE" value="10.1 is finished." />
   </component>
   <component name="WindowStateProjectService">
     <state x="379" y="176" key="#Custom_Plugin_Repositories" timestamp="1583742656897">
@@ -698,13 +708,13 @@
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state x="717" y="326" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1578401073775" />
-    <state x="525" y="27" width="1022" height="1056" key="CommitChangelistDialog2" timestamp="1585405427459">
+    <state x="525" y="27" width="1022" height="1053" key="CommitChangelistDialog2" timestamp="1585405478149">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="583" y="13" key="CommitChangelistDialog2/0.0.1920.1034@0.0.1920.1034" timestamp="1579016871340" />
     <state x="402" y="14" width="1055" height="1013" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1583748723883" />
     <state x="447" y="15" key="CommitChangelistDialog2/0.0.2137.1162@0.0.2137.1162" timestamp="1582733330622" />
-    <state x="525" y="27" width="1022" height="1056" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1585405427459" />
+    <state x="525" y="27" width="1022" height="1053" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1585405478149" />
     <state x="92" y="92" width="1736" height="850" key="DiffContextDialog" timestamp="1578402958057">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
@@ -852,13 +862,13 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="507" height="448" key="SwitcherDM/0.0.1920.1080@0.0.1920.1080" timestamp="1583748656164" />
-    <state x="552" y="279" width="804" height="537" key="Vcs.Push.Dialog.v2" timestamp="1585395937839">
+    <state x="552" y="279" width="804" height="537" key="Vcs.Push.Dialog.v2" timestamp="1585405491278">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="552" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1034@0.0.1920.1034" timestamp="1579016876013" />
     <state x="552" y="258" width="800" height="537" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1583748732487" />
     <state x="614" y="278" key="Vcs.Push.Dialog.v2/0.0.2137.1162@0.0.2137.1162" timestamp="1583425936411" />
-    <state x="552" y="279" width="804" height="537" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1585395937839" />
+    <state x="552" y="279" width="804" height="537" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1585405491278" />
     <state x="92" y="92" width="1736" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1578324501425">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
@@ -868,10 +878,10 @@
     </state>
     <state x="767" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1034@0.0.1920.1034" timestamp="1578324512087" />
     <state x="767" y="465" width="413" height="171" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1053@0.27.1920.1053" timestamp="1585227423640" />
-    <state x="555" y="60" width="1001" height="933" key="find.popup" timestamp="1585405210093">
+    <state x="555" y="60" width="1001" height="933" key="find.popup" timestamp="1585405509498">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="60" width="1001" height="933" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1585405210093" />
+    <state x="555" y="60" width="1001" height="933" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1585405509498" />
     <state x="756" y="297" key="git4idea.merge.GitMergeDialog" timestamp="1578324759119">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
