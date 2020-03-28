@@ -44,7 +44,7 @@ function multiplyNumeric(obj) {
   for (let key in obj) {
     // Для каждого элмента в этом obj
     if (typeof obj[key] == "number") {
-      // Если элемент -- число
+      // Если элемент — число
       obj[key] *= 2; // То мы умножаем его на два
     }
   }

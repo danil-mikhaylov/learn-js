@@ -244,8 +244,8 @@ console.log(arr.concat(arrayLike)); // 1,2,[object Object]
 
 /*
 arr.indexOf(item, from) ищет item, начиная с индекса from, и возвращает индекс, на котором был найден искомый элемент, в противном случае -1.
-arr.lastIndexOf(item, from) – то же самое, но ищет справа налево.
-arr.includes(item, from) – ищет item, начиная с индекса from, и возвращает true, если поиск успешен.
+arr.lastIndexOf(item, from) — то же самое, но ищет справа налево.
+arr.includes(item, from) — ищет item, начиная с индекса from, и возвращает true, если поиск успешен.
  */
 
 const arr = [NaN];

@@ -6,7 +6,7 @@ let obj = {
 // вывод
 console.log(obj);
 
-// используем объект в качестве имени свойства, "obj" -- имя!
+// используем объект в качестве имени свойства, "obj" — имя!
 // let anotherObj;
 anotherObj[obj] = 123;
 // console.log(anotherObj);

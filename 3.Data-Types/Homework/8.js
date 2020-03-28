@@ -7,7 +7,7 @@ let salaries = {
 };
 
 function sumSalaries(obj) {
-  // Аргумент -- объект с зарплатами
+  // Аргумент — объект с зарплатами
   let sum = 0; // Сумма всех зарплат
   for (let value of Object.values(obj)) {
     // Для кадого ЗНАЧЕНИЯ нашего аргумента

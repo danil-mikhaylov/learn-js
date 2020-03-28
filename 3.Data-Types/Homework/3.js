@@ -7,7 +7,7 @@ function ucFirst(str) {
 
 console.log(ucFirst("john")); // John
 
-// Если есть 'viagra' || 'xxx', то вернуть true, иначе -- false
+// Если есть 'viagra' || 'xxx', то вернуть true, иначе — false
 function checkSpam(str) { // Принимаем строку в качестве аргумента
   if ( // Если маленькая строка содержит:
     str.toLowerCase().includes("viagra") ||

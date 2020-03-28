@@ -23,7 +23,7 @@ Function.prototype.defer = function (ms) {
     // Возвращаем обёртку
     // Которая откладываем f.apply на ms
     setTimeout(() => f.apply(this, args), ms);
-    // f.apply(this, args) -- Выполнение функции с нужными нам аргументами
+    // f.apply(this, args) — Выполнение функции с нужными нам аргументами
   };
 };
 

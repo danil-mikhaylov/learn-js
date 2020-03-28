@@ -23,9 +23,9 @@ console.log(num.toString(10)); // 377
 
 console.log((123456).toString(36)); // 2n9c
 /*
-    123456.toString(36) -- error
-    (123456).toString(36) -- 2n9c
-    123456..toString(36) -- 2n9c
+    123456.toString(36) — error
+    (123456).toString(36) — 2n9c
+    123456..toString(36) — 2n9c
 */
 
 let num = 1.23456789;

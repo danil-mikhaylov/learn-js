@@ -88,7 +88,7 @@ let admin = {
   __proto__: user,
   isAdmin: true,
 };
-// this – объект перед точкой, просто у admin не было name и surname
+// this — объект перед точкой, просто у admin не было name и surname
 console.log(admin.fullName); // John Smith (*)
 
 // срабатывает сеттер!

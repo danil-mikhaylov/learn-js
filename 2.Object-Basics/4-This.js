@@ -92,14 +92,14 @@ function makeUser() {
   };
 }
 
-let user = makeUser(); // Мы не вызываем makeUser() через точку, а это значит, что this внутри него -- undefined
+let user = makeUser(); // Мы не вызываем makeUser() через точку, а это значит, что this внутри него — undefined
 console.log(user.ref.name);
 
 function makeUser() {
   return {
     name: "John",
     ref() {
-      return this; // В этот момент this записывается в return, this -- ссылка на объект return
+      return this; // В этот момент this записывается в return, this — ссылка на объект return
     }
   };
 }

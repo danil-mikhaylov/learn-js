@@ -125,7 +125,7 @@ console.log(worker.slow(2)); // works
 console.log(worker.slow(2)); // works as well, but now caching
 
 function catchingDecorator(func, hash) {
-  // 2 args, func -- worker.slow, hash -- hash();
+  // 2 args, func — worker.slow, hash — hash();
   let cache = new Map(); // create a new variable that is called cache
   return function() {
     // and return a function
@@ -166,7 +166,7 @@ console.log("Again " + worker.slow(3, 5)); // аналогично (из кеш�
 // ... can use string
 // apply wants to have only the pseudoarray
 
-// Перенаправление вызова -- передача всех аргументов вместе с контекстом другой функции
+// Перенаправление вызова — передача всех аргументов вместе с контекстом другой функции
 // For example:
 let wrapper = function() {
   return func.apply(this, arguments);

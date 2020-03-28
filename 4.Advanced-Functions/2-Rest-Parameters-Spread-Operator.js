@@ -1,5 +1,5 @@
 function sumAll(...args) {
-  // 'args' – имя массива
+  // 'args' — имя массива
   let sum = 0;
   for (let arg of args) {
     sum += arg;

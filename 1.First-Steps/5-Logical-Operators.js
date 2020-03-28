@@ -20,7 +20,7 @@ console.log(undefined || null || 0); // 0 (everything is false, so returns the l
 let currentUser = null;
 let defaultUser = "John";
 let name = currentUser || defaultUser || "unnamed";
-console.log(name); // "John" – first 'true' value
+console.log(name); // "John" — first 'true' value
 
 let x;
 true || (x = 1); // '||' Checking: first value is true? Yes, so x != 1

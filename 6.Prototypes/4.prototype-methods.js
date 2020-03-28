@@ -8,7 +8,7 @@ console.log(rabbit.eats); // true
 console.log(Object.getPrototypeOf(rabbit) === animal); // true
 Object.setPrototypeOf(rabbit, {}); // Заменяем прототип объекта rabbit на {}
 
-// У Object.create есть необязательный аргумент -- дескрипторы, можно добавить новое свойство так:
+// У Object.create есть необязательный аргумент — дескрипторы, можно добавить новое свойство так:
 let animal = {
   eats: true
 };
@@ -40,7 +40,7 @@ console.log(obj[key]); // [object Object], не "some value"!
 // => Если пользователь введёт "__proto__", то значение просто проигнорируется
 
 // Можем исправить так:
-let obj = Object.create(null); // Прототип у obj уже есть -- null, а второго быть не может
+let obj = Object.create(null); // Прототип у obj уже есть — null, а второго быть не может
 
 let key = prompt("What's the key?", "__proto__");
 

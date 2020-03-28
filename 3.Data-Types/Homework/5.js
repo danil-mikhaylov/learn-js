@@ -1,6 +1,6 @@
 // Переведите текст вида border-left-width в borderLeftWidth
 function camelize(string) {
-  // Объявление функции, её аргумент -- строка
+  // Объявление функции, её аргумент — строка
   let completedArray; // Просто создаю переменную, которая в итоге будет строкой с заглавными буквами
   // вторых элементов
   let finalArray = []; // В финал я просто закину первое слово (без "-" + completedArray)
@@ -159,7 +159,7 @@ let masha = { name: "Маша", age: 28 };
 let arr = [vasya, petya, masha];
 
 function sortByAge(users) {
-  users.sort((a, b) => (a.age > b.age ? 1 : -1)); // Старый sort(), но аргументы -- age юзеров
+  users.sort((a, b) => (a.age > b.age ? 1 : -1)); // Старый sort(), но аргументы — age юзеров
 }
 
 sortByAge(arr);

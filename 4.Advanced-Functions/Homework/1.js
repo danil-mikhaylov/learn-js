@@ -15,7 +15,7 @@ function sumToCycle(number) {
 console.log(sumToCycle(10000)); // 50005000
 
 function sumToRecursive(number) {
-  // База рекурсии -- number === 1 ? number;
+  // База рекурсии — number === 1 ? number;
   // Когда дойдёт до того, что number === 1, начнут возвращаться все значения
   return number === 1 ? number : number + sumToRecursive(number - 1);
 }

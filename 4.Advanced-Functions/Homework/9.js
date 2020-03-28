@@ -4,7 +4,7 @@ function work(a, b) {
 }
 
 function spy(func) { // Принимает в качестве аргумента функцию
-  function wrapper(...args) { // ...args -- наши a и b
+  function wrapper(...args) { // ...args — наши a и b
     wrapper.calls.push(args); // Запихиваем аргументы в wrapper.calls
     return func.apply(this, arguments); // Вызываем исходную функцию
   }
@@ -28,7 +28,7 @@ function f(x) { // Какая-то функция
 }
 
 function delay(func, ms) { // Наш декоратор, который принимает функцию и кол-во ms задержки
-  return function (test) { // test -- аргумент f(x)
+  return function (test) { // test — аргумент f(x)
     setTimeout(() => { // Устанавливаем таймаут
       func.apply(this, arguments) // А в нём вызываем ту самую f(x)
     }, ms) // На кол-во ms

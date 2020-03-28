@@ -48,7 +48,7 @@ console.log(sum(2)(3));
 // Дополняем arr.filter() функциями inBetween и inArray
 function inBetween(a, b) {
   return function(n) {
-    // Наш аргумент -- то, что передаёт filter
+    // Наш аргумент — то, что передаёт filter
     return n >= a && n <= b;
   };
 }
