@@ -15,14 +15,14 @@
  * Что выведет код ниже?
  */
 
-// let promise = new Promise((resolve, reject) => {
-//   resolve(1); // 1, первый вызов
-//
-//   // Все последующие выводы resolve/reject проигнорируются
-//   setTimeout(() => resolve(2), 1000);
-// });
-//
-// promise.then(console.log);
+let promise = new Promise((resolve, reject) => {
+  resolve(1); // 1, первый вызов
+
+  // Все последующие выводы resolve/reject проигнорируются
+  setTimeout(() => resolve(2), 1000);
+});
+
+promise.then(console.log);
 
 /** Задержка на промисах
  * Встроенная функция setTimeout использует колбэк-функции.
