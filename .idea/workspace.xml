@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7dd70e85-7f3a-44f0-845b-732c3c2af3a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/9.Async/3.promise-chaining.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.Async/Homework/3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,10 +94,7 @@
       <recent name="C:\Users\danil\Desktop\Learn-JS\Data-Types" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.2.js (1)">
-    <configuration name="1.try-catch.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/8.Error-Handling/1.try-catch.js" working-dir="$PROJECT_DIR$/8.Error-Handling">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.3.js">
     <configuration name="2.custom-errors.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/8.Error-Handling/2.custom-errors.js" working-dir="$PROJECT_DIR$/8.Error-Handling">
       <method v="2" />
     </configuration>
@@ -110,13 +107,16 @@
     <configuration name="2.promise-basics.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9.Async/2.promise-basics.js" working-dir="$PROJECT_DIR$/9.Async">
       <method v="2" />
     </configuration>
+    <configuration name="3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9.Async/Homework/3.js" working-dir="$PROJECT_DIR$/9.Async/Homework">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.3.js" />
         <item itemvalue="Node.js.2.js (1)" />
         <item itemvalue="Node.js.2.promise-basics.js" />
         <item itemvalue="Node.js.2.js" />
         <item itemvalue="Node.js.2.custom-errors.js" />
-        <item itemvalue="Node.js.1.try-catch.js" />
       </list>
     </recent_temporary>
   </component>
@@ -240,14 +240,7 @@
       <workItem from="1585409927372" duration="9818000" />
       <workItem from="1585562402791" duration="18422000" />
       <workItem from="1585651682901" duration="1496000" />
-      <workItem from="1585657636290" duration="4299000" />
-    </task>
-    <task id="LOCAL-00020" summary="321">
-      <created>1580932815990</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1580932815990</updated>
+      <workItem from="1585657636290" duration="5676000" />
     </task>
     <task id="LOCAL-00021" summary="closure-finished">
       <created>1580981169591</created>
@@ -585,7 +578,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585577783734</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="12.3 is finished.">
+      <created>1585662038029</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1585662038031</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -606,7 +606,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/youtube-features/console/code-this-not-that-js" />
     </ignored-roots>
-    <MESSAGE value="123" />
     <MESSAGE value="&quot;Bind&quot; is finished" />
     <MESSAGE value="Another chapter is finished" />
     <MESSAGE value="6.1" />
@@ -631,7 +630,8 @@
     <MESSAGE value="12.1 is finished." />
     <MESSAGE value="12.2 is finished." />
     <MESSAGE value="12.2 homework is finished." />
-    <option name="LAST_COMMIT_MESSAGE" value="12.2 homework is finished." />
+    <MESSAGE value="12.3 is finished." />
+    <option name="LAST_COMMIT_MESSAGE" value="12.3 is finished." />
   </component>
   <component name="WindowStateProjectService">
     <state x="379" y="176" key="#Custom_Plugin_Repositories" timestamp="1583742656897">
@@ -681,10 +681,10 @@
     <state x="525" y="27" width="1022" height="1053" key="CommitChangelistDialog2" timestamp="1585576961517">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="0" y="27" key="CommitChangelistDialog2.inPresentationMode" timestamp="1585577783579">
+    <state x="0" y="27" key="CommitChangelistDialog2.inPresentationMode" timestamp="1585662037552">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="0" y="27" key="CommitChangelistDialog2.inPresentationMode/0.27.1920.1053@0.27.1920.1053" timestamp="1585577783579" />
+    <state x="0" y="27" key="CommitChangelistDialog2.inPresentationMode/0.27.1920.1053@0.27.1920.1053" timestamp="1585662037552" />
     <state x="583" y="13" key="CommitChangelistDialog2/0.0.1920.1034@0.0.1920.1034" timestamp="1579016871340" />
     <state x="402" y="14" width="1055" height="1013" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1583748723883" />
     <state x="447" y="15" key="CommitChangelistDialog2/0.0.2137.1162@0.0.2137.1162" timestamp="1582733330622" />
@@ -708,10 +708,10 @@
     <state width="1892" height="284" key="GridCell.Tab.0.bottom" timestamp="1585577051230">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1920" height="292" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1585577735946">
+    <state width="1920" height="292" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1585664076721">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1920" height="292" key="GridCell.Tab.0.bottom.inPresentationMode/0.27.1920.1053@0.27.1920.1053" timestamp="1585577735946" />
+    <state width="1920" height="292" key="GridCell.Tab.0.bottom.inPresentationMode/0.27.1920.1053@0.27.1920.1053" timestamp="1585664076721" />
     <state width="1899" height="206" key="GridCell.Tab.0.bottom/0.0.1920.1034@0.0.1920.1034" timestamp="1579378044517" />
     <state width="1895" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1583770061202" />
     <state width="2115" height="287" key="GridCell.Tab.0.bottom/0.0.2137.1162@0.0.2137.1162" timestamp="1582733375404" />
@@ -719,10 +719,10 @@
     <state width="1892" height="284" key="GridCell.Tab.0.center" timestamp="1585577051229">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1920" height="292" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1585577735943">
+    <state width="1920" height="292" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1585664076719">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1920" height="292" key="GridCell.Tab.0.center.inPresentationMode/0.27.1920.1053@0.27.1920.1053" timestamp="1585577735943" />
+    <state width="1920" height="292" key="GridCell.Tab.0.center.inPresentationMode/0.27.1920.1053@0.27.1920.1053" timestamp="1585664076719" />
     <state width="1899" height="206" key="GridCell.Tab.0.center/0.0.1920.1034@0.0.1920.1034" timestamp="1579378044517" />
     <state width="1895" height="261" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1583770061201" />
     <state width="2115" height="287" key="GridCell.Tab.0.center/0.0.2137.1162@0.0.2137.1162" timestamp="1582733375404" />
@@ -730,10 +730,10 @@
     <state width="1892" height="284" key="GridCell.Tab.0.left" timestamp="1585577051229">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1920" height="292" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1585577735943">
+    <state width="1920" height="292" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1585664076718">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1920" height="292" key="GridCell.Tab.0.left.inPresentationMode/0.27.1920.1053@0.27.1920.1053" timestamp="1585577735943" />
+    <state width="1920" height="292" key="GridCell.Tab.0.left.inPresentationMode/0.27.1920.1053@0.27.1920.1053" timestamp="1585664076718" />
     <state width="1899" height="206" key="GridCell.Tab.0.left/0.0.1920.1034@0.0.1920.1034" timestamp="1579378044516" />
     <state width="1895" height="261" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1583770061200" />
     <state width="2115" height="287" key="GridCell.Tab.0.left/0.0.2137.1162@0.0.2137.1162" timestamp="1582733375404" />
@@ -741,10 +741,10 @@
     <state width="1892" height="284" key="GridCell.Tab.0.right" timestamp="1585577051230">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1920" height="292" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1585577735944">
+    <state width="1920" height="292" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1585664076720">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1920" height="292" key="GridCell.Tab.0.right.inPresentationMode/0.27.1920.1053@0.27.1920.1053" timestamp="1585577735944" />
+    <state width="1920" height="292" key="GridCell.Tab.0.right.inPresentationMode/0.27.1920.1053@0.27.1920.1053" timestamp="1585664076720" />
     <state width="1899" height="206" key="GridCell.Tab.0.right/0.0.1920.1034@0.0.1920.1034" timestamp="1579378044517" />
     <state width="1895" height="261" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1583770061201" />
     <state width="2115" height="287" key="GridCell.Tab.0.right/0.0.2137.1162@0.0.2137.1162" timestamp="1582733375404" />
@@ -857,10 +857,10 @@
     <state x="552" y="279" width="804" height="537" key="Vcs.Push.Dialog.v2" timestamp="1585576966807">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="0" y="27" key="Vcs.Push.Dialog.v2.inPresentationMode" timestamp="1585577787413">
+    <state x="0" y="27" key="Vcs.Push.Dialog.v2.inPresentationMode" timestamp="1585662044443">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="0" y="27" key="Vcs.Push.Dialog.v2.inPresentationMode/0.27.1920.1053@0.27.1920.1053" timestamp="1585577787413" />
+    <state x="0" y="27" key="Vcs.Push.Dialog.v2.inPresentationMode/0.27.1920.1053@0.27.1920.1053" timestamp="1585662044443" />
     <state x="552" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1034@0.0.1920.1034" timestamp="1579016876013" />
     <state x="552" y="258" width="800" height="537" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1583748732487" />
     <state x="614" y="278" key="Vcs.Push.Dialog.v2/0.0.2137.1162@0.0.2137.1162" timestamp="1583425936411" />
