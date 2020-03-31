@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7dd70e85-7f3a-44f0-845b-732c3c2af3a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/9.Async/3.promise-chaining.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9.Async/Homework/2.js" beforeDir="false" afterPath="$PROJECT_DIR$/9.Async/Homework/2.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +82,7 @@
     <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="project" />
     <property name="prettierjs.PrettierConfiguration.Package" value="/usr/lib/node_modules/prettier" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="settings.editor.splitter.proportion" value="0.44744456" />
   </component>
   <component name="RecentsManager">
@@ -238,21 +238,9 @@
       <workItem from="1585397438715" duration="500000" />
       <workItem from="1585398214328" duration="7104000" />
       <workItem from="1585409927372" duration="9818000" />
-      <workItem from="1585562402791" duration="12706000" />
-    </task>
-    <task id="LOCAL-00018" summary="123">
-      <created>1579708871443</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1579708871443</updated>
-    </task>
-    <task id="LOCAL-00019" summary="123">
-      <created>1580918553902</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1580918553902</updated>
+      <workItem from="1585562402791" duration="18422000" />
+      <workItem from="1585651682901" duration="1496000" />
+      <workItem from="1585657636290" duration="4299000" />
     </task>
     <task id="LOCAL-00020" summary="321">
       <created>1580932815990</created>
@@ -583,7 +571,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585576961826</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="12.2 is finished.">
+      <created>1585577751357</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1585577751357</updated>
+    </task>
+    <task id="LOCAL-00068" summary="12.2 homework is finished.">
+      <created>1585577783734</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1585577783734</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -604,8 +606,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/youtube-features/console/code-this-not-that-js" />
     </ignored-roots>
-    <MESSAGE value="11-02-2020" />
-    <MESSAGE value="CALL-APPLY-FINISHED!!!" />
     <MESSAGE value="123" />
     <MESSAGE value="&quot;Bind&quot; is finished" />
     <MESSAGE value="Another chapter is finished" />
@@ -629,7 +629,9 @@
     <MESSAGE value="10.1 is finished." />
     <MESSAGE value="11.2 is finished." />
     <MESSAGE value="12.1 is finished." />
-    <option name="LAST_COMMIT_MESSAGE" value="12.1 is finished." />
+    <MESSAGE value="12.2 is finished." />
+    <MESSAGE value="12.2 homework is finished." />
+    <option name="LAST_COMMIT_MESSAGE" value="12.2 homework is finished." />
   </component>
   <component name="WindowStateProjectService">
     <state x="379" y="176" key="#Custom_Plugin_Repositories" timestamp="1583742656897">
@@ -679,10 +681,10 @@
     <state x="525" y="27" width="1022" height="1053" key="CommitChangelistDialog2" timestamp="1585576961517">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="0" y="27" key="CommitChangelistDialog2.inPresentationMode" timestamp="1585577751147">
+    <state x="0" y="27" key="CommitChangelistDialog2.inPresentationMode" timestamp="1585577783579">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="0" y="27" key="CommitChangelistDialog2.inPresentationMode/0.27.1920.1053@0.27.1920.1053" timestamp="1585577751147" />
+    <state x="0" y="27" key="CommitChangelistDialog2.inPresentationMode/0.27.1920.1053@0.27.1920.1053" timestamp="1585577783579" />
     <state x="583" y="13" key="CommitChangelistDialog2/0.0.1920.1034@0.0.1920.1034" timestamp="1579016871340" />
     <state x="402" y="14" width="1055" height="1013" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1583748723883" />
     <state x="447" y="15" key="CommitChangelistDialog2/0.0.2137.1162@0.0.2137.1162" timestamp="1582733330622" />
@@ -838,10 +840,11 @@
     <state x="0" y="27" width="1920" height="1053" key="SettingsEditor" timestamp="1585575778502">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="184" y="0" key="SettingsEditor.inPresentationMode" timestamp="1583684225346">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="0" y="27" width="1920" height="1056" key="SettingsEditor.inPresentationMode" timestamp="1585661437541">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="184" y="0" key="SettingsEditor.inPresentationMode/0.0.1920.1080@0.0.1920.1080" timestamp="1583684225346" />
+    <state x="0" y="27" width="1920" height="1056" key="SettingsEditor.inPresentationMode/0.27.1920.1053@0.27.1920.1053" timestamp="1585661437541" />
     <state x="447" y="140" key="SettingsEditor/0.0.1920.1034@0.0.1920.1034" timestamp="1579105980774" />
     <state x="402" y="116" width="1368" height="735" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1583753591330" />
     <state x="659" y="270" key="SettingsEditor/0.0.2137.1162@0.0.2137.1162" timestamp="1582641924654" />
@@ -854,10 +857,10 @@
     <state x="552" y="279" width="804" height="537" key="Vcs.Push.Dialog.v2" timestamp="1585576966807">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="0" y="27" key="Vcs.Push.Dialog.v2.inPresentationMode" timestamp="1585577755799">
+    <state x="0" y="27" key="Vcs.Push.Dialog.v2.inPresentationMode" timestamp="1585577787413">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="0" y="27" key="Vcs.Push.Dialog.v2.inPresentationMode/0.27.1920.1053@0.27.1920.1053" timestamp="1585577755799" />
+    <state x="0" y="27" key="Vcs.Push.Dialog.v2.inPresentationMode/0.27.1920.1053@0.27.1920.1053" timestamp="1585577787413" />
     <state x="552" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1034@0.0.1920.1034" timestamp="1579016876013" />
     <state x="552" y="258" width="800" height="537" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1583748732487" />
     <state x="614" y="278" key="Vcs.Push.Dialog.v2/0.0.2137.1162@0.0.2137.1162" timestamp="1583425936411" />
@@ -890,6 +893,10 @@
     <state x="623" y="254" width="840" height="692" key="search.everywhere.popup" timestamp="1585568428225">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state x="116" y="24" key="search.everywhere.popup.inPresentationMode" timestamp="1585584933804">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="116" y="24" key="search.everywhere.popup.inPresentationMode/0.27.1920.1053@0.27.1920.1053" timestamp="1585584933804" />
     <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1034@0.0.1920.1034" timestamp="1578575459830" />
     <state x="623" y="233" width="673" height="709" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1583747958678" />
     <state x="693" y="251" width="748" height="762" key="search.everywhere.popup/0.0.2137.1162@0.0.2137.1162" timestamp="1582729553678" />
