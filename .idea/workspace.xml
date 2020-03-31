@@ -95,11 +95,8 @@
       <recent name="C:\Users\danil\Desktop\Learn-JS\Data-Types" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.4.promise-error-handling.js">
+  <component name="RunManager" selected="Node.js.4.js">
     <configuration name="2.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9.Async/Homework/2.js" working-dir="$PROJECT_DIR$/9.Async/Homework">
-      <method v="2" />
-    </configuration>
-    <configuration name="2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/8.Error-Handling/Homework/2.js" working-dir="$PROJECT_DIR$/8.Error-Handling/Homework">
       <method v="2" />
     </configuration>
     <configuration name="2.promise-basics.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9.Async/2.promise-basics.js" working-dir="$PROJECT_DIR$/9.Async">
@@ -108,16 +105,19 @@
     <configuration name="3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9.Async/Homework/3.js" working-dir="$PROJECT_DIR$/9.Async/Homework">
       <method v="2" />
     </configuration>
+    <configuration name="4.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9.Async/Homework/4.js" working-dir="$PROJECT_DIR$/9.Async/Homework">
+      <method v="2" />
+    </configuration>
     <configuration name="4.promise-error-handling.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9.Async/4.promise-error-handling.js" working-dir="$PROJECT_DIR$/9.Async">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.4.js" />
         <item itemvalue="Node.js.4.promise-error-handling.js" />
         <item itemvalue="Node.js.3.js" />
         <item itemvalue="Node.js.2.js (1)" />
         <item itemvalue="Node.js.2.promise-basics.js" />
-        <item itemvalue="Node.js.2.js" />
       </list>
     </recent_temporary>
   </component>
@@ -682,10 +682,10 @@
     <state x="525" y="27" width="1022" height="1053" key="CommitChangelistDialog2" timestamp="1585664169592">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="0" y="27" key="CommitChangelistDialog2.inPresentationMode" timestamp="1585662037552">
+    <state x="0" y="27" key="CommitChangelistDialog2.inPresentationMode" timestamp="1585665300787">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="0" y="27" key="CommitChangelistDialog2.inPresentationMode/0.27.1920.1053@0.27.1920.1053" timestamp="1585662037552" />
+    <state x="0" y="27" key="CommitChangelistDialog2.inPresentationMode/0.27.1920.1053@0.27.1920.1053" timestamp="1585665300787" />
     <state x="583" y="13" key="CommitChangelistDialog2/0.0.1920.1034@0.0.1920.1034" timestamp="1579016871340" />
     <state x="402" y="14" width="1055" height="1013" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1583748723883" />
     <state x="447" y="15" key="CommitChangelistDialog2/0.0.2137.1162@0.0.2137.1162" timestamp="1582733330622" />
@@ -706,7 +706,7 @@
     </state>
     <state x="835" y="475" width="332" height="154" key="Github.Dialog.Accounts.Choose/0.0.1920.1080@0.0.1920.1080" timestamp="1583748741360" />
     <state x="929" y="511" key="Github.Dialog.Accounts.Choose/0.0.2137.1162@0.0.2137.1162" timestamp="1579459210406" />
-    <state width="1892" height="283" key="GridCell.Tab.0.bottom" timestamp="1585664327402">
+    <state width="1892" height="283" key="GridCell.Tab.0.bottom" timestamp="1585665426118">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1920" height="292" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1585664076721">
@@ -716,8 +716,8 @@
     <state width="1899" height="206" key="GridCell.Tab.0.bottom/0.0.1920.1034@0.0.1920.1034" timestamp="1579378044517" />
     <state width="1895" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1583770061202" />
     <state width="2115" height="287" key="GridCell.Tab.0.bottom/0.0.2137.1162@0.0.2137.1162" timestamp="1582733375404" />
-    <state width="1892" height="283" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1585664327402" />
-    <state width="1892" height="283" key="GridCell.Tab.0.center" timestamp="1585664327401">
+    <state width="1892" height="283" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1585665426118" />
+    <state width="1892" height="283" key="GridCell.Tab.0.center" timestamp="1585665426117">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1920" height="292" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1585664076719">
@@ -727,8 +727,8 @@
     <state width="1899" height="206" key="GridCell.Tab.0.center/0.0.1920.1034@0.0.1920.1034" timestamp="1579378044517" />
     <state width="1895" height="261" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1583770061201" />
     <state width="2115" height="287" key="GridCell.Tab.0.center/0.0.2137.1162@0.0.2137.1162" timestamp="1582733375404" />
-    <state width="1892" height="283" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1585664327401" />
-    <state width="1892" height="283" key="GridCell.Tab.0.left" timestamp="1585664327400">
+    <state width="1892" height="283" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1585665426117" />
+    <state width="1892" height="283" key="GridCell.Tab.0.left" timestamp="1585665426116">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1920" height="292" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1585664076718">
@@ -738,8 +738,8 @@
     <state width="1899" height="206" key="GridCell.Tab.0.left/0.0.1920.1034@0.0.1920.1034" timestamp="1579378044516" />
     <state width="1895" height="261" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1583770061200" />
     <state width="2115" height="287" key="GridCell.Tab.0.left/0.0.2137.1162@0.0.2137.1162" timestamp="1582733375404" />
-    <state width="1892" height="283" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1585664327400" />
-    <state width="1892" height="283" key="GridCell.Tab.0.right" timestamp="1585664327402">
+    <state width="1892" height="283" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1585665426116" />
+    <state width="1892" height="283" key="GridCell.Tab.0.right" timestamp="1585665426117">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1920" height="292" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1585664076720">
@@ -749,7 +749,7 @@
     <state width="1899" height="206" key="GridCell.Tab.0.right/0.0.1920.1034@0.0.1920.1034" timestamp="1579378044517" />
     <state width="1895" height="261" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1583770061201" />
     <state width="2115" height="287" key="GridCell.Tab.0.right/0.0.2137.1162@0.0.2137.1162" timestamp="1582733375404" />
-    <state width="1892" height="283" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1585664327402" />
+    <state width="1892" height="283" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1585665426117" />
     <state width="1920" height="327" key="GridCell.Tab.1.bottom" timestamp="1585395750079">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -855,7 +855,7 @@
     </state>
     <state width="507" height="448" key="SwitcherDM/0.0.1920.1080@0.0.1920.1080" timestamp="1583748656164" />
     <state width="623" height="498" key="SwitcherDM/0.27.1920.1053@0.27.1920.1053" timestamp="1585427322000" />
-    <state x="552" y="279" width="804" height="537" key="Vcs.Push.Dialog.v2" timestamp="1585576966807">
+    <state x="552" y="279" width="804" height="537" key="Vcs.Push.Dialog.v2" timestamp="1585665307892">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="0" y="27" key="Vcs.Push.Dialog.v2.inPresentationMode" timestamp="1585662044443">
@@ -865,7 +865,7 @@
     <state x="552" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1034@0.0.1920.1034" timestamp="1579016876013" />
     <state x="552" y="258" width="800" height="537" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1583748732487" />
     <state x="614" y="278" key="Vcs.Push.Dialog.v2/0.0.2137.1162@0.0.2137.1162" timestamp="1583425936411" />
-    <state x="552" y="279" width="804" height="537" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1585576966807" />
+    <state x="552" y="279" width="804" height="537" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1585665307892" />
     <state x="92" y="92" width="1736" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1578324501425">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
