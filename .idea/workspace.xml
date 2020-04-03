@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7dd70e85-7f3a-44f0-845b-732c3c2af3a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/9.Async/7.microtask-queue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.Async/8.async-await.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.Async/Homework/8.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +63,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="full.screen.before.presentation.mode" value="true" />
     <property name="js.last.introduce.type" value="LET" />
     <property name="last_opened_file_path" value="/usr/lib/node_modules" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -94,14 +95,8 @@
       <recent name="C:\Users\danil\Desktop\Learn-JS\Data-Types" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.7.microtask-queue.js">
-    <configuration name="3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9.Async/Homework/3.js" working-dir="$PROJECT_DIR$/9.Async/Homework">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.8.js">
     <configuration name="4.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9.Async/Homework/4.js" working-dir="$PROJECT_DIR$/9.Async/Homework">
-      <method v="2" />
-    </configuration>
-    <configuration name="4.promise-error-handling.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9.Async/4.promise-error-handling.js" working-dir="$PROJECT_DIR$/9.Async">
       <method v="2" />
     </configuration>
     <configuration name="5.promise-api.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9.Async/5.promise-api.js" working-dir="$PROJECT_DIR$/9.Async">
@@ -110,13 +105,19 @@
     <configuration name="7.microtask-queue.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9.Async/7.microtask-queue.js" working-dir="$PROJECT_DIR$/9.Async">
       <method v="2" />
     </configuration>
+    <configuration name="8.async-await.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9.Async/8.async-await.js" working-dir="$PROJECT_DIR$/9.Async">
+      <method v="2" />
+    </configuration>
+    <configuration name="8.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9.Async/Homework/8.js" working-dir="$PROJECT_DIR$/9.Async/Homework">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.8.js" />
+        <item itemvalue="Node.js.8.async-await.js" />
         <item itemvalue="Node.js.7.microtask-queue.js" />
         <item itemvalue="Node.js.5.promise-api.js" />
         <item itemvalue="Node.js.4.js" />
-        <item itemvalue="Node.js.4.promise-error-handling.js" />
-        <item itemvalue="Node.js.3.js" />
       </list>
     </recent_temporary>
   </component>
@@ -243,14 +244,7 @@
       <workItem from="1585657636290" duration="7192000" />
       <workItem from="1585738105579" duration="8936000" />
       <workItem from="1585830949854" duration="481000" />
-      <workItem from="1585848065359" duration="929000" />
-    </task>
-    <task id="LOCAL-00026" summary="I finished a chapter &quot;setTimeout-setInterval&quot;">
-      <created>1581004031050</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1581004031050</updated>
+      <workItem from="1585848065359" duration="10599000" />
     </task>
     <task id="LOCAL-00027" summary="last-change-commit">
       <created>1581005923577</created>
@@ -588,7 +582,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585752214661</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="12.7 is finished.">
+      <created>1585849229110</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1585849229112</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -609,7 +610,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/youtube-features/console/code-this-not-that-js" />
     </ignored-roots>
-    <MESSAGE value="6.2.2" />
     <MESSAGE value="BIG COMMIT!" />
     <MESSAGE value="ANOTHER ONE BIG COMMIT!" />
     <MESSAGE value="console" />
@@ -634,7 +634,8 @@
     <MESSAGE value="12.4 homework is finished." />
     <MESSAGE value="12.5 is finished. There's no homework." />
     <MESSAGE value="12.6 is finished (no)." />
-    <option name="LAST_COMMIT_MESSAGE" value="12.6 is finished (no)." />
+    <MESSAGE value="12.7 is finished." />
+    <option name="LAST_COMMIT_MESSAGE" value="12.7 is finished." />
   </component>
   <component name="WindowStateProjectService">
     <state x="379" y="176" key="#Custom_Plugin_Repositories" timestamp="1583742656897">
@@ -685,16 +686,17 @@
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state x="717" y="326" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1578401073775" />
-    <state x="525" y="27" width="1022" height="1053" key="CommitChangelistDialog2" timestamp="1585752214341">
+    <state x="374" y="27" width="728" height="744" key="CommitChangelistDialog2" timestamp="1585849228340">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="0" y="27" key="CommitChangelistDialog2.inPresentationMode" timestamp="1585931084983">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="0" y="27" key="CommitChangelistDialog2.inPresentationMode" timestamp="1585751783672">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="0" y="27" key="CommitChangelistDialog2.inPresentationMode/0.27.1920.1053@0.27.1920.1053" timestamp="1585751783672" />
+    <state x="0" y="27" key="CommitChangelistDialog2.inPresentationMode/0.27.1920.1053@0.27.1920.1053" timestamp="1585931084983" />
     <state x="583" y="13" key="CommitChangelistDialog2/0.0.1920.1034@0.0.1920.1034" timestamp="1579016871340" />
     <state x="402" y="14" width="1055" height="1013" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1583748723883" />
     <state x="447" y="15" key="CommitChangelistDialog2/0.0.2137.1162@0.0.2137.1162" timestamp="1582733330622" />
+    <state x="374" y="27" width="728" height="744" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1585849228340" />
     <state x="525" y="27" width="1022" height="1053" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1585752214341" />
     <state x="92" y="92" width="1736" height="850" key="DiffContextDialog" timestamp="1578402958057">
       <screen x="0" y="0" width="1920" height="1034" />
@@ -715,11 +717,11 @@
     <state width="1338" height="284" key="GridCell.Tab.0.bottom" timestamp="1585848135594">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1366" height="288" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1585849045945">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state width="1920" height="154" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1585931074905">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1366" height="288" key="GridCell.Tab.0.bottom.inPresentationMode/0.27.1366.741@0.27.1366.741" timestamp="1585849045945" />
-    <state width="1920" height="270" key="GridCell.Tab.0.bottom.inPresentationMode/0.27.1920.1053@0.27.1920.1053" timestamp="1585744208782" />
+    <state width="1366" height="288" key="GridCell.Tab.0.bottom.inPresentationMode/0.27.1366.741@0.27.1366.741" timestamp="1585852414407" />
+    <state width="1920" height="154" key="GridCell.Tab.0.bottom.inPresentationMode/0.27.1920.1053@0.27.1920.1053" timestamp="1585931074905" />
     <state width="1899" height="206" key="GridCell.Tab.0.bottom/0.0.1920.1034@0.0.1920.1034" timestamp="1579378044517" />
     <state width="1895" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1583770061202" />
     <state width="2115" height="287" key="GridCell.Tab.0.bottom/0.0.2137.1162@0.0.2137.1162" timestamp="1582733375404" />
@@ -728,11 +730,11 @@
     <state width="1338" height="284" key="GridCell.Tab.0.center" timestamp="1585848135593">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1366" height="288" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1585849045944">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state width="1920" height="154" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1585931074904">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1366" height="288" key="GridCell.Tab.0.center.inPresentationMode/0.27.1366.741@0.27.1366.741" timestamp="1585849045944" />
-    <state width="1920" height="270" key="GridCell.Tab.0.center.inPresentationMode/0.27.1920.1053@0.27.1920.1053" timestamp="1585744208782" />
+    <state width="1366" height="288" key="GridCell.Tab.0.center.inPresentationMode/0.27.1366.741@0.27.1366.741" timestamp="1585852414406" />
+    <state width="1920" height="154" key="GridCell.Tab.0.center.inPresentationMode/0.27.1920.1053@0.27.1920.1053" timestamp="1585931074904" />
     <state width="1899" height="206" key="GridCell.Tab.0.center/0.0.1920.1034@0.0.1920.1034" timestamp="1579378044517" />
     <state width="1895" height="261" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1583770061201" />
     <state width="2115" height="287" key="GridCell.Tab.0.center/0.0.2137.1162@0.0.2137.1162" timestamp="1582733375404" />
@@ -741,11 +743,11 @@
     <state width="1338" height="284" key="GridCell.Tab.0.left" timestamp="1585848135593">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1366" height="288" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1585849045944">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state width="1920" height="154" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1585931074903">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1366" height="288" key="GridCell.Tab.0.left.inPresentationMode/0.27.1366.741@0.27.1366.741" timestamp="1585849045944" />
-    <state width="1920" height="270" key="GridCell.Tab.0.left.inPresentationMode/0.27.1920.1053@0.27.1920.1053" timestamp="1585744208781" />
+    <state width="1366" height="288" key="GridCell.Tab.0.left.inPresentationMode/0.27.1366.741@0.27.1366.741" timestamp="1585852414406" />
+    <state width="1920" height="154" key="GridCell.Tab.0.left.inPresentationMode/0.27.1920.1053@0.27.1920.1053" timestamp="1585931074903" />
     <state width="1899" height="206" key="GridCell.Tab.0.left/0.0.1920.1034@0.0.1920.1034" timestamp="1579378044516" />
     <state width="1895" height="261" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1583770061200" />
     <state width="2115" height="287" key="GridCell.Tab.0.left/0.0.2137.1162@0.0.2137.1162" timestamp="1582733375404" />
@@ -754,11 +756,11 @@
     <state width="1338" height="284" key="GridCell.Tab.0.right" timestamp="1585848135594">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1366" height="288" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1585849045945">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state width="1920" height="154" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1585931074905">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1366" height="288" key="GridCell.Tab.0.right.inPresentationMode/0.27.1366.741@0.27.1366.741" timestamp="1585849045945" />
-    <state width="1920" height="270" key="GridCell.Tab.0.right.inPresentationMode/0.27.1920.1053@0.27.1920.1053" timestamp="1585744208782" />
+    <state width="1366" height="288" key="GridCell.Tab.0.right.inPresentationMode/0.27.1366.741@0.27.1366.741" timestamp="1585852414406" />
+    <state width="1920" height="154" key="GridCell.Tab.0.right.inPresentationMode/0.27.1920.1053@0.27.1920.1053" timestamp="1585931074904" />
     <state width="1899" height="206" key="GridCell.Tab.0.right/0.0.1920.1034@0.0.1920.1034" timestamp="1579378044517" />
     <state width="1895" height="261" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1583770061201" />
     <state width="2115" height="287" key="GridCell.Tab.0.right/0.0.2137.1162@0.0.2137.1162" timestamp="1582733375404" />
@@ -870,7 +872,7 @@
     </state>
     <state width="507" height="448" key="SwitcherDM/0.0.1920.1080@0.0.1920.1080" timestamp="1583748656164" />
     <state width="623" height="498" key="SwitcherDM/0.27.1920.1053@0.27.1920.1053" timestamp="1585427322000" />
-    <state x="393" y="204" width="618" height="378" key="Vcs.Push.Dialog.v2" timestamp="1585849214766">
+    <state x="393" y="204" width="618" height="378" key="Vcs.Push.Dialog.v2" timestamp="1585849251915">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="0" y="27" key="Vcs.Push.Dialog.v2.inPresentationMode" timestamp="1585744248737">
@@ -880,7 +882,7 @@
     <state x="552" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1034@0.0.1920.1034" timestamp="1579016876013" />
     <state x="552" y="258" width="800" height="537" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1583748732487" />
     <state x="614" y="278" key="Vcs.Push.Dialog.v2/0.0.2137.1162@0.0.2137.1162" timestamp="1583425936411" />
-    <state x="393" y="204" width="618" height="378" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1585849214766" />
+    <state x="393" y="204" width="618" height="378" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1585849251915" />
     <state x="552" y="279" width="804" height="537" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1585665520468" />
     <state x="92" y="92" width="1736" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1578324501425">
       <screen x="0" y="0" width="1920" height="1034" />
@@ -910,9 +912,10 @@
     <state x="623" y="254" width="840" height="692" key="search.everywhere.popup" timestamp="1585745186979">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="116" y="24" key="search.everywhere.popup.inPresentationMode" timestamp="1585584933804">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="0" y="24" width="1838" height="3948" key="search.everywhere.popup.inPresentationMode" timestamp="1585852333547">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
+    <state x="0" y="24" width="1838" height="3948" key="search.everywhere.popup.inPresentationMode/0.27.1366.741@0.27.1366.741" timestamp="1585852333547" />
     <state x="116" y="24" key="search.everywhere.popup.inPresentationMode/0.27.1920.1053@0.27.1920.1053" timestamp="1585584933804" />
     <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1034@0.0.1920.1034" timestamp="1578575459830" />
     <state x="623" y="233" width="673" height="709" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1583747958678" />
